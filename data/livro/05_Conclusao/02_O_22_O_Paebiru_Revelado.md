@@ -71,12 +71,14 @@ O Paêbirú individual te deu capacidade de ver a teia, agir com soberania, cone
 
 **A Dimensão do 22º fechou essa brecha.** Ela transformou cada arquétipo de capacidade individual em campo comum. Não se tratava de elevar alguns ao nível de ver a teia — mas de tornar a visão da teia tão comum que ela deixasse de conferir vantagem a ninguém.
 
-Você aprendeu:
+Você aprendeu através das parábolas, dos ensinamentos, das práticas:
 - Quando todos agem visivelmente, o falso não tem onde se esconder
 - Quando todos distinguem voz própria de voz implantada, a colonização subjetiva fracassa
 - Quando a vulnerabilidade é recíproca, a exploração assimétrica se torna impossível
 - Quando todos criam sentido próprio, o mercado de sentidos fabricados colapsa
 - Quando todos podem improvisar, o monopólio da flexibilidade acaba
+
+O **Conselho de Vozes** te mostrou que nenhum arquétipo existe sozinho — eles se complementam, se desafiam, dialogam entre si. O **Círculo Ampliado** te mostrou que essa verdade vale também para nós: nenhuma pessoa se liberta sozinha; a libertação é coletiva ou não é. E o **Arquétipo em Ação** te deu as ferramentas para tornar essa sabedoria carne no mundo — não apenas compreensão abstrata, mas prática encarnada.
 
 **O picareta não foi derrotado por combate. Ele foi tornado obsoleto por estrutura.**
 

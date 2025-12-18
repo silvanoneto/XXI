@@ -14,11 +14,12 @@ E os 21 arquétipos que se seguem? Não são etapas de uma jornada linear. Não 
 
 *Peabiru* — palavra tupi que significa caminho, trilha. Era o nome da antiga rede de caminhos pré-colombianos que cortava a América do Sul, conectando povos antes de qualquer fronteira.
 
-A grafia **Paêbirú**, com acento circunflexo, é liberdade artística. É também homenagem ao disco homônimo de Lula Côrtes e Zé Ramalho (1975), marco da psicodelia brasileira que buscava caminhos ancestrais através da música. Antes de ser livro, o Paêbirú já era som — já era trilha no sentido mais completo.
+A grafia **Paêbirú** é liberdade artística. É homenagem ao disco "Paêbirú: Caminho da Montanha do Sol" de Lula Côrtes e Zé Ramalho (1975), marco da psicodelia brasileira que buscava caminhos ancestrais através da música. O nome do disco era para ter sido "Peabiru", contudo, houve uma troca de letras ao grafar o nome na capa do disco (acidente artístico?) e acabou ficando "Paêbirú".
 
 ### O modo de caminhar
 
 Pense assim:
+
 - Quando você age com coragem sobre incerteza, você não está "sendo Guerreiro" para "chegar ao Paêbirú". Você *É* o Paêbirú se manifestando como Guerreiro.
 - Quando você escuta sua voz interior, você não está "praticando Eremita" para "evoluir". Você *É* o Paêbirú se manifestando como Eremita.
 - Quando você dança com o caos, você não "alcançou o topo". Você *É* o Paêbirú se manifestando como Caos Criativo.
@@ -64,6 +65,7 @@ Cada passo apresenta sua aporia específica — ação ou análise, voz interior
 A Dimensão do 22º fecha essa brecha. O objetivo não é elevar alguns ao nível de ver a teia. É tornar a visão da teia tão comum que ela deixa de conferir vantagem a ninguém. A "supercapacidade" se torna inútil como instrumento de poder porque todos a possuem.
 
 Assim, em cada arquétipo você encontrará:
+
 - **Do Eu ao Nós** — como a capacidade individual se expande para campo coletivo
 - **O Campo Comum** — o que acontece quando todos habitam essa face
 - **A Prática Coletiva** — as perguntas que revelam a falsidade
@@ -87,14 +89,33 @@ Você pode ler linearmente (1 a 21), e há sabedoria nisso — há fluxo natural
 
 Porque este não é manual de instruções. É convite para reconhecer o que você já É.
 
-Cada arquétipo contém:
-- **A Chegada**: descrição sensorial do espaço sagrado
-- **A Aporia**: a tensão dialética irredutível
-- **O Ensinamento**: sabedoria profunda do arquétipo
-- **A Sombra**: o modo patológico quando a aporia é mal habitada
-- **A Sabedoria**: síntese concisa
-- **O Portal**: prática para encarnar o arquétipo
-- **A Ponte**: o movimento entre arquétipos (lembrando: o movimento *também* é Paêbirú)
+Cada arquétipo contém camadas que se complementam:
+
+**A Chegada** — descrição sensorial do espaço sagrado. Você não lê sobre o arquétipo; você *entra* nele. A imaginação ativa te transporta para o território onde esta face do Paêbirú habita.
+
+**A Parábola** — uma história que encarna o arquétipo. Antes da teoria, a narrativa. Cada parábola é semente que planta o ensinamento no coração antes que a mente tente compreendê-lo. São histórias originárias — ferreiros, árvores, rios, palhaços sagrados — que mostram o arquétipo em ação no mundo.
+
+**A Aporia** — a tensão dialética irredutível. Toda face do Paêbirú nasce de uma contradição que não pode ser resolvida, apenas habitada. A aporia não é problema a ser solucionado, mas campo magnético que gera movimento.
+
+**O Ensinamento** — o mapa conceitual. Aqui você encontra teoria, referências filosóficas, explicações. O Ensinamento é para a *mente* — ele te ajuda a *compreender* a aporia, a ver suas múltiplas dimensões, a reconhecer como pensadores diversos a habitaram. É conhecimento que ilumina.
+
+**A Sombra** — o modo patológico quando a aporia é mal habitada. Toda face luminosa projeta sombra. Conhecer a sombra não é pessimismo — é proteção contra a identificação cega.
+
+**A Sabedoria** — a síntese que cabe no coração. Se o Ensinamento é mapa detalhado, a Sabedoria é bússola. É o que você leva quando fecha o livro. Poucas palavras, sempre em itálico, para serem memorizadas e repetidas como mantra nos momentos de necessidade. O Ensinamento *explica*; a Sabedoria *ressoa*.
+
+**O Portal** — prática de reconhecimento interior. O Portal é contemplativo, meditativo, voltado para dentro. É onde você *experimenta* o arquétipo em si mesmo, geralmente em silêncio, sozinho. Pode ser visualização, escrita reflexiva, auto-observação. O Portal pergunta: *"Como esta face do Paêbirú já vive em mim?"*
+
+**A Ponte** — o movimento entre arquétipos. O espaço entre um arquétipo e outro também é Paêbirú. A Ponte mostra como cada face naturalmente convoca a próxima, como a jornada flui.
+
+**A Dimensão do 22º** — a expansão do individual ao coletivo. Onde cada arquétipo deixa de ser capacidade pessoal e se torna campo comum que desarma a falsidade.
+
+**O Conselho de Vozes** — o diálogo entre arquétipos. Cada face do Paêbirú não existe isolada; ela conversa com as outras. Aqui você encontra aliados naturais (quem complementa), tensões criativas (quem desafia), e diálogos secretos entre arquétipos que revelam sabedorias inesperadas.
+
+**A Espiral Reversa** — o retorno transformado. O Paêbirú é espiral, não linha. Quando você retorna a um arquétipo após ter caminhado os 21, ele se revela diferente. A Espiral Reversa mostra o que muda, os presentes que você traz, os paradoxos que só agora podem ser revelados.
+
+**O Círculo Ampliado** — o arquétipo no coletivo. Cada face do Paêbirú se manifesta não apenas em indivíduos, mas em famílias, equipes, comunidades. O Círculo Ampliado explora como o arquétipo opera quando desperta em grupos, suas potências e sombras coletivas, e oferece rituais para invocar essa energia em conjunto.
+
+**O Arquétipo em Ação** — a prática encarnada. Aqui o arquétipo desce do mito para o cotidiano: como invocá-lo no trabalho, na família, na cidadania, na crise. Práticas específicas, armadilhas a evitar, e um protocolo de emergência para quando a vida pedir essa face do Paêbirú com urgência.
 
 ### O Convite Inicial
 
