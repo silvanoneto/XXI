@@ -71,3 +71,17 @@ E agora algo ainda mais radical te chama. Você criou sentido, mas... e se houve
 O Paêbirú está prestes a se manifestar como transcendência.
 
 Você se dirige ao Umbral do Inefável, onde o Místico te levará além da linguagem, além do eu, além do pensamento — para dimensão que não pode ser dita, apenas experienciada.
+
+**A Dimensão do 22º**
+
+**Do Eu ao Nós**: O Desperto individual cria sentido sobre o vazio. O Desperto na Dimensão do 22º *revela* os sentidos fabricados que servem à dominação — distingue sentido autêntico de sentido implantado.
+
+A falsidade frequentemente opera oferecendo "sentido". O picareta diz: "A vida é vazia? Eu tenho a resposta! Siga-me e encontrará propósito!" Mas o sentido oferecido é armadilha — te prende a quem oferece, te faz dependente de fonte externa. O Desperto do 22º ensina a criar sentido próprio, não a comprar sentido alheio.
+
+**O Campo Comum**: Quando todos sabem criar sentido próprio, o mercado de sentidos fabricados colapsa. Gurus, ideologias totalizantes, narrativas que explicam tudo — perdem clientela.
+
+**A Prática Coletiva**: O Desperto do 22º pergunta: *"Este sentido que me oferecem, ele me liberta ou me prende a quem oferece? Criar sentido próprio é permitido ou apenas consumir sentidos pré-fabricados?"*
+
+**A Aporia Revelada**: A tensão entre sentido encontrado e sentido criado não é apenas pessoal. No campo comum, ela se manifesta como: *quem fornece sentido controla quem o consome*. O Desperto do 22º sabe que a capacidade de criar sentido é poder — e que democratizá-la é libertar.
+
+**O Picareta Desarmado**: O falso vende sentido. Quando todos sabem criar sentido próprio, o monopólio de significado se dissolve. O guru que diz "só eu tenho a resposta" é visto como mais um vendedor.

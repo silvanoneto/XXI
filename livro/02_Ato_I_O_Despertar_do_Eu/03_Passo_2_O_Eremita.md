@@ -79,3 +79,17 @@ Mas agora surge tensão nova: você tem força, tem clareza interior, mas... e q
 A cultura te ensinou que fraqueza é fracasso. Que vulnerabilidade é defeito. Mas o Paêbirú está prestes a se revelar de forma surpreendente: como *abertura*.
 
 Você se dirige à Câmara da Ferida Aberta, onde aprenderá que há coragem suprema em se permitir ser visto sem armadura.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Eremita individual encontra sua voz interior. O Eremita na Dimensão do 22º *distingue* essa voz das vozes implantadas — e ensina outros a fazerem o mesmo.
+
+A falsidade opera implantando vozes falsas que parecem interiores. O picareta não diz "obedeça-me"; ele faz você acreditar que a obediência é sua própria vontade. O Eremita do 22º desenvolve — e distribui — a capacidade de discernir entre voz autêntica e voz colonizada.
+
+**O Campo Comum**: Quando todos sabem distinguir a própria voz das vozes implantadas, a falsificação por introjeção se torna impossível. O colonizador interno é reconhecido como estrangeiro.
+
+**A Prática Coletiva**: O Eremita do 22º não apenas escuta a si mesmo — ele *verifica* com outros: "Esta voz que sinto como minha, ela ressoa como autêntica para quem me conhece? Ou ela soa como eco de algo que me foi imposto?" A solidão necessária do discernimento se completa na verificação relacional.
+
+**A Aporia Revelada**: A tensão entre autoridade externa e voz interior não é apenas pessoal. No campo comum, ela se manifesta como: *quem fala quando o coletivo fala?* O Eremita do 22º reconhece que mesmo vozes coletivas podem ser colonizadas — e mantém a capacidade de questionar consensos que soam falsos, não por rebeldia adolescente, mas por fidelidade à verdade que emerge do silêncio compartilhado.
+
+**O Picareta Desarmado**: O falso implanta vozes. Quando todos sabem distinguir voz própria de voz implantada, a colonização subjetiva fracassa. O picareta que tenta fazer você querer o que ele quer é reconhecido imediatamente.

@@ -73,3 +73,17 @@ Mas algo mais profundo te chama. Você criou beleza, mas também viu suas *sombr
 E o Paêbirú sussurra: transformação verdadeira não vem de rejeitar o que você é, mas de *integrar* o que você nega.
 
 Você se dirige ao Teatro das Sombras, onde aprenderá alquimia: transmutação de chumbo em ouro, de sombra em sabedoria.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Artista individual cria beleza e contempla. O Artista na Dimensão do 22º *revela* as estéticas ocultas das estruturas de poder — torna visível a beleza falsa que seduz para a submissão.
+
+A falsidade frequentemente se veste de beleza. Propagandas seduzem esteticamente. Ideologias criam narrativas belas que escondem violência. O picareta sabe empacotar veneno em embalagem atraente. O Artista do 22º desenvolve — e distribui — o olho que vê através da sedução estética.
+
+**O Campo Comum**: Quando todos desenvolvem sensibilidade estética crítica, a propaganda perde eficácia. A beleza falsa é reconhecida como falsa — não por ser feia, mas por haver dissonância entre forma e conteúdo.
+
+**A Prática Coletiva**: O Artista do 22º pergunta: *"Esta beleza serve a quê? Esta narrativa sedutora, o que ela esconde?"* Não se trata de rejeitar beleza — se trata de discernir entre beleza que liberta e beleza que aprisiona.
+
+**A Aporia Revelada**: A tensão entre criar e contemplar não é apenas individual. No campo comum, ela se manifesta como: *quem define o que é belo define o que é desejável*. O Artista do 22º sabe que estéticas são políticas — e que democratizar a criação de beleza é democratizar o poder de definir o que vale a pena desejar.
+
+**O Picareta Desarmado**: O falso seduz esteticamente. Quando todos têm olho estético crítico, a sedução é vista como tal. A bela mentira não passa mais por verdade apenas por ser bela.

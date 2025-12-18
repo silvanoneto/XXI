@@ -67,3 +67,17 @@ Como você gere o que tem? Quando conservar e quando distribuir? Quando guardar 
 O Paêbirú está prestes a se manifestar como economia sagrada.
 
 Você se dirige ao Celeiro das Colheitas, onde aprenderá que gestão de recursos não é avareza — é responsabilidade com o fluxo da vida.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Observador individual cultiva presença consciente. O Observador na Dimensão do 22º *distribui* a capacidade de observação — garante que ninguém tenha monopólio sobre ver.
+
+A falsidade depende de observação assimétrica: o picareta vê sem ser visto. O panóptico funciona porque um observa todos, mas ninguém observa o um. O Observador do 22º inverte isso: todos observam, todos são observados, na mesma medida.
+
+**O Campo Comum**: Quando a observação é simétrica, o lugar privilegiado do falso desaparece. Não há mais torre de onde se vê sem ser visto. A transparência é estrutural, não vigilância.
+
+**A Prática Coletiva**: O Observador do 22º pergunta: *"Quem está vendo quem aqui? Quem observa sem ser observado? Como tornamos a capacidade de ver simétrica?"*
+
+**A Aporia Revelada**: A tensão entre engajamento e distância não é apenas pessoal. No campo comum, ela se manifesta como: *observação assimétrica é poder assimétrico*. O Observador do 22º sabe que democratizar a observação é eliminar o lugar privilegiado de onde o falso opera.
+
+**O Picareta Desarmado**: O falso vê sem ser visto. Quando todos veem e são vistos igualmente, ele perde sua vantagem. A torre panóptica é demolida pela simetria.

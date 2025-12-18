@@ -75,3 +75,17 @@ Mas a ação criou ruído — tanto externo (o mundo reagindo) quanto interno (n
 O Paêbirú, tendo se manifestado como movimento, agora precisa se manifestar como discernimento. A coragem precisa de sabedoria para não virar imprudência.
 
 Você está a caminho da Biblioteca dos Ecos, onde aprenderá a diferença entre o barulho do mundo e a voz da sua própria verdade. Onde o Paêbirú se revelará como aquele que escuta.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Guerreiro individual age sobre incerteza. O Guerreiro na Dimensão do 22º *revela* sua ação no momento em que age.
+
+A falsidade depende de ações ocultas — movimentos feitos nas sombras, decisões tomadas onde ninguém vê. O Guerreiro do 22º elimina essa possibilidade não por vigilância externa, mas por *transparência constitutiva*: ele age a céu aberto porque entende que a opacidade é o terreno do picareta.
+
+**O Campo Comum**: Quando todos agem visivelmente, a vantagem do falso — que opera no escuro — se dissolve. Não se trata de expor fragilidades, mas de eliminar zonas onde a falsidade pode se esconder.
+
+**A Prática Coletiva**: Antes de agir, o Guerreiro do 22º pergunta: *"Esta ação pode ser vista por todos os afetados por ela?"* Se a resposta é não — se a ação *precisa* de sombra para funcionar — então ela já carrega a semente da falsidade.
+
+**A Aporia Revelada**: A tensão entre agir e analisar não é apenas individual. No campo comum, ela se manifesta como: *quando a ação de um revela as condições de todos*. O Guerreiro que age autenticamente ilumina não apenas seu próprio caminho, mas o terreno onde outros também caminham. Sua coragem se torna legível — e ao se tornar legível, convida outros à mesma coragem.
+
+**O Picareta Desarmado**: O falso age no escuro e conta com a paralisia alheia. Quando todos agem visivelmente, ele não tem onde se esconder. Quando todos agem, ele não pode mais explorar a inação como vulnerabilidade.

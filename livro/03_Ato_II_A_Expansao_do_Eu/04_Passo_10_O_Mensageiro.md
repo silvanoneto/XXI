@@ -75,3 +75,17 @@ Mas nova tensão surge: você comunicou, o outro compreendeu, mas agora precisa 
 O Paêbirú está prestes a se manifestar como sabedoria ética.
 
 Você se dirige à Balança e o Coração, onde aprenderá que justiça sem misericórdia é crueldade, mas misericórdia sem justiça é cumplicidade.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Mensageiro individual comunica com autenticidade. O Mensageiro na Dimensão do 22º *garante* que todos tenham acesso aos mesmos canais — impede monopólios de informação.
+
+A falsidade depende de controle informacional. O picareta decide quem sabe o quê, quando, e como. Ele fragmenta informação para que ninguém tenha o quadro completo exceto ele. O Mensageiro do 22º democratiza os canais.
+
+**O Campo Comum**: Quando todos têm acesso às mesmas informações, a falsidade por fragmentação epistêmica fracassa. O intermediário que filtrava informação perde seu poder.
+
+**A Prática Coletiva**: O Mensageiro do 22º pergunta: *"Esta informação está disponível para todos os afetados por ela? Quem controla o que é dito e o que é silenciado? Que vozes estão sendo sistematicamente excluídas?"*
+
+**A Aporia Revelada**: A tensão entre falar verdade e modular forma não é apenas pessoal. No campo comum, ela se manifesta como: *quem controla os canais controla a narrativa*. O Mensageiro do 22º sabe que democratizar a comunicação é democratizar o poder.
+
+**O Picareta Desarmado**: O falso controla informação. Quando os canais são democratizados, ele perde o monopólio narrativo. A versão que ele queria impor encontra versões alternativas disponíveis.

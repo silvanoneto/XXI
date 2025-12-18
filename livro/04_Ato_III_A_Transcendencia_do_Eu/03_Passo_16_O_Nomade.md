@@ -65,3 +65,17 @@ Mas há apego mais profundo que lugar, mais visceral que identidade: **apego tem
 O Paêbirú está prestes a se manifestar como consciência geracional.
 
 Você se dirige à Ponte entre Mundos, onde aprenderá a habitar finitude sem desespero e continuidade sem obsessão.
+
+**A Dimensão do 22º**
+
+**Do Eu ao Nós**: O Nômade individual se desapega de lares fixos. O Nômade na Dimensão do 22º *revela* os apegos que servem ao controle — mostra como pertencimentos são usados para prender.
+
+A falsidade frequentemente opera através de apegos. O picareta te prende a identidades, lugares, grupos, fazendo você acreditar que sem eles você não é nada. "Se você sair, você perde tudo. Se você questionar, você será expulso." O Nômade do 22º revela esses apegos como construções — não para destruí-los, mas para torná-los escolhidos ao invés de compulsórios.
+
+**O Campo Comum**: Quando todos reconhecem apegos como escolhas revisáveis, a ameaça de exclusão perde poder. "Se você sair..." deixa de aterrorizar porque sair é possível.
+
+**A Prática Coletiva**: O Nômade do 22º pergunta: *"Este pertencimento é escolhido ou compulsório? Eu permaneço aqui por amor ou por medo de sair? Quem se beneficia de eu acreditar que não posso ir?"*
+
+**A Aporia Revelada**: A tensão entre enraizamento e movimento não é apenas pessoal. No campo comum, ela se manifesta como: *apegos compulsórios são prisões disfarçadas*. O Nômade do 22º sabe que a liberdade de sair é condição para a autenticidade de ficar.
+
+**O Picareta Desarmado**: O falso prende através de apegos. Quando os apegos são reconhecidos como escolhas, a ameaça de perda perde poder. Quem te mantém por medo não te tem — te aprisiona.

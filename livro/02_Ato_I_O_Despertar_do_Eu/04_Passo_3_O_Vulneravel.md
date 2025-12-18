@@ -75,3 +75,17 @@ Mas há algo se tornando claro: nem tudo pode ser forçado. Nem tudo responde à
 O Paêbirú está prestes a se manifestar como paciência.
 
 Você se dirige ao Jardim das Estações, onde aprenderá que cultivar é tão importante quanto colher, que inverno é tão necessário quanto primavera.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Vulnerável individual equilibra abertura e proteção. O Vulnerável na Dimensão do 22º cria *campos de segurança* onde a abertura de todos é possível.
+
+A falsidade explora vulnerabilidades expostas em ambientes inseguros. O picareta espera que você se abra para poder usar essa abertura contra você. O Vulnerável do 22º não apenas se protege sabiamente — ele *constrói* espaços onde a vulnerabilidade não é arma, mas solo comum.
+
+**O Campo Comum**: Quando existem espaços genuinamente seguros para vulnerabilidade, a abertura deixa de ser risco unilateral. A informação sensível compartilhada não se torna munição porque *todos* estão igualmente expostos, igualmente protegidos pelo pacto de não-exploração.
+
+**A Prática Coletiva**: O Vulnerável do 22º pergunta: *"Este espaço permite vulnerabilidade mútua ou apenas minha exposição?"* Se apenas um se expõe enquanto outros permanecem blindados, há assimetria — e a assimetria é o habitat do falso.
+
+**A Aporia Revelada**: A tensão entre armadura e abertura não é apenas individual. No campo comum, ela se manifesta como: *vulnerabilidade só é segura quando é recíproca*. O Vulnerável do 22º sabe que sua abertura convida a abertura alheia — e que apenas nessa reciprocidade a vulnerabilidade deixa de ser fraqueza explorável.
+
+**O Picareta Desarmado**: O falso explora vulnerabilidades assimétricas. Quando a vulnerabilidade é recíproca e os espaços são construídos para proteger a abertura mútua, ele perde seu ponto de entrada. Sua própria recusa de se vulnerabilizar o denuncia.

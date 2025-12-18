@@ -80,3 +80,17 @@ Mas nova tensão surge: você teceu conexões, aprendeu a nutrir e receber, mas.
 O Paêbirú está prestes a se manifestar como ponte de linguagem.
 
 Você se dirige à Ponte das Línguas, onde aprenderá que comunicação não é transmissão de informação — é criação de compreensão mútua.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Cuidador individual equilibra nutrir e ser nutrido. O Cuidador na Dimensão do 22º *revela* as economias ocultas do cuidado — quem cuida de quem, quem é sistematicamente drenado, quem sistematicamente recebe.
+
+A falsidade frequentemente explora cuidadores. O picareta identifica quem "não sabe dizer não" e extrai. Sistemicamente, sociedades exploram cuidado não-remunerado (geralmente de mulheres) enquanto invisibilizam esse trabalho. O Cuidador do 22º torna visível a economia do cuidado.
+
+**O Campo Comum**: Quando todos veem quem cuida e quem recebe, a exploração do cuidado se torna difícil de manter. O parasita relacional é identificado como parasita.
+
+**A Prática Coletiva**: O Cuidador do 22º pergunta coletivamente: *"Quem está sendo drenado aqui? Quem está sistematicamente recebendo mais do que dá? Como redistribuímos o trabalho de cuidar?"*
+
+**A Aporia Revelada**: A tensão entre nutrir e receber não é apenas individual. No campo comum, ela se manifesta como: *economias de cuidado invisíveis são economias de exploração*. O Cuidador do 22º sabe que tornar o cuidado visível é o primeiro passo para torná-lo justo.
+
+**O Picareta Desarmado**: O falso drena cuidadores. Quando a economia do cuidado é visível, a drenagem é identificada. Quem sempre recebe e nunca dá não pode mais esconder sua parasitagem.

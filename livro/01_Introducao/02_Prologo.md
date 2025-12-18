@@ -47,6 +47,27 @@ Os 21 são como ele se mostra.
 Ele é como os 21 se conectam.  
 Não há dois — apenas o movimento perpétuo de manifestação.
 
+Mas há algo mais. O Paêbirú individual te dá capacidade de ver, agir, conectar. E toda capacidade pode ser usada para dominar. O iluminado pode usar sua iluminação para manipular. O guerreiro pode usar sua coragem para oprimir. O místico pode usar seu acesso ao sagrado para se interpor como intermediário obrigatório.
+
+Por isso, cada arquétipo contém também **a Dimensão do 22º** — a camada que pergunta: *como este arquétipo opera quando deixa de ser capacidade individual e se torna campo comum?*
+
+Cada passo apresenta sua aporia específica — ação ou análise, voz interior ou autoridade externa, armadura ou abertura. Mas há uma **aporia universal** que atravessa todas: **verdadeiro ou falso**. A tensão entre o autêntico (quem habita o arquétipo de forma genuína) e o falso (quem o imita para obter vantagem).
+
+A Dimensão do 22º fecha essa brecha. O objetivo não é elevar alguns ao nível de ver a teia. É tornar a visão da teia tão comum que ela deixa de conferir vantagem a ninguém. A "supercapacidade" se torna inútil como instrumento de poder porque todos a possuem.
+
+Assim, em cada arquétipo você encontrará:
+- **Do Eu ao Nós** — como a capacidade individual se expande para campo coletivo
+- **O Campo Comum** — o que acontece quando todos habitam essa face
+- **A Prática Coletiva** — as perguntas que revelam a falsidade
+- **A Aporia Revelada** — como a tensão se manifesta no nível coletivo
+- **O Picareta Desarmado** — como o falso perde seu território
+
+**O picareta não é derrotado por combate. Ele é tornado obsoleto por estrutura.**
+
+Quando todos vêem, não há onde se esconder. Quando todos distinguem voz própria de voz implantada, a colonização subjetiva fracassa. Quando a vulnerabilidade é recíproca, a exploração assimétrica se torna impossível.
+
+Esta é a ditadura da autenticidade: não uma imposição, mas uma impossibilidade. A sombra não é proibida — ela simplesmente não encontra onde existir.
+
 ### Como Usar Este Mapa
 
 Você pode ler linearmente (1 a 21), e há sabedoria nisso — há fluxo natural da ação à transcendência. Mas você também pode:

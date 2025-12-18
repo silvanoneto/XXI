@@ -75,3 +75,17 @@ Você é único. Mas também é parte de "nós". Como você pertence sem se fund
 O Paêbirú está prestes a se manifestar como pertencimento diferenciado.
 
 Você se dirige ao Círculo do Fogo, onde aprenderá que pertencer não significa desaparecer — significa aparecer plenamente.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Guardião individual gere recursos com sabedoria. O Guardião na Dimensão do 22º *revela* os fluxos de recursos — torna visível quem acumula, quem distribui, quem é drenado.
+
+A falsidade frequentemente opera através de controle de recursos opacos. O picareta acumula enquanto outros não sabem que ele acumula. Ou drena enquanto parece contribuir. O Guardião do 22º torna os fluxos visíveis.
+
+**O Campo Comum**: Quando todos veem os fluxos de recursos, a acumulação parasitária é identificada. O acumulador que esconde sua acumulação não pode mais escondê-la.
+
+**A Prática Coletiva**: O Guardião do 22º pergunta: *"Para onde fluem os recursos aqui? Quem está acumulando? Quem está sendo drenado? O fluxo é sustentável para todos?"*
+
+**A Aporia Revelada**: A tensão entre conservar e distribuir não é apenas individual. No campo comum, ela se manifesta como: *fluxos opacos permitem acumulação parasitária*. O Guardião do 22º sabe que transparência nos fluxos é condição para justiça nos fluxos.
+
+**O Picareta Desarmado**: O falso acumula no escuro. Quando os fluxos são visíveis, a acumulação parasitária é exposta. Quem drena enquanto finge contribuir é reconhecido.

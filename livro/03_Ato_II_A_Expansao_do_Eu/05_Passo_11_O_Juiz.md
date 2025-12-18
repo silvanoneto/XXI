@@ -77,3 +77,17 @@ E agora algo sutil te chama: a qualidade da sua *presença* em todas essas inter
 O Paêbirú está prestes a se manifestar como testemunha.
 
 Você se dirige à Torre Silenciosa, onde aprenderá que verdadeira presença não é proximidade física — é qualidade de atenção que engaja sem fundir, que observa sem dissociar.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Juiz individual equilibra justiça e compaixão. O Juiz na Dimensão do 22º *revela* os critérios de julgamento — torna explícito o que estava implícito, impedindo que "justiça" seja aplicada seletivamente.
+
+A falsidade frequentemente opera através de justiça seletiva. Regras que valem para alguns e não para outros. Critérios que mudam conforme quem está sendo julgado. O picareta se beneficia de opacidade nos padrões. O Juiz do 22º torna os critérios visíveis e aplicáveis a todos — inclusive a si mesmo.
+
+**O Campo Comum**: Quando todos conhecem os critérios e veem sua aplicação, a justiça seletiva é identificada como hipocrisia. "Regras para ti, exceções para mim" se torna insustentável.
+
+**A Prática Coletiva**: O Juiz do 22º pergunta: *"Este critério está sendo aplicado igualmente? Quem está sendo julgado por padrões que outros não precisam cumprir? Os julgadores estão sujeitos aos mesmos julgamentos?"*
+
+**A Aporia Revelada**: A tensão entre justiça e compaixão não é apenas individual. No campo comum, ela se manifesta como: *quem julga deve ser julgado pelos mesmos critérios*. O Juiz do 22º sabe que a justiça que não se aplica a todos não é justiça — é poder disfarçado.
+
+**O Picareta Desarmado**: O falso aplica justiça seletiva. Quando os critérios são visíveis e universais, a seletividade é exposta. Quem exige dos outros o que não exige de si é reconhecido como hipócrita.

@@ -95,3 +95,17 @@ Falta *corpo*. Falta *carne*. Falta fazer as pazes com prazeres, desejos, sensa�
 O Paêbirú está prestes a se manifestar como encarnação.
 
 Você se dirige ao Templo do Corpo, onde aprenderá verdade herética: corpo não é prisão da alma — é altar onde o divino habita.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Alquimista individual transforma dor em sabedoria. O Alquimista na Dimensão do 22º *revela* os processos de transformação — impedindo que a dor seja instrumentalizada por outros.
+
+A falsidade frequentemente explora dor não metabolizada. O picareta oferece "cura" fácil, "solução" rápida, "alívio" imediato — em troca de dependência. Ele se apresenta como alquimista, mas na verdade é traficante de anestésicos. O Alquimista do 22º ensina a todos o processo real de transformação — lento, doloroso, mas genuíno.
+
+**O Campo Comum**: Quando todos conhecem os processos reais de transformação, a promessa de cura mágica é reconhecida como fraude. Quem oferece "solução instantânea" para dor profunda é visto com suspeita legítima.
+
+**A Prática Coletiva**: O Alquimista do 22º pergunta: *"Esta transformação está sendo oferecida como processo ou como produto? Quem lucra se eu acreditar que há atalho?"* As respostas geralmente revelam quem quer te manter dependente.
+
+**A Aporia Revelada**: A tensão entre aceitar e transformar dor não é apenas pessoal. No campo comum, ela se manifesta como: *dor coletiva não metabolizada é vulnerabilidade coletiva*. O Alquimista do 22º sabe que sociedades com dor não processada são presas fáceis para demagogos que oferecem bodes expiatórios ao invés de cura real.
+
+**O Picareta Desarmado**: O falso oferece falsa cura. Quando todos conhecem o processo real de transformação, a cura mágica é desmascarada. O charlatão espiritual, o guru da solução fácil, o político que promete resolver tudo — todos são vistos pelo que são.

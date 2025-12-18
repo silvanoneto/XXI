@@ -34,10 +34,10 @@ Referência: .memorybank/02_ARCHETYPES.md
 Estilo: .memorybank/03_STYLE_GUIDE.md
 ```
 
-### Para integrar Dimensão do 22º:
+### Sobre a Dimensão do 22º:
 ```
-Fonte: dimensao_22.md (seção correspondente ao arquétipo)
-Inserir após: "A Ponte"
+Fonte: artigos/dimensao_22.md (referência original)
+Status: JÁ INTEGRADO em todos os 21 capítulos após "A Ponte"
 Formato: Ver 03_STYLE_GUIDE.md seção "Dimensão do 22º"
 ```
 

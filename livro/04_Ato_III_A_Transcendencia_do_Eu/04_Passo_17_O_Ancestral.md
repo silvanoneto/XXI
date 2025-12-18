@@ -75,3 +75,17 @@ E agora algo ainda mais profundo que finitude te chama. Você é mortal, sim, ma
 O Paêbirú está prestes a se manifestar como criador de sentido.
 
 Você se dirige à Câmara do Abismo, onde aprenderá a criar sentido sobre vazio — ou a dançar com ausência de sentido sem desespero.
+
+**A Dimensão do 22º**
+
+**Do Eu ao Nós**: O Ancestral individual honra a corrente geracional. O Ancestral na Dimensão do 22º *revela* as heranças que aprisionam — distingue tradição viva de tradição morta usada para controlar.
+
+A falsidade frequentemente opera através de "tradição". O picareta invoca ancestrais para justificar opressão: "Sempre foi assim. Nossos avós faziam assim. Quem é você para questionar?" O Ancestral do 22º distingue entre honrar o passado e ser escravizado por versão fabricada dele.
+
+**O Campo Comum**: Quando todos distinguem tradição viva de tradição instrumentalizada, o argumento de autoridade ancestral perde poder automático. "Sempre foi assim" passa a exigir "e por que deveria continuar sendo?"
+
+**A Prática Coletiva**: O Ancestral do 22º pergunta: *"Esta tradição serve aos vivos ou apenas aos mortos? Este passado invocado é real ou é versão fabricada para fins presentes? Honrar ancestrais significa repetir tudo que fizeram?"*
+
+**A Aporia Revelada**: A tensão entre legado e presença não é apenas individual. No campo comum, ela se manifesta como: *o passado pode ser arma do presente*. O Ancestral do 22º sabe que honrar de verdade os ancestrais é dar continuidade criativa — não repetição mecânica.
+
+**O Picareta Desarmado**: O falso instrumentaliza tradição. Quando a tradição viva é distinguida da tradição instrumentalizada, "porque sempre foi assim" não silencia mais. Quem usa ancestrais para oprimir vivos é visto como traidor dos ancestrais.

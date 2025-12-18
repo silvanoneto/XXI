@@ -9,10 +9,11 @@
 
 ### Alta Prioridade
 
-- [ ] **Integrar Dimensão do 22º nos capítulos**
-  - O arquivo `dimensao_22.md` contém extensões para cada arquétipo
-  - Decidir: integrar diretamente ou manter como seção separada?
-  - Manter consistência de tom com capítulos existentes
+- [x] **Integrar Dimensão do 22º nos capítulos** ✅ CONCLUÍDA
+  - Integrada diretamente em todos os 21 capítulos de arquétipos
+  - Seção "A Dimensão do 22º" adicionada após "A Ponte" em cada capítulo
+  - Terminologia atualizada: "manipulador" → "falso", "manipulação" → "falsidade"
+  - Data conclusão: Janeiro 2025
 
 - [ ] **Revisar estrutura dos capítulos de arquétipos**
   - Verificar se todos seguem a estrutura padrão

@@ -70,3 +70,17 @@ Ou será que a própria ideia de "lar fixo" é ilusão?
 O Paêbirú está prestes a se manifestar como nomadismo.
 
 Você se dirige ao Deserto Infinito, onde aprenderá que liberdade pode ser aprender a não ter lar — ou a ter o movimento como lar.
+
+**A Dimensão do 22º**
+
+**Do Eu ao Nós**: O Integrado individual acolhe suas múltiplas faces. O Integrado na Dimensão do 22º *revela* as fragmentações que servem ao poder — mostra como a divisão interna é produzida para facilitar controle.
+
+A falsidade frequentemente opera fragmentando. O picareta te divide contra ti mesmo: "Sua parte X quer isto, mas sua parte Y quer aquilo — e eu tenho a solução para sua contradição!" Dividir para conquistar opera tanto entre pessoas quanto dentro delas. O Integrado do 22º revela essas fragmentações fabricadas.
+
+**O Campo Comum**: Quando todos reconhecem fragmentações fabricadas, a divisão como estratégia perde eficácia. O conflito interno que foi produzido é visto como produzido.
+
+**A Prática Coletiva**: O Integrado do 22º pergunta: *"Esta divisão que sinto, ela é orgânica ou foi cultivada? Quem se beneficia de eu estar fragmentado? A 'solução' oferecida resolve a divisão ou a perpetua?"*
+
+**A Aporia Revelada**: A tensão entre multiplcidade e unidade não é apenas individual. No campo comum, ela se manifesta como: *fragmentação produzida é vulnerabilidade produzida*. O Integrado do 22º sabe que muitas divisões internas são implantadas — e que reconhecê-las é o primeiro passo para integrá-las.
+
+**O Picareta Desarmado**: O falso fragmenta. Quando a fragmentação fabricada é reconhecida, ela deixa de funcionar. Quem oferece "integração" que depende de você permanecer fragmentado é visto como parte do problema.

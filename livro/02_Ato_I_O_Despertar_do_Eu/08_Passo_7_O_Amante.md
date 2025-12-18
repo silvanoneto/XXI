@@ -93,3 +93,17 @@ O Paêbirú, tendo se manifestado como *eu*, agora precisa se manifestar como *n
 O Ato II te espera.  
 A expansão do Eu no tecido do mundo.  
 Sete novas faces do Paêbirú.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Amante individual habita o corpo com presença. O Amante na Dimensão do 22º *liberta* os corpos das narrativas que os colonizam — revela como prazer e vergonha são usados como instrumentos de controle.
+
+A falsidade frequentemente opera através do corpo: culpa sexual para controlar, padrões de beleza impossíveis para criar insegurança, medicalização de experiências normais para criar dependência. O picareta sabe que quem controla a relação do outro com seu próprio corpo controla o outro. O Amante do 22º desmascara essas colonizações.
+
+**O Campo Comum**: Quando todos têm relação soberana com seus próprios corpos, a falsidade pela vergonha corporal fracassa. O padrão de beleza imposto é visto como imposto. A culpa sexual implantada é reconhecida como implantada.
+
+**A Prática Coletiva**: O Amante do 22º pergunta: *"Esta vergonha que sinto sobre meu corpo, ela serve a quem? Este padrão que não consigo alcançar, quem lucra com minha inadequação perpétua?"*
+
+**A Aporia Revelada**: A tensão entre prazer e ascetismo não é apenas individual. No campo comum, ela se manifesta como: *corpos colonizados são corpos controláveis*. O Amante do 22º sabe que a libertação genuína inclui a libertação somática — o direito de habitar o próprio corpo sem vergonha implantada.
+
+**O Picareta Desarmado**: O falso coloniza corpos. Quando todos têm relação soberana com sua própria carne, a vergonha fabricada não funciona. O controlador que usa culpa sexual ou padrões de beleza como arma é reconhecido como controlador.

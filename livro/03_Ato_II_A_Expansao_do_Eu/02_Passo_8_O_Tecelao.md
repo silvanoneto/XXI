@@ -77,3 +77,17 @@ O Paêbirú manifestou-se como tessitura. Mas há nuance que ainda precisa ser r
 O Paêbirú está prestes a se manifestar como cuidado equilibrado.
 
 Você se dirige ao Altar da Entrega, onde aprenderá que nutrir e ser nutrido são dois movimentos de mesma dança.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Tecelão individual tece suas conexões conscientemente. O Tecelão na Dimensão do 22º *torna visível* a estrutura da rede — revela quem está conectado a quem, e como essas conexões distribuem poder.
+
+A falsidade depende de opacidade estrutural. O picareta prospera quando ninguém vê a rede completa — quando cada um conhece apenas seu fragmento. O Tecelão do 22º mapeia e revela a estrutura, tornando visível o que estava oculto.
+
+**O Campo Comum**: Quando todos veem a estrutura da rede, ninguém pode ocupar posição privilegiada de observação sem ser visto ocupando-a. O "hub" que controla fluxos de informação é identificado como tal.
+
+**A Prática Coletiva**: O Tecelão do 22º pergunta: *"Quem vê a rede inteira? Quem controla os nós de passagem? Quem se beneficia de manter a estrutura invisível?"* Mapear a rede é o primeiro passo para democratizá-la.
+
+**A Aporia Revelada**: A tensão entre autonomia e interdependência não é apenas pessoal. No campo comum, ela se manifesta como: *redes opacas são redes controláveis*. O Tecelão do 22º sabe que a invisibilidade da estrutura é ela mesma um instrumento de poder — e que torná-la visível é redistribuir esse poder.
+
+**O Picareta Desarmado**: O falso ocupa posições privilegiadas na rede opaca. Quando a rede se torna visível para todos, essas posições são expostas. O intermediário que lucra com a fragmentação é visto como intermediário.

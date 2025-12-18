@@ -69,8 +69,8 @@ Cada capítulo de arquétipo segue esta estrutura:
 
 ## Documentos Complementares
 
-### dimensao_22.md
-Extensão que adiciona a cada arquétipo uma "Dimensão do 22º" — transformando capacidade individual em campo comum. Objetivo: evitar que a "iluminação" vire instrumento de manipulação.
+### artigos/dimensao_22.md
+Extensão que adiciona a cada arquétipo uma "Dimensão do 22º" — transformando capacidade individual em campo comum. Objetivo: evitar que a "iluminação" vire instrumento de falsidade. **Já integrado nos capítulos.**
 
 ### paebiru_sistema_social.md
 "Ditadura da Autenticidade" — ensaio sobre como o Paêbirú pode funcionar como protocolo social anti-manipulação. Conceitos:

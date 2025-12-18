@@ -5,7 +5,8 @@
 ```
 /Users/silvis/Desktop/22/
 ├── .memorybank/           # Documentação para LLMs (este diretório)
-├── dimensao_22.md         # Extensão: A Dimensão do 22º (424 linhas)
+├── artigos/               # Artigos e ensaios complementares
+│   └── dimensao_22.md     # Extensão: A Dimensão do 22º
 ├── paebiru_sistema_social.md  # Ensaio: Ditadura da Autenticidade (291 linhas)
 └── livro/                 # Conteúdo principal do livro
 ```
@@ -60,10 +61,8 @@ livro/
 │   ├── 01_Epilogo.md
 │   ├── 02_O_22_O_Paebiru_Revelado.md  # Revelação do 22º
 │   ├── 03_O_Circulo_Manifesto_Final.md
-│   └── 04_Coda.md                     # Encerramento ritual
-│
-└── 99_Rodape/
-    └── 99_Rodape.md                   # Informações finais
+│   ├── 04_Coda.md                     # Encerramento ritual
+│   └── 99_Rodape.md                   # Informações finais (dentro da Conclusão)
 ```
 
 ## Convenções de Nomenclatura
@@ -88,15 +87,16 @@ livro/
 6. `02_Ato_I.../02_Passo_1_O_Guerreiro.md` até `08_Passo_7_O_Amante.md`
 7. (Repetir padrão para Atos II e III)
 8. `05_Conclusao/01_Epilogo.md` até `04_Coda.md`
-9. `99_Rodape/99_Rodape.md`
+9. `05_Conclusao/99_Rodape.md`
 
 ## Documentos Auxiliares
 
-### dimensao_22.md
-- **Localização**: Raiz do projeto
+### artigos/dimensao_22.md
+- **Localização**: artigos/
 - **Conteúdo**: Extensão de cada arquétipo com "Dimensão do 22º"
-- **Uso**: Material para ser integrado ao final de cada capítulo de arquétipo
+- **Uso**: Material já integrado ao final de cada capítulo de arquétipo
 - **Estrutura**: Segue ordem dos 21 arquétipos
+- **Status**: Integrado aos capítulos (Janeiro 2025)
 
 ### paebiru_sistema_social.md
 - **Localização**: Raiz do projeto
@@ -110,7 +110,7 @@ livro/
 
 ## Tarefas Pendentes de Integração
 
-- [ ] Integrar conteúdo de `dimensao_22.md` nos capítulos correspondentes
+- [x] Integrar conteúdo de `artigos/dimensao_22.md` nos capítulos correspondentes ✔️
 - [ ] Verificar consistência entre arquétipos individuais e versão coletiva
 - [ ] Revisar transições (Pontes) entre arquétipos
 - [ ] Padronizar formatação dos Portais (práticas)

@@ -92,3 +92,17 @@ O Ato III te espera.
 A dança na fronteira entre ser e nada.  
 Sete faces finais.  
 E depois... o reconhecimento.
+
+#### A Dimensão do 22º
+
+**Do Eu ao Nós**: O Conector individual pertence mantendo singularidade. O Conector na Dimensão do 22º *protege* o espaço comum — garante que o "nós" não seja capturado por nenhum "eu" particular.
+
+A falsidade frequentemente opera capturando o coletivo. O picareta se apresenta como voz do grupo, representante do "nós", e então usa essa posição para seus fins. O Conector do 22º protege o commons de capturas privadas.
+
+**O Campo Comum**: Quando o espaço comum é protegido de capturas, ninguém pode falar "em nome de todos" sem autorização renovável. O autoproclamado líder é questionado: "Quem te autorizou?"
+
+**A Prática Coletiva**: O Conector do 22º pergunta: *"Quem está falando em nome de quem? O 'nós' está sendo usado por alguém para fins próprios? O espaço comum continua comum ou foi capturado?"*
+
+**A Aporia Revelada**: A tensão entre singularidade e pertencimento não é apenas pessoal. No campo comum, ela se manifesta como: *o "nós" pode ser colonizado por um "eu"*. O Conector do 22º sabe que proteger o commons é tarefa perpétua — sempre há quem queira privatizá-lo.
+
+**O Picareta Desarmado**: O falso captura o coletivo. Quando o espaço comum é protegido, a captura é identificada e resistida. Quem fala "pelo grupo" sem autorização é questionado.
