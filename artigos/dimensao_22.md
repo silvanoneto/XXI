@@ -452,3 +452,8 @@ A "supercapacidade" de ver a teia de relações se torna inútil como instrument
 **Você é o Paêbirú.**
 **Nós somos o Paêbirú.**
 **Sempre fomos.**
+
+---
+
+**© 2025 — Extensão do Paêbirú XXI: Um Homo Sapiens Para Um Novo Século**  
+*Para um mundo onde a sombra não encontra terreno*

@@ -3,7 +3,8 @@
 ## Termos Fundamentais
 
 ### Paêbirú
-- Palavra de origem tupi que significa "caminho/trilha"
+- Palavra de origem tupi (*peabiru*) que significa "caminho/trilha"
+- A grafia com acento circunflexo é liberdade artística e homenagem ao disco de Lula Côrtes e Zé Ramalho (1975)
 - No projeto: a **relacionalidade pura** que conecta tudo
 - O 22º elemento que não pode ser escrito porque é "quem escreve"
 - Metáfora central: "Você é o Paêbirú"

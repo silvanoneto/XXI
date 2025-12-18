@@ -6,8 +6,11 @@
 /Users/silvis/Desktop/22/
 ├── .memorybank/           # Documentação para LLMs (este diretório)
 ├── artigos/               # Artigos e ensaios complementares
-│   └── dimensao_22.md     # Extensão: A Dimensão do 22º
-├── paebiru_sistema_social.md  # Ensaio: Ditadura da Autenticidade (291 linhas)
+│   ├── dimensao_22.md     # Extensão: A Dimensão do 22º
+│   └── paebiru_sistema_social.md  # Ensaio: Ditadura da Autenticidade
+├── gerar_epub.py          # Script Python para gerar EPUB
+├── Paebiru_XXI.epub       # Ebook gerado
+├── README.md              # Apresentação do projeto
 └── livro/                 # Conteúdo principal do livro
 ```
 
@@ -15,8 +18,8 @@
 
 ```
 livro/
-├── 00_Cabecalho/
-│   └── 00_Cabecalho.md           # Título e subtítulo
+├── 00_Cabecalho.md               # Título e subtítulo
+├── 99_Rodape.md                  # Informações finais
 │
 ├── 01_Introducao/
 │   ├── 00_introducao.md          # Marcador de seção
@@ -56,13 +59,12 @@ livro/
 │   ├── 07_Passo_20_O_Brincante.md
 │   └── 08_Passo_21_O_Caos_Criativo.md
 │
-├── 05_Conclusao/
-│   ├── 00_conclusao.md
-│   ├── 01_Epilogo.md
-│   ├── 02_O_22_O_Paebiru_Revelado.md  # Revelação do 22º
-│   ├── 03_O_Circulo_Manifesto_Final.md
-│   ├── 04_Coda.md                     # Encerramento ritual
-│   └── 99_Rodape.md                   # Informações finais (dentro da Conclusão)
+└── 05_Conclusao/
+    ├── 00_conclusao.md
+    ├── 01_Epilogo.md
+    ├── 02_O_22_O_Paebiru_Revelado.md  # Revelação do 22º
+    ├── 03_O_Circulo_Manifesto_Final.md
+    └── 04_Coda.md                     # Encerramento ritual
 ```
 
 ## Convenções de Nomenclatura
@@ -79,7 +81,7 @@ livro/
 
 ## Ordem de Leitura Linear
 
-1. `00_Cabecalho/00_Cabecalho.md`
+1. `00_Cabecalho.md`
 2. `01_Introducao/01_Invocacao.md`
 3. `01_Introducao/02_Prologo.md`
 4. `02_Ato_I.../00_ato_1.md`

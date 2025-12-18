@@ -10,6 +10,14 @@ E os 21 arquétipos que se seguem? Não são etapas de uma jornada linear. Não 
 
 **Eles são os 21 modos como o Paêbirú — o caminhar em si — se manifesta através de você.**
 
+### Sobre o nome
+
+*Peabiru* — palavra tupi que significa caminho, trilha. Era o nome da antiga rede de caminhos pré-colombianos que cortava a América do Sul, conectando povos antes de qualquer fronteira.
+
+A grafia **Paêbirú**, com acento circunflexo, é liberdade artística. É também homenagem ao disco homônimo de Lula Côrtes e Zé Ramalho (1975), marco da psicodelia brasileira que buscava caminhos ancestrais através da música. Antes de ser livro, o Paêbirú já era som — já era trilha no sentido mais completo.
+
+### O modo de caminhar
+
 Pense assim:
 - Quando você age com coragem sobre incerteza, você não está "sendo Guerreiro" para "chegar ao Paêbirú". Você *É* o Paêbirú se manifestando como Guerreiro.
 - Quando você escuta sua voz interior, você não está "praticando Eremita" para "evoluir". Você *É* o Paêbirú se manifestando como Eremita.

@@ -2,10 +2,14 @@
 
 ## Visão Geral
 
-**Nome do Projeto**: PAÊBIRÚ: A Jornada dos 21 Caminhos  
-**Subtítulo**: Um Mapa Vivo para a Reconexão do Ser  
+**Nome do Projeto**: PAÊBIRÚ XXI: Um Homo Sapiens Para Um Novo Século  
+**Subtítulo**: Para um mundo onde a sombra não encontra terreno  
 **Idioma**: Português brasileiro  
 **Tipo**: Livro filosófico-espiritual
+
+### Nota sobre a grafia
+
+A grafia **Paêbirú** (com acento circunflexo) é liberdade artística e homenagem ao disco homônimo de Lula Côrtes e Zé Ramalho (1975), marco da psicodelia brasileira. O nome original tupi é *peabiru* — a antiga rede de caminhos pré-colombianos que cortava a América do Sul.
 
 ## Conceito Central
 
@@ -72,11 +76,12 @@ Cada capítulo de arquétipo segue esta estrutura:
 ### artigos/dimensao_22.md
 Extensão que adiciona a cada arquétipo uma "Dimensão do 22º" — transformando capacidade individual em campo comum. Objetivo: evitar que a "iluminação" vire instrumento de falsidade. **Já integrado nos capítulos.**
 
-### paebiru_sistema_social.md
-"Ditadura da Autenticidade" — ensaio sobre como o Paêbirú pode funcionar como protocolo social anti-manipulação. Conceitos:
-- Anatomia do picareta (manipulador)
+### artigos/paebiru_sistema_social.md
+"Ditadura da Autenticidade" — ensaio sobre como o Paêbirú pode funcionar como tessitura coletiva anti-falsidade. Conceitos:
+- Anatomia do falso (o que opera na sombra)
 - Cibernética da autenticidade
 - Estrutura anti-sombra
+- Portais para o Campo Comum
 
 ## Objetivos do Projeto
 

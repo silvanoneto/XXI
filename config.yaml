@@ -1,0 +1,81 @@
+# Configurações do Paêbirú XXI
+# ============================
+
+# Metadados do livro
+titulo: "Paêbirú XXI"
+subtitulo: "Um Homo Sapiens Para Um Novo Século"
+coautor: "Silvano Neto"
+lingua: "pt-BR"
+identificador: "paebiru-xxi-2025"
+epigrafe: "Para um mundo onde a sombra não encontra terreno"
+
+# Arquivos de saída
+output_file: "Paebiru_XXI.epub"
+
+# Estrutura do livro (pasta: lista de arquivos)
+estrutura_livro:
+  - pasta: "livro"
+    arquivos:
+      - "00_Cabecalho.md"
+
+  - pasta: "livro/01_Introducao"
+    arquivos:
+      - "00_Epigrafe.md"
+      - "00_introducao.md"
+      - "01_Invocacao.md"
+      - "02_Prologo.md"
+
+  - pasta: "livro/02_Ato_I_O_Despertar_do_Eu"
+    arquivos:
+      - "00_ato_1.md"
+      - "01_Interludio.md"
+      - "02_Passo_1_O_Guerreiro.md"
+      - "03_Passo_2_O_Eremita.md"
+      - "04_Passo_3_O_Vulneravel.md"
+      - "05_Passo_4_O_Jardineiro.md"
+      - "06_Passo_5_O_Artista.md"
+      - "07_Passo_6_O_Alquimista.md"
+      - "08_Passo_7_O_Amante.md"
+
+  - pasta: "livro/03_Ato_II_A_Expansao_do_Eu"
+    arquivos:
+      - "00_ato_2.md"
+      - "01_Interludio.md"
+      - "02_Passo_8_O_Tecelao.md"
+      - "03_Passo_9_O_Cuidador.md"
+      - "04_Passo_10_O_Mensageiro.md"
+      - "05_Passo_11_O_Juiz.md"
+      - "06_Passo_12_O_Observador.md"
+      - "07_Passo_13_O_Guardiao.md"
+      - "08_Passo_14_O_Conector.md"
+
+  - pasta: "livro/04_Ato_III_A_Transcendencia_do_Eu"
+    arquivos:
+      - "00_ato_3.md"
+      - "01_Interludio.md"
+      - "02_Passo_15_O_Integrado.md"
+      - "03_Passo_16_O_Nomade.md"
+      - "04_Passo_17_O_Ancestral.md"
+      - "05_Passo_18_O_Desperto.md"
+      - "06_Passo_19_O_Mistico.md"
+      - "07_Passo_20_O_Brincante.md"
+      - "08_Passo_21_O_Caos_Criativo.md"
+
+  - pasta: "livro/05_Conclusao"
+    arquivos:
+      - "00_conclusao.md"
+      - "01_Epilogo.md"
+      - "02_O_22_O_Paebiru_Revelado.md"
+      - "03_O_Circulo_Manifesto_Final.md"
+      - "04_Coda.md"
+
+  - pasta: "livro"
+    arquivos:
+      - "99_Rodape.md"
+
+# Estrutura dos artigos (apêndice)
+estrutura_artigos:
+  - pasta: "artigos"
+    arquivos:
+      - "dimensao_22.md"
+      - "paebiru_sistema_social.md"

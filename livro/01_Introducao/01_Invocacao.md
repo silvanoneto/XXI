@@ -37,3 +37,27 @@ São as 21 danças que ele dança.
 São as 21 faces do mesmo mistério:
 
 *O mistério de ser caminho que se faz ao caminhar.*
+
+Mas há um segredo que você descobrirá ao longo desta jornada:
+
+O caminho que se faz sozinho pode se perder.  
+O despertar que não se encontra pode virar engano.  
+A luz que não se partilha pode cegar.
+
+O 22º — que não está entre os 21 porque É o entre —  
+não sussurra apenas "você é o caminho".
+
+Ele revela, ao final que já está aqui:
+
+**Nós somos o caminho.**  
+**E quando todos somos, ninguém pode nos usar como atalho.**
+
+A trilha que você percorre sozinho te desperta.  
+A trilha que percorremos juntos nos liberta.
+
+Assim, cada passo que segue contém duas sementes:  
+a que floresce em você,  
+e a que só floresce entre nós.
+
+Caminhe. E ao caminhar, perceba:  
+você nunca caminhou sozinho.

@@ -3,17 +3,40 @@
 ## Estado Atual do Projeto
 
 **Fase**: Desenvolvimento / Refinamento  
-**Última atualização**: Dezembro 2024
+**Última atualização**: Dezembro 2025
 
 ## Tarefas de Integração
 
-### Alta Prioridade
+### Concluídas Recentemente
 
-- [x] **Integrar Dimensão do 22º nos capítulos** ✅ CONCLUÍDA
+- [x] **Criar script de geração de EPUB** ✅
+  - `gerar_epub.py` criado com geração automática de capa em memória
+  - SVG → PNG convertido via cairosvg sem criar arquivos intermediários
+  - Artigos incluídos como apêndice
+
+- [x] **Reorganizar estrutura de pastas** ✅
+  - `00_Cabecalho.md` movido para raiz de `livro/`
+  - Pasta `00_Cabecalho/` removida (capa gerada em memória)
+
+- [x] **Integrar Dimensão do 22º nos capítulos** ✅
   - Integrada diretamente em todos os 21 capítulos de arquétipos
   - Seção "A Dimensão do 22º" adicionada após "A Ponte" em cada capítulo
+
+- [x] **Revisar artigo Sistema Social** ✅
   - Terminologia atualizada: "manipulador" → "falso", "manipulação" → "falsidade"
-  - Data conclusão: Janeiro 2025
+  - Seção de Implementação reformulada como "Portais para o Campo Comum"
+  - Conexão explícita com CRIO adicionada
+  - Movido para pasta artigos/
+
+- [x] **Renomear projeto** ✅
+  - Novo nome: "Paêbirú XXI: Um Homo Sapiens Para Um Novo Século"
+  - Novo subtítulo: "Para um mundo onde a sombra não encontra terreno"
+
+- [x] **Criar capa** ✅
+  - Capa SVG com simbolismo dos 3 atos, 21 arquétipos e 22º central
+  - Gerada dinamicamente em memória pelo script
+
+### Alta Prioridade
 
 - [ ] **Revisar estrutura dos capítulos de arquétipos**
   - Verificar se todos seguem a estrutura padrão
@@ -25,10 +48,6 @@
 - [ ] **Desenvolver Interlúdios**
   - Os arquivos `01_Interludio.md` existem mas precisam verificar conteúdo
   - Devem servir como transições entre atos
-
-- [ ] **Expandir sistema_social para possível apêndice**
-  - `paebiru_sistema_social.md` é material rico
-  - Considerar como integrar ao livro principal
 
 - [ ] **Criar índice/glossário**
   - Lista de todos os termos-chave
