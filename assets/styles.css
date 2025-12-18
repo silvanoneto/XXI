@@ -58,8 +58,12 @@ body {
     display: flex;
     flex-direction: column;
     font-size: var(--font-base);
-    line-height: 1.6;
+    line-height: 1.8;
     overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
 }
 
 /* Header */
