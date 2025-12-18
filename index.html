@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paêbirú XXI — Um Homo Sapiens Para Um Novo Século</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" onclick="showHome()" style="cursor: pointer;">
+            <div class="logo-symbol">22</div>
+            <div>
+                <h1>PAÊBIRÚ XXI</h1>
+                <span>Um Homo Sapiens Para Um Novo Século</span>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="decreaseFontSize()" title="Diminuir fonte">A-</button>
+            <button onclick="increaseFontSize()" title="Aumentar fonte">A+</button>
+            <button class="menu-toggle" onclick="toggleSidebar()" title="Índice">☰</button>
+        </div>
+    </header>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <main>
+        <aside class="sidebar hidden" id="sidebar">
+            <h2>ÍNDICE</h2>
+            <ul class="toc" id="toc">
+                <li><span class="section-title">Carregando...</span></li>
+            </ul>
+        </aside>
+
+        <div class="reader-container">
+            <div id="reader">
+                <div class="loading">
+                    <svg class="loading-symbol" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+                                <stop offset="0%" stop-color="#fff9e6"/>
+                                <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+                            </radialGradient>
+                            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#d4af37"/>
+                                <stop offset="50%" stop-color="#f4e4ba"/>
+                                <stop offset="100%" stop-color="#d4af37"/>
+                            </linearGradient>
+                        </defs>
+                        
+                        <!-- Três círculos concêntricos (3 Atos) -->
+                        <circle cx="100" cy="100" r="90" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.4"/>
+                        <circle cx="100" cy="100" r="65" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.6"/>
+                        <circle cx="100" cy="100" r="40" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.8"/>
+                        
+                        <!-- 21 pontos: 7 em cada círculo -->
+                        <!-- Círculo interno (Ato I) -->
+                        <g fill="#d4af37" opacity="0.9">
+                            <circle cx="100" cy="60" r="3"/>
+                            <circle cx="134" cy="76" r="3"/>
+                            <circle cx="140" cy="115" r="3"/>
+                            <circle cx="117" cy="138" r="3"/>
+                            <circle cx="83" cy="138" r="3"/>
+                            <circle cx="60" cy="115" r="3"/>
+                            <circle cx="66" cy="76" r="3"/>
+                        </g>
+                        <!-- Círculo médio (Ato II) -->
+                        <g fill="#d4af37" opacity="0.7">
+                            <circle cx="100" cy="35" r="3"/>
+                            <circle cx="153" cy="58" r="3"/>
+                            <circle cx="165" cy="115" r="3"/>
+                            <circle cx="135" cy="158" r="3"/>
+                            <circle cx="65" cy="158" r="3"/>
+                            <circle cx="35" cy="115" r="3"/>
+                            <circle cx="47" cy="58" r="3"/>
+                        </g>
+                        <!-- Círculo externo (Ato III) -->
+                        <g fill="#d4af37" opacity="0.5">
+                            <circle cx="100" cy="10" r="3"/>
+                            <circle cx="175" cy="40" r="3"/>
+                            <circle cx="190" cy="115" r="3"/>
+                            <circle cx="155" cy="180" r="3"/>
+                            <circle cx="45" cy="180" r="3"/>
+                            <circle cx="10" cy="115" r="3"/>
+                            <circle cx="25" cy="40" r="3"/>
+                        </g>
+                        
+                        <!-- O 22º - centro luminoso -->
+                        <circle cx="100" cy="100" r="15" fill="url(#centerGlow)" opacity="0.5"/>
+                        <circle cx="100" cy="100" r="6" fill="#fffef5" opacity="0.8"/>
+                        
+                        <!-- Linhas conectando ao centro -->
+                        <g stroke="#d4af37" stroke-width="0.3" opacity="0.15">
+                            <line x1="100" y1="100" x2="100" y2="10"/>
+                            <line x1="100" y1="100" x2="175" y2="40"/>
+                            <line x1="100" y1="100" x2="190" y2="115"/>
+                            <line x1="100" y1="100" x2="155" y2="180"/>
+                            <line x1="100" y1="100" x2="45" y2="180"/>
+                            <line x1="100" y1="100" x2="10" y2="115"/>
+                            <line x1="100" y1="100" x2="25" y2="40"/>
+                        </g>
+                    </svg>
+                    <p>Carregando o Paêbirú...</p>
+                </div>
+            </div>
+        </div>
+        <button class="nav-arrow prev" onclick="prevPage()" title="Anterior">‹</button>
+        <button class="nav-arrow next" onclick="nextPage()" title="Próximo">›</button>
+    </main>
+
+    <footer>
+        <span>© 2025 Paêbirú XXI — Você É o 22º</span>
+        <a href="assets/Paebiru_XXI.epub" download>Baixar EPUB</a>
+    </footer>
+
+    <!-- Dependências externas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    
+    <!-- Módulos da aplicação (ordem importa) -->
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/epub-loader.js"></script>
+    <script src="assets/js/state-manager.js"></script>
+    <script src="assets/js/chapter-renderer.js"></script>
+    <script src="assets/js/home-renderer.js"></script>
+    <script src="assets/js/toc-manager.js"></script>
+    <script src="assets/js/navigation-controller.js"></script>
+    <script src="assets/js/ui-controller.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

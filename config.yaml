@@ -10,22 +10,22 @@ identificador: "paebiru-xxi-2025"
 epigrafe: "Para um mundo onde a sombra não encontra terreno"
 
 # Arquivos de saída
-output_file: "Paebiru_XXI.epub"
+output_file: "assets/Paebiru_XXI.epub"
 
 # Estrutura do livro (pasta: lista de arquivos)
 estrutura_livro:
-  - pasta: "livro"
+  - pasta: "data/livro"
     arquivos:
       - "00_Cabecalho.md"
 
-  - pasta: "livro/01_Introducao"
+  - pasta: "data/livro/01_Introducao"
     arquivos:
       - "00_Epigrafe.md"
       - "00_introducao.md"
       - "01_Invocacao.md"
       - "02_Prologo.md"
 
-  - pasta: "livro/02_Ato_I_O_Despertar_do_Eu"
+  - pasta: "data/livro/02_Ato_I_O_Despertar_do_Eu"
     arquivos:
       - "00_ato_1.md"
       - "01_Interludio.md"
@@ -37,7 +37,7 @@ estrutura_livro:
       - "07_Passo_6_O_Alquimista.md"
       - "08_Passo_7_O_Amante.md"
 
-  - pasta: "livro/03_Ato_II_A_Expansao_do_Eu"
+  - pasta: "data/livro/03_Ato_II_A_Expansao_do_Eu"
     arquivos:
       - "00_ato_2.md"
       - "01_Interludio.md"
@@ -49,7 +49,7 @@ estrutura_livro:
       - "07_Passo_13_O_Guardiao.md"
       - "08_Passo_14_O_Conector.md"
 
-  - pasta: "livro/04_Ato_III_A_Transcendencia_do_Eu"
+  - pasta: "data/livro/04_Ato_III_A_Transcendencia_do_Eu"
     arquivos:
       - "00_ato_3.md"
       - "01_Interludio.md"
@@ -61,7 +61,7 @@ estrutura_livro:
       - "07_Passo_20_O_Brincante.md"
       - "08_Passo_21_O_Caos_Criativo.md"
 
-  - pasta: "livro/05_Conclusao"
+  - pasta: "data/livro/05_Conclusao"
     arquivos:
       - "00_conclusao.md"
       - "01_Epilogo.md"
@@ -69,13 +69,13 @@ estrutura_livro:
       - "03_O_Circulo_Manifesto_Final.md"
       - "04_Coda.md"
 
-  - pasta: "livro"
+  - pasta: "data/livro"
     arquivos:
       - "99_Rodape.md"
 
 # Estrutura dos artigos (apêndice)
 estrutura_artigos:
-  - pasta: "artigos"
+  - pasta: "data/artigos"
     arquivos:
       - "dimensao_22.md"
       - "paebiru_sistema_social.md"

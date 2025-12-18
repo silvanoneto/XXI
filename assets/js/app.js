@@ -1,0 +1,124 @@
+/**
+ * Aplicação Principal - Orquestrador
+ * Single Responsibility: Coordenar módulos
+ * Dependency Inversion: Depende de abstrações (interfaces dos módulos)
+ */
+class PaebiruApp {
+    constructor() {
+        // Inicializar gerenciador de estado
+        this.state = new StateManager();
+        
+        // Inicializar módulos com suas dependências
+        this.epubLoader = new EPUBLoader(Config.epub.path);
+        this.chapterRenderer = new ChapterRenderer(Config.selectors.reader, Config.colors);
+        this.homeRenderer = new HomeRenderer(Config.selectors.reader, Config.colors);
+        this.tocManager = new TOCManager(Config.selectors.toc);
+        this.navigation = new NavigationController(this.state);
+        this.ui = new UIController(this.state);
+        
+        // Inscrever para mudanças de estado
+        this.state.subscribe(this.handleStateChange.bind(this));
+        
+        // Expor métodos globais para onclick do HTML
+        this.exposeGlobalMethods();
+    }
+
+    async init() {
+        try {
+            const chapters = await this.loadEPUB();
+            this.state.setChapters(chapters);
+            this.tocManager.build(chapters, this.handleChapterSelect.bind(this));
+            this.showHome();
+        } catch (err) {
+            console.error("Erro ao inicializar:", err);
+            this.chapterRenderer.showError(err.message);
+        }
+    }
+
+    async loadEPUB() {
+        const zip = await this.epubLoader.load();
+        const opfPath = await this.epubLoader.getOpfPath(zip);
+        const opfDir = opfPath.substring(0, opfPath.lastIndexOf("/") + 1);
+        const opfDoc = await this.epubLoader.parseOpf(zip, opfPath);
+        
+        const manifestMap = this.epubLoader.buildManifestMap(opfDoc);
+        const spineItems = this.epubLoader.getSpineItems(opfDoc);
+        
+        const chapters = [];
+        
+        for (const itemref of spineItems) {
+            const id = itemref.getAttribute("idref");
+            const href = manifestMap[id];
+            
+            if (href && href.endsWith(".xhtml") && 
+                !this.epubLoader.shouldSkipFile(href, Config.epub.skipFiles)) {
+                const chapter = await this.epubLoader.extractChapter(zip, opfDir + href);
+                if (chapter) {
+                    chapters.push({ ...chapter, href });
+                }
+            }
+        }
+        
+        return chapters;
+    }
+
+    handleStateChange(event, data) {
+        switch (event) {
+            case 'chapterChanged':
+                this.onChapterChanged(data);
+                break;
+            case 'fontSizeChanged':
+                this.chapterRenderer.updateFontSize(data);
+                break;
+        }
+    }
+
+    onChapterChanged({ current }) {
+        if (current === -1) {
+            this.renderHome();
+        } else {
+            this.renderChapter(current);
+        }
+        this.navigation.updateButtons();
+        this.navigation.updateProgress();
+    }
+
+    showHome() {
+        this.state.setCurrentChapter(-1);
+    }
+
+    renderHome() {
+        this.homeRenderer.render(() => this.navigation.goToChapter(0));
+        this.tocManager.clearActive();
+    }
+
+    renderChapter(index) {
+        const chapter = this.state.chapters[index];
+        if (chapter) {
+            this.chapterRenderer.render(chapter, this.state.fontSize);
+            this.tocManager.setActive(index);
+        }
+    }
+
+    handleChapterSelect(index) {
+        this.navigation.goToChapter(index);
+        this.ui.closeSidebar();
+    }
+
+    // Expor métodos para uso em atributos onclick do HTML
+    exposeGlobalMethods() {
+        window.showHome = () => this.showHome();
+        window.displayChapter = (index) => this.navigation.goToChapter(index);
+        window.prevPage = () => this.navigation.goToPrevious();
+        window.nextPage = () => this.navigation.goToNext();
+        window.increaseFontSize = () => this.ui.increaseFontSize();
+        window.decreaseFontSize = () => this.ui.decreaseFontSize();
+        window.toggleSidebar = () => this.ui.toggleSidebar();
+    }
+}
+
+// Inicializar aplicação quando DOM estiver pronto
+document.addEventListener('DOMContentLoaded', () => {
+    const app = new PaebiruApp();
+    app.init();
+});
