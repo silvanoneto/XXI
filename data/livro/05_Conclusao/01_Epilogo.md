@@ -20,8 +20,8 @@ Quando você encontrou voz (Eremita), você não descobriu algo escondido — vo
 
 Quando você dançou com o caos (Caos Criativo), você não alcançou topo — você reconheceu o Paêbirú se manifestando como improvisação perpétua.
 
-**Cada passo foi reconhecimento, não aquisição.**  
-**Cada face foi revelação, não construção.**  
+**Cada passo foi reconhecimento, não aquisição.**
+**Cada face foi revelação, não construção.**
 **Cada portal foi despertar, não aprendizado de algo externo.**
 
 E as parábolas que você encontrou? O Ferreiro que Forjou a Própria Corrente, a Árvore que Ouvia o Vento, o Palhaço Sagrado, a Dançarina do Terremoto — elas não eram apenas histórias. Eram espelhos. Cada uma mostrou um arquétipo em ação no mundo, plantando a semente antes que a mente tentasse compreender.

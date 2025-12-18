@@ -7,7 +7,7 @@ const Config = {
         path: 'assets/Paebiru_XXI.epub',
         skipFiles: ['nav', 'contracapa']
     },
-    
+
     ui: {
         fontSize: {
             default: 100,
@@ -17,14 +17,14 @@ const Config = {
         },
         mobileBreakpoint: 768
     },
-    
+
     selectors: {
         reader: '#reader',
         toc: '#toc',
         sidebar: '#sidebar',
         progressBar: '#progress-bar'
     },
-    
+
     colors: {
         gold: '#d4af37',
         goldLight: '#f4e4ba',

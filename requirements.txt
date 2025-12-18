@@ -1,0 +1,14 @@
+# Paêbirú XXI - EPUB Builder
+# Dependências Python para geração do EPUB
+
+# Geração de EPUB
+ebooklib>=0.18
+
+# Conversão SVG → PNG (capa)
+cairosvg>=2.7.0
+
+# Processamento de Markdown
+markdown>=3.5
+
+# Leitura de configuração YAML
+pyyaml>=6.0

@@ -50,8 +50,8 @@ Você passou a vida tentando ser *coerente*. Tentando ter identidade sólida, um
 
 Mas experiência revela fragmentação. Você age de formas contraditórias. Você sente emoções opostas simultaneamente. Você tem partes que querem coisas diferentes. A "parte profissional" quer sucesso; a "parte criança" quer brincar. A "parte guerreira" quer lutar; a "parte pacifista" quer paz.
 
-*Unidade ou multiplicidade?*  
-*Ser um self coerente ou reconhecer-se como multidão?*  
+*Unidade ou multiplicidade?*
+*Ser um self coerente ou reconhecer-se como multidão?*
 *Buscar integração que unifica ou honrar a multiplicidade?*
 
 Esta é a aporia do Integrado. E o Paêbirú revela: **você não precisa escolher entre um e muitos — você é o palco onde muitos dançam**.

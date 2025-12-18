@@ -54,8 +54,8 @@ Há algo *transcendente* aqui. Algo que aponta para dimensão além do ordinári
 
 Mas há também perigo: você pode usar transcendente como *fuga*. Pode se tornar "espiritual" mas desconectado do mundo concreto. Pode buscar "união mística" como escapismo de responsabilidades terrenas. Pode "transcender" tanto que perde capacidade de habitar o imanente.
 
-*Transcendência ou imanência?*  
-*Sagrado ou profano?*  
+*Transcendência ou imanência?*
+*Sagrado ou profano?*
 *União mística ou vida concreta?*
 
 Esta é a aporia do Místico. E o Paêbirú revela: **transcendente e imanente não são separados. O sagrado habita o profano. O infinito está no finito. Deus está na mosca, no mendigo, na folha caindo**.

@@ -44,8 +44,8 @@ E há razões legítimas para urgência. Injustiças que não podem esperar. Son
 
 Mas há também processos que não podem ser apressados. Feridas que precisam de tempo para curar. Relacionamentos que precisam de estações para amadurecer. Sementes que, se arrancadas do solo para "verificar crescimento", morrem.
 
-*Urgência ou paciência?*  
-*Agir agora ou esperar o momento certo?*  
+*Urgência ou paciência?*
+*Agir agora ou esperar o momento certo?*
 *Forçar o florescimento ou confiar no processo?*
 
 Esta é a aporia do Jardineiro. E o Paêbirú, tendo se manifestado como movimento urgente, agora se manifesta como *temporalidade processual* — como respeito aos ritmos naturais.

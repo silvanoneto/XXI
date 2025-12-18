@@ -14,15 +14,15 @@
       <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
     </filter>
   </defs>
-  
+
   <!-- Fundo de vidro -->
   <rect width="512" height="512" fill="url(#bg-icon-512)" rx="86"/>
-  
+
   <!-- Três círculos concêntricos (3 Atos) -->
   <circle cx="256" cy="256" r="186" fill="none" stroke="url(#gold-icon-512)" stroke-width="2" opacity="0.4"/>
   <circle cx="256" cy="256" r="133" fill="none" stroke="url(#gold-icon-512)" stroke-width="2" opacity="0.6"/>
   <circle cx="256" cy="256" r="80" fill="none" stroke="url(#gold-icon-512)" stroke-width="2" opacity="0.8"/>
-  
+
   <!-- 21 pontos distribuídos uniformemente -->
   <g fill="#d4af37" opacity="0.9">
     <circle cx="256.0" cy="176.0" r="5"/>
@@ -51,7 +51,7 @@
     <circle cx="74.7" cy="297.4" r="5"/>
     <circle cx="110.6" cy="140.0" r="5"/>
   </g>
-  
+
   <!-- O 22º - centro luminoso -->
   <circle cx="256" cy="256" r="32" fill="#fff9e6" opacity="0.3"/>
   <circle cx="256" cy="256" r="16" fill="#fffef5" opacity="0.8"/>

@@ -46,8 +46,8 @@ E você *quer* cuidar. É bonito cuidar, é nobre sustentar outros, é gratifica
 
 Mas há também o cansaço. A exaustão de estar sempre disponível. A culpa quando você pensa em si mesmo. A sensação de que você só tem valor se estiver servindo. E, gradualmente, você percebe: **você está se esvaziando**. Dando tudo, recebendo nada. Nutrindo todos, mas murchando por dentro.
 
-*Nutrir ou receber?*  
-*Sustentar outros ou ser sustentado?*  
+*Nutrir ou receber?*
+*Sustentar outros ou ser sustentado?*
 *Cuidar até se esgotar ou ser "egoísta" e se preservar?*
 
 Esta é a aporia do Cuidador. E o Paêbirú se manifesta aqui como verdade paradoxal: **cuidar sem se perder não é egoísmo — é sabedoria que mantém o cuidado vivo**.

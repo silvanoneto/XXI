@@ -46,8 +46,8 @@ A autoridade externa é esmagadora. Tem tanto conhecimento aí fora. Tantas pess
 
 Mas há também, quieta, quase inaudível, uma voz interior. Uma intuição. Um saber que não vem de livros, mas da sua própria pele. Uma sabedoria que ninguém pode te dar porque ela já está em você, esperando ser reconhecida.
 
-*Em quem confiar?*  
-*Na autoridade do mundo exterior ou na sabedoria da experiência interior?*  
+*Em quem confiar?*
+*Na autoridade do mundo exterior ou na sabedoria da experiência interior?*
 *No que eles dizem ou no que você sente?*
 
 Esta é a aporia do Eremita. E o Paêbirú, tendo se manifestado como ação, agora se manifesta como **autoridade interior** — não como rejeição do externo, mas como capacidade de filtrar o externo através do interno.

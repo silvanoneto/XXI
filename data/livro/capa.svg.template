@@ -11,14 +11,14 @@
       <stop offset="100%" stop-color="#d4af37"/>
     </linearGradient>
   </defs>
-  
+
   <rect width="400" height="560" fill="url(#luz)"/>
-  
+
   <!-- Três círculos concêntricos (3 Atos) -->
   <circle cx="200" cy="240" r="140" fill="none" stroke="url(#ouro)" stroke-width="0.5" opacity="0.4"/>
   <circle cx="200" cy="240" r="100" fill="none" stroke="url(#ouro)" stroke-width="0.5" opacity="0.6"/>
   <circle cx="200" cy="240" r="60" fill="none" stroke="url(#ouro)" stroke-width="0.5" opacity="0.8"/>
-  
+
   <!-- 21 pontos distribuídos uniformemente nos 3 círculos (7 em cada) -->
   <g fill="#d4af37" opacity="0.9">
     <circle cx="200" cy="180" r="3"/><circle cx="247" cy="203" r="3"/>
@@ -38,11 +38,11 @@
     <circle cx="139" cy="366" r="3"/><circle cx="64" cy="271" r="3"/>
     <circle cx="91" cy="153" r="3"/>
   </g>
-  
+
   <!-- O 22º - centro luminoso -->
   <circle cx="200" cy="240" r="20" fill="#fff9e6" opacity="0.3"/>
   <circle cx="200" cy="240" r="8" fill="#fffef5" opacity="0.6"/>
-  
+
   <!-- Linhas conectando ao centro -->
   <g stroke="#d4af37" stroke-width="0.3" opacity="0.2">
     <line x1="200" y1="240" x2="200" y2="100"/>
@@ -53,7 +53,7 @@
     <line x1="200" y1="240" x2="65" y2="270"/>
     <line x1="200" y1="240" x2="90" y2="145"/>
   </g>
-  
+
   <!-- Título -->
   <text x="200" y="450" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="url(#ouro)" letter-spacing="4">
     {{TITULO_LINHA1}}
@@ -61,14 +61,14 @@
   <text x="200" y="480" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="url(#ouro)" letter-spacing="2">
     {{TITULO_LINHA2}}
   </text>
-  
+
   <!-- Subtítulo -->
   <text x="200" y="515" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#d4af37" opacity="0.8" letter-spacing="1">
     {{SUBTITULO}}
   </text>
-  
+
   <line x1="120" y1="530" x2="280" y2="530" stroke="url(#ouro)" stroke-width="0.5" opacity="0.5"/>
-  
+
   <!-- Epígrafe -->
   <text x="200" y="548" text-anchor="middle" font-family="Georgia, serif" font-size="7" fill="#d4af37" opacity="0.6" font-style="italic">
     {{EPIGRAFE}}

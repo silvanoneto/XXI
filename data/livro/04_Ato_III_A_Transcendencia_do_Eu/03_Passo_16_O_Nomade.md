@@ -58,8 +58,8 @@ Mas há também peso. Você carrega tudo isso nas costas como caracol carrega co
 
 Há também apego. Você se agarra a lares que já não te servem porque tem medo da ausência de lar. Você permanece em relacionamentos mortos, cidades que te sufocam, identidades que não te cabem mais — por medo de não ter *lugar*.
 
-*Enraizamento ou movimento?*  
-*Ter lar ou ser nômade?*  
+*Enraizamento ou movimento?*
+*Ter lar ou ser nômade?*
 *Pertencer a lugar ou ser livre?*
 
 Esta é a aporia do Nômade. E o Paêbirú sussurra verdade vertiginosa: **você pode estar em casa em qualquer lugar porque você é casa para si mesmo. Ou melhor: você é o próprio caminhar, não precisa de lugar onde chegar**.

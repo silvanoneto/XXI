@@ -50,8 +50,8 @@ Há momentos em que você precisa **distância** — subir na torre, observar de
 
 Mas há também risco: se você fica na torre tempo demais, você se desconecta. Você vira espectador da própria vida. Você observa, mas não participa. Você compreende, mas não sente. **Engajamento** também é necessário — descer da torre, mergulhar na vida, sentir tudo plenamente.
 
-*Engajamento ou distância?*  
-*Mergulhar na experiência ou observá-la de longe?*  
+*Engajamento ou distância?*
+*Mergulhar na experiência ou observá-la de longe?*
 *Ser ator ou ser plateia?*
 
 Esta é a aporia do Observador. E o Paêbirú se manifesta aqui como capacidade paradoxal: **estar simultaneamente dentro e fora, ator e testemunha**.

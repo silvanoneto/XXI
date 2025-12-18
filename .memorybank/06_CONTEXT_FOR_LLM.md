@@ -8,7 +8,7 @@
 
 **Estrutura**:
 - Ato I (1-7): Eu comigo — soberania interior
-- Ato II (8-14): Eu com outros — tessitura relacional  
+- Ato II (8-14): Eu com outros — tessitura relacional
 - Ato III (15-21): Além do eu — transcendência
 - 22º: Não é arquétipo; é o espaço entre eles
 
@@ -106,7 +106,7 @@ Ao editar qualquer capítulo de arquétipo, verificar:
 Ao começar nova sessão de trabalho, o usuário pode usar:
 
 ```
-Estou trabalhando no projeto Paêbirú. 
+Estou trabalhando no projeto Paêbirú.
 Por favor, leia .memorybank/06_CONTEXT_FOR_LLM.md primeiro.
 Hoje quero [tarefa específica].
 ```

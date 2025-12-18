@@ -48,8 +48,8 @@ E isso tem valor. Há momento para seriedade, para esforço, para compromisso. V
 
 Mas você também percebe: está *exausto*. Está tão sério que esqueceu de rir. Tão focado em propósito que perdeu prazer. Tão comprometido que se tornou rígido. E há suspeita crescente: *e se toda essa seriedade for armadura contra medo de não importar? E se leveza não for frivolidade, mas suprema sabedoria?*
 
-*Seriedade ou jogo?*  
-*Propósito ou play?*  
+*Seriedade ou jogo?*
+*Propósito ou play?*
 *Gravidade existencial ou leveza?*
 
 Esta é a aporia do Brincante. E o Paêbirú revela: **a vida mais profunda é aquela que consegue jogar com seriedade e ser séria sobre jogar. Não é contradição — é paradoxo vivo**.

@@ -8,10 +8,10 @@
 
 Você desce escadas estreitas até chegar a um teatro subterrâneo. O palco está vazio de cenário, mas não vazio de presença. Nas sombras dos bastidores, você percebe movimentos. Partes suas que você não quer reconhecer:
 
-A raiva que você reprimiu em nome da "paz".  
-O desejo que você negou em nome da "pureza".  
-O medo que você disfarçou de "coragem".  
-A inveja, a preguiça, a arrogância, a luxúria, a ganância.  
+A raiva que você reprimiu em nome da "paz".
+O desejo que você negou em nome da "pureza".
+O medo que você disfarçou de "coragem".
+A inveja, a preguiça, a arrogância, a luxúria, a ganância.
 
 Uma figura se aproxima usando máscara dupla — metade luz, metade escuridão. Ela não escolhe entre as duas. Ela *é* ambas. Esta é a figura do Alquimista, e o teatro é o laboratório onde chumbo se transforma em ouro, onde sombra se transmuta em sabedoria.
 
@@ -49,16 +49,16 @@ O Alquimista não elimina o que é sombrio — ele o escuta até que revele sua 
 
 Você forjou força, encontrou voz, cultivou paciência, criou beleza. Mas há partes suas que você não gosta. Traços que considera "ruins", "errados", "inaceitáveis". Você passou a vida tentando suprimi-los, controlá-los, erradicá-los.
 
-*"Se eu conseguir me livrar dessa raiva, então serei pacífico."*  
-*"Se eu conseguir eliminar esse medo, então serei corajoso."*  
+*"Se eu conseguir me livrar dessa raiva, então serei pacífico."*
+*"Se eu conseguir eliminar esse medo, então serei corajoso."*
 *"Se eu mudar essa parte, então serei amável."*
 
 E você tentou. Terapia, meditação, autoajuda, disciplina rígida. Tudo para *mudar*, para *transcender*, para se tornar alguém diferente.
 
 Mas há também reconhecimento crescente: essa rejeição cria fragmentação. Você não pode curar o que não aceita. Transformação verdadeira não vem de negar o que somos, mas de *integrar* o que negamos.
 
-*Aceitar ou mudar?*  
-*Acolher a sombra ou lutar contra ela?*  
+*Aceitar ou mudar?*
+*Acolher a sombra ou lutar contra ela?*
 *Ser como sou ou transformar-me?*
 
 Esta é a aporia do Alquimista. E o Paêbirú, tendo se manifestado como criação consciente, agora se manifesta como *aceitação transmutadora* — paradoxo alquímico onde mudança nasce de aceitação.
@@ -67,9 +67,9 @@ Esta é a aporia do Alquimista. E o Paêbirú, tendo se manifestado como criaç�
 
 O Alquimista conhece Carl Jung e a "sombra" — tudo que você reprimiu, negou, jogou no porão da psique. E sabe a verdade contraintuitiva: quanto mais você luta contra a sombra, mais poder ela ganha sobre você.
 
-Quanto mais você reprime raiva, mais ela explode incontrolavelmente.  
-Quanto mais você nega desejo, mais ele te controla.  
-Quanto mais você esconde medo, mais ele te paralisa.  
+Quanto mais você reprime raiva, mais ela explode incontrolavelmente.
+Quanto mais você nega desejo, mais ele te controla.
+Quanto mais você esconde medo, mais ele te paralisa.
 
 O paradoxo alquímico é este: **você só pode transformar o que primeiro aceita completamente**.
 
@@ -87,9 +87,9 @@ O Paêbirú se desdobra aqui como o próprio processo de integração — movime
 
 A sombra do Alquimista é o **Identificado**. Ele aceita tanto a sombra que se identifica completamente com ela.
 
-"Eu *sou* raiva" (ao invés de "eu *sinto* raiva").  
-"Eu *sou* fracasso" (ao invés de "eu *fracassei*").  
-"É como eu sou, aceite-me" (ao invés de "isso é parte de mim que estou integrando").  
+"Eu *sou* raiva" (ao invés de "eu *sinto* raiva").
+"Eu *sou* fracasso" (ao invés de "eu *fracassei*").
+"É como eu sou, aceite-me" (ao invés de "isso é parte de mim que estou integrando").
 
 O Identificado confunde aceitação com identidade. Ele não integra sombra — ele *vira* a sombra. E então age destrutivamente, justificando: "é minha natureza".
 
@@ -103,9 +103,9 @@ Isso não é alquimia — é capitulação. Não é transmutação — é dissol
 
 Identifique um traço seu que você considera "sombra" — algo que julga, rejeita, esconde.
 
-Ao invés de lutar, faça perguntas:  
-*"Por que você existe em mim?"*  
-*"O que você está tentando proteger?"*  
+Ao invés de lutar, faça perguntas:
+*"Por que você existe em mim?"*
+*"O que você está tentando proteger?"*
 *"Que necessidade não atendida você representa?"*
 
 Não tente mudar nada. Apenas escute. Dê voz à sombra. Deixe ela falar.

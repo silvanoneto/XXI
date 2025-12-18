@@ -46,8 +46,8 @@ E você tentou. Meditou para transcender sensações. Jejuou para dominar apetit
 
 Mas há também o outro extremo: mergulhar tão completamente no prazer sensorial que você se perde. Hedonismo como fuga. Sexo, comida, substâncias como anestésicos. O corpo não como templo, mas como campo de batalha onde você busca obliterar dor através do prazer.
 
-*Prazer ou ascetismo?*  
-*Encarnação ou transcendência?*  
+*Prazer ou ascetismo?*
+*Encarnação ou transcendência?*
 *Habitar o corpo ou transcendê-lo?*
 
 Esta é a aporia do Amante. E o Paêbirú, tendo se manifestado em seis faces anteriores, agora se manifesta como algo radical: **o corpo como lugar sagrado onde espírito habita**.
@@ -60,11 +60,11 @@ O Tantra hindu ensina isso. O Taoísmo ensina isso. Práticas somáticas moderna
 
 O Amante não é hedonista — ele não busca prazer como fuga. Ele busca prazer como *presença*.
 
-Há diferença entre:  
+Há diferença entre:
 
-- Comer compulsivamente para tampar ansiedade vs. comer com presença plena, saboreando cada textura  
-- Sexo como ato mecânico vs. sexo como comunhão sagrada  
-- Mover corpo automaticamente vs. dançar como meditação  
+- Comer compulsivamente para tampar ansiedade vs. comer com presença plena, saboreando cada textura
+- Sexo como ato mecânico vs. sexo como comunhão sagrada
+- Mover corpo automaticamente vs. dançar como meditação
 
 O corpo tem sabedoria que a mente desconhece. Intuições viscerais. Sensações que te alertam antes do pensamento. Desejo que aponta para necessidades reais. Quando você está desencarnado, desconectado do soma, você perde acesso a essa inteligência.
 
@@ -90,11 +90,11 @@ Ambos traíram o Paêbirú. O Hedonista porque usa corpo como fuga. O Asceta por
 
 Escolha atividade física que você normalmente faz automaticamente — comer, caminhar, tomar banho.
 
-Hoje, faça-a com presença total:  
+Hoje, faça-a com presença total:
 
-- Se for comer: sinta cada sabor, cada textura, cada temperatura  
-- Se for caminhar: perceba cada músculo se movendo, cada respiração  
-- Se for banho: sinta água na pele como se fosse primeira vez  
+- Se for comer: sinta cada sabor, cada textura, cada temperatura
+- Se for caminhar: perceba cada músculo se movendo, cada respiração
+- Se for banho: sinta água na pele como se fosse primeira vez
 
 Não julgue se é "espiritual" ou "carnal". Apenas *esteja* no corpo.
 
@@ -106,13 +106,13 @@ Este é o Paêbirú se manifestando como encarnação através de você.
 
 Com corpo integrado, você fecha o Ato I. O Paêbirú manifestou-se em sete faces:
 
-Como **ação** (Guerreiro)  
-Como **voz** (Eremita)  
-Como **abertura** (Vulnerável)  
-Como **cultivo** (Jardineiro)  
-Como **criação** (Artista)  
-Como **integração** (Alquimista)  
-Como **encarnação** (Amante)  
+Como **ação** (Guerreiro)
+Como **voz** (Eremita)
+Como **abertura** (Vulnerável)
+Como **cultivo** (Jardineiro)
+Como **criação** (Artista)
+Como **integração** (Alquimista)
+Como **encarnação** (Amante)
 
 Você não é mais fragmento — você é *todo*. Da vontade forjada até o corpo habitado, você construiu soberania interior. Você é alguém. Você tem presença. Você está diferenciado.
 
@@ -120,8 +120,8 @@ Mas soberania sem relação é apenas solidão eloquente. Um fio forte, mas sozi
 
 O Paêbirú, tendo se manifestado como *eu*, agora precisa se manifestar como *nós*. Precisa aprender a se tecer no mundo sem se perder. A conectar sem se fundir. A ser singular *e* relacional.
 
-O Ato II te espera.  
-A expansão do Eu no tecido do mundo.  
+O Ato II te espera.
+A expansão do Eu no tecido do mundo.
 Sete novas faces do Paêbirú.
 
 #### A Dimensão do 22º

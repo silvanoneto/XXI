@@ -117,9 +117,7 @@ class ContentProcessor:
             incluir_no_toc=incluir_no_toc,
         )
 
-    def process_section(
-        self, pasta: str, arquivos: List[str]
-    ) -> List[Chapter]:
+    def process_section(self, pasta: str, arquivos: List[str]) -> List[Chapter]:
         """
         Processa uma seção completa de arquivos.
 

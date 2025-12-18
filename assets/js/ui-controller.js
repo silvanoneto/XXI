@@ -45,16 +45,16 @@ class UIController {
         const currentIndex = themes.indexOf(currentTheme);
         const nextIndex = (currentIndex + 1) % themes.length;
         const nextTheme = themes[nextIndex];
-        
+
         if (nextTheme === 'original') {
             document.body.removeAttribute('data-theme');
         } else {
             document.body.setAttribute('data-theme', nextTheme);
         }
-        
+
         // Salva preferência
         localStorage.setItem('theme', nextTheme);
-        
+
         // Atualiza texto do botão
         const btn = document.getElementById('theme-btn');
         if (btn) {
@@ -80,7 +80,7 @@ class UIController {
         if (validTheme !== 'original') {
             document.body.setAttribute('data-theme', validTheme);
         }
-        
+
         // Atualiza botão
         const btn = document.getElementById('theme-btn');
         if (btn) {
@@ -105,16 +105,16 @@ class UIController {
         const currentIndex = fonts.indexOf(currentFont);
         const nextIndex = (currentIndex + 1) % fonts.length;
         const nextFont = fonts[nextIndex];
-        
+
         if (nextFont === 'serif') {
             document.body.removeAttribute('data-font');
         } else {
             document.body.setAttribute('data-font', nextFont);
         }
-        
+
         // Salva preferência
         localStorage.setItem('font', nextFont);
-        
+
         // Atualiza botão
         this.updateFontButton(nextFont);
     }

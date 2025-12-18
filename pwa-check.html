@@ -15,14 +15,14 @@ fetch('./manifest.json')
     log += '✓ Manifest carregado\n';
     log += `  Nome: ${m.name}\n`;
     log += `  Ícones: ${m.icons.length}\n`;
-    return Promise.all(m.icons.map(i => 
+    return Promise.all(m.icons.map(i =>
       fetch(i.src).then(r => ({src: i.src, ok: r.ok}))
     ));
   })
   .then(icons => {
     log += '\nÍcones:\n';
     icons.forEach(i => log += `  ${i.ok ? '✓' : '✗'} ${i.src}\n`);
-    
+
     // Verificar service worker
     if ('serviceWorker' in navigator) {
       log += '\n✓ Service Worker suportado\n';
@@ -35,12 +35,12 @@ fetch('./manifest.json')
   .then(regs => {
     log += `Service Workers registrados: ${regs.length}\n`;
     regs.forEach(r => log += `  - ${r.scope}\n`);
-    
+
     // Verificar critérios de instalação
     log += '\nCritérios de instalação:\n';
     log += `  ${window.matchMedia('(display-mode: standalone)').matches ? '✓' : '○'} Display standalone\n`;
     log += `  ${window.isSecureContext ? '✓' : '✗'} Contexto seguro (HTTPS/localhost)\n`;
-    
+
     output.textContent = log;
   })
   .catch(err => {

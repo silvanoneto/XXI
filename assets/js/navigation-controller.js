@@ -8,7 +8,7 @@ class NavigationController {
         this.prevButton = document.querySelector('.nav-arrow.prev');
         this.nextButton = document.querySelector('.nav-arrow.next');
         this.progressBar = document.querySelector(Config.selectors.progressBar);
-        
+
         this.bindKeyboardEvents();
     }
 
@@ -54,11 +54,11 @@ class NavigationController {
 
     updateProgress() {
         if (!this.progressBar || !this.state.hasChapters()) return;
-        
-        const progress = this.state.isHome() 
-            ? 0 
+
+        const progress = this.state.isHome()
+            ? 0
             : ((this.state.currentChapter + 1) / this.state.chapters.length) * 100;
-        
+
         this.progressBar.style.width = `${progress}%`;
     }
 }

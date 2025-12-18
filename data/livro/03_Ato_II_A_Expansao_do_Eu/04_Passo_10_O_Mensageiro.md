@@ -44,8 +44,8 @@ Você tem algo a dizer. Pensamentos, sentimentos, necessidades, verdades. Você 
 
 Mas há também o outro lado: o outro também tem algo a dizer. E você percebe, com humildade perturbadora, que talvez você não esteja realmente *escutando*. Talvez você esteja apenas esperando sua vez de falar. Talvez esteja interpretando através de seus filtros, projetando seus sentidos nas palavras do outro. **Compreensão** também é vital.
 
-*Expressar ou compreender?*  
-*Fazer-se ouvir ou ouvir o outro?*  
+*Expressar ou compreender?*
+*Fazer-se ouvir ou ouvir o outro?*
 *Sua verdade ou a verdade do outro?*
 
 Esta é a aporia do Mensageiro. E o Paêbirú se manifesta aqui como algo radical: **comunicação não é monólogo alternado — é dança dialógica onde expressão e compreensão se entrelaçam**.

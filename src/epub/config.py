@@ -31,7 +31,8 @@ class Config:
         base_dir = yaml_path.parent
 
         estrutura_livro = [
-            (item["pasta"], item["arquivos"]) for item in data.get("estrutura_livro", [])
+            (item["pasta"], item["arquivos"])
+            for item in data.get("estrutura_livro", [])
         ]
         estrutura_artigos = [
             (item["pasta"], item["arquivos"])

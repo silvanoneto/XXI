@@ -44,8 +44,8 @@ Você não sobrevive sozinho. Você depende de fazendeiros invisíveis para comi
 
 Mas há também terror da interdependência: se você é rede, onde está *você*? Se você se conecta profundamente, não corre risco de se perder? De fundir-se no outro? De ter autonomia engolida pelas demandas infinitas do mundo?
 
-*Autonomia ou interdependência?*  
-*Ser ilha ou ser nó numa rede?*  
+*Autonomia ou interdependência?*
+*Ser ilha ou ser nó numa rede?*
 *Manter-se separado ou arriscar-se a se fundir?*
 
 Esta é a aporia do Tecelão. E o Paêbirú revela: **autonomia e interdependência não são opostos — são fases da mesma respiração relacional**.
@@ -82,14 +82,14 @@ Ambos traíram o Paêbirú. O Fundido porque perdeu singularidade. O Isolado por
 
 **O Portal**
 
-Mapeie sua rede:  
+Mapeie sua rede:
 
-- Liste pessoas importantes na sua vida  
-- Quais conexões te nutrem genuinamente?  
-- Quais te drenam?  
-- Quais são tóxicas?  
-- Onde você está fundido (sem limites)?  
-- Onde você está isolado (sem abertura)?  
+- Liste pessoas importantes na sua vida
+- Quais conexões te nutrem genuinamente?
+- Quais te drenam?
+- Quais são tóxicas?
+- Onde você está fundido (sem limites)?
+- Onde você está isolado (sem abertura)?
 
 Escolha *uma* ação concreta para tecer mais conscientemente.
 

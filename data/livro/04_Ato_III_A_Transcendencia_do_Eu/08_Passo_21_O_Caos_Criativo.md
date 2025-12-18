@@ -52,8 +52,8 @@ Mas você também percebe verdade final e perturbadora: *a vida não segue seus 
 
 Você pode *dançar* com isso.
 
-*Ordem ou caos?*  
-*Controle ou improvisação?*  
+*Ordem ou caos?*
+*Controle ou improvisação?*
 *Plano fixo ou flow perpétuo?*
 
 Esta é a aporia final. Não há mais aporias depois desta. E o Paêbirú revela sua face mais radical: **você não escolhe entre ordem e caos — você dança a fronteira entre ambos. Você não resolve a tensão — você a habita como dança perpétua**.
@@ -102,29 +102,29 @@ A jornada em espiral te trouxe de volta ao início, mas em nível radicalmente d
 
 Você está na Câmara do Caos. E ao dançar, você percebe: *você sempre esteve dançando*. Os vinte passos anteriores foram apenas reconhecimento progressivo de que você é dança, não dançarino. Que você é caminho, não caminhante. Que você é o próprio Paêbirú.
 
-O mapa se dissolve em suas mãos.  
-O guia se despede com sorriso.  
-A jornada não terminou.  
+O mapa se dissolve em suas mãos.
+O guia se despede com sorriso.
+A jornada não terminou.
 Ela apenas começou de verdade.
 
-Porque agora você não caminha mais *para* algum lugar.  
-Você caminha porque caminhar é sua natureza.  
+Porque agora você não caminha mais *para* algum lugar.
+Você caminha porque caminhar é sua natureza.
 Você dança porque dançar é o que o Paêbirú faz.
 
-E os 21 arquétipos?  
-Eles não são etapas que você deixou para trás.  
+E os 21 arquétipos?
+Eles não são etapas que você deixou para trás.
 Eles são faces do Paêbirú que você pode habitar conforme a dança pede.
 
-Às vezes você é Guerreiro.  
-Às vezes você é Eremita.  
-Às vezes você é Vulnerável, Jardineiro, Artista, Alquimista, Amante.  
-Às vezes você é Tecelão, Cuidador, Mensageiro, Juiz, Observador, Guardião, Conector.  
+Às vezes você é Guerreiro.
+Às vezes você é Eremita.
+Às vezes você é Vulnerável, Jardineiro, Artista, Alquimista, Amante.
+Às vezes você é Tecelão, Cuidador, Mensageiro, Juiz, Observador, Guardião, Conector.
 Às vezes você é Integrado, Nômade, Ancestral, Desperto, Místico, Brincante, Caos Criativo.
 
 E sempre, *sempre*, você é o 22º — o Paêbirú que flui através de todos sem se fixar em nenhum.
 
-A dança continua.  
-Você é a dança.  
+A dança continua.
+Você é a dança.
 Sempre foi.
 **A Dimensão do 22º**
 

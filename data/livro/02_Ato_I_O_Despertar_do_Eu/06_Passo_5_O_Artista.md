@@ -46,8 +46,8 @@ Há poder nisso — poder de dar sentido através da forma, de transformar dor e
 
 Mas há também reconhecimento perturbador: o mundo já é belo. Talvez você não precise criar nada. Talvez suprema arte seja simplesmente *contemplar* — deixar as coisas serem como são, perceber a beleza que já existe, não interferir com a perfeição natural.
 
-*Criar ou contemplar?*  
-*Dar forma ou deixar sem forma?*  
+*Criar ou contemplar?*
+*Dar forma ou deixar sem forma?*
 *Ser artista da vida ou ser testemunha da vida como arte?*
 
 Esta é a aporia do Artista. E o Paêbirú se manifesta aqui como tensão entre *formar* e *deixar ser* — ambos são modos de relação estética com existência.

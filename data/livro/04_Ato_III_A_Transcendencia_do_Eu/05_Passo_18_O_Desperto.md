@@ -56,8 +56,8 @@ Há duas reações possíveis ao abismo:
 
 **Niilismo destrutivo**: você encara o vazio e colapsa. "Se nada importa objetivamente, então nada importa subjetivamente. Por que fazer qualquer coisa? Por que não destruir tudo?" Você desiste, se retira, ou pior — você destrói, já que destruição e criação são igualmente sem sentido cósmico.
 
-*Sentido ou absurdo?*  
-*A vida tem propósito intrínseco ou você o cria?*  
+*Sentido ou absurdo?*
+*A vida tem propósito intrínseco ou você o cria?*
 *Encontrar significado "lá fora" ou reconhecer que nunca houve nada lá fora?*
 
 Esta é a aporia do Desperto. E o Paêbirú revela verdade vertiginosa: **o sentido não está aí fora esperando ser encontrado. Ele é criado ativamente no ato de viver. Você é playground onde sentido emerge**.

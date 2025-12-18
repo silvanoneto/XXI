@@ -10,14 +10,14 @@
       <stop offset="100%" stop-color="#d4af37"/>
     </linearGradient>
   </defs>
-  
+
   <rect width="560" height="400" fill="url(#luz_contra)"/>
-  
+
   <!-- Sequência diagonal em estilo geométrico simples -->
-  <g font-family="'Futura', 'Century Gothic', 'Avenir', 'Helvetica Neue', sans-serif" 
-     font-size="32" 
+  <g font-family="'Futura', 'Century Gothic', 'Avenir', 'Helvetica Neue', sans-serif"
+     font-size="32"
      font-weight="300"
-     fill="url(#ouro_contra)" 
+     fill="url(#ouro_contra)"
      opacity="0.15"
      letter-spacing="3"
      transform="rotate(-15 280 200)">
@@ -32,7 +32,7 @@
     <text x="440" y="210" text-anchor="middle" font-style="italic">∞</text>
     <text x="490" y="210" text-anchor="middle" font-style="italic">ø</text>
   </g>
-  
+
   <!-- Linha decorativa diagonal sutil -->
   <line x1="20" y1="200" x2="540" y2="200" stroke="#d4af37" stroke-width="0.3" opacity="0.08" transform="rotate(-15 280 200)"/>
 </svg>

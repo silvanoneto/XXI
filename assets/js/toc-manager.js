@@ -9,7 +9,7 @@ class TOCManager {
 
     build(chapters, onChapterSelect) {
         this.tocElement.innerHTML = "";
-        
+
         chapters.forEach((chapter, index) => {
             const li = this.createTOCItem(chapter, index, onChapterSelect);
             this.tocElement.appendChild(li);
@@ -19,14 +19,14 @@ class TOCManager {
     createTOCItem(chapter, index, onSelect) {
         const li = document.createElement("li");
         const a = document.createElement("a");
-        
+
         a.href = "#";
         a.textContent = chapter.title;
         a.addEventListener('click', (e) => {
             e.preventDefault();
             onSelect(index);
         });
-        
+
         li.appendChild(a);
         return li;
     }

@@ -22,20 +22,20 @@ class EPUBLoader {
     async extractImages(zip, opfDir) {
         const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
         const files = zip.file(/\.(png|jpg|jpeg|gif|svg|webp)$/i);
-        
+
         for (const file of files) {
             try {
                 const arrayBuffer = await file.async('arraybuffer');
                 const mimeType = this.getMimeType(file.name);
                 const blob = new Blob([arrayBuffer], { type: mimeType });
                 const blobUrl = URL.createObjectURL(blob);
-                
+
                 // Guardar com caminho relativo ao diretório do OPF
-                const relativePath = file.name.startsWith(opfDir) 
+                const relativePath = file.name.startsWith(opfDir)
                     ? file.name.substring(opfDir.length)
                     : file.name;
                 this.imageCache[relativePath] = blobUrl;
-                
+
                 // Também guardar com o caminho completo
                 this.imageCache[file.name] = blobUrl;
             } catch (err) {
@@ -110,14 +110,14 @@ class EPUBLoader {
     async extractChapter(zip, filePath) {
         const file = zip.file(filePath);
         if (!file) return null;
-        
+
         const content = await file.async("text");
         const doc = this.parser.parseFromString(content, "text/html");
-        
+
         // Obter o HTML do body e substituir caminhos de imagens
         let bodyContent = doc.querySelector("body")?.innerHTML || content;
         bodyContent = this.replaceImagePaths(bodyContent);
-        
+
         return {
             title: doc.querySelector("title")?.textContent || 'Sem título',
             content: bodyContent

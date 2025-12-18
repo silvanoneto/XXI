@@ -14,12 +14,12 @@
   </defs>
 
   <rect width="800" height="300" fill="url(#luzconcl)"/>
-  
+
   <!-- Círculos irradiando do centro -->
   <circle cx="400" cy="150" r="120" fill="none" stroke="url(#ouroconcl)" stroke-width="0.5" opacity="0.3"/>
   <circle cx="400" cy="150" r="90" fill="none" stroke="url(#ouroconcl)" stroke-width="0.8" opacity="0.4"/>
   <circle cx="400" cy="150" r="60" fill="none" stroke="url(#ouroconcl)" stroke-width="1.2" opacity="0.5"/>
-  
+
   <!-- 21 pontos ao redor (3 círculos de 7) -->
   <g fill="#d4af37" opacity="0.5">
     <!-- Círculo externo -->
@@ -51,12 +51,12 @@
     <circle cx="354" cy="191" r="3"/>
     <circle cx="340" cy="150" r="3"/>
   </g>
-  
+
   <!-- O 22º - centro máximo luminoso -->
   <circle cx="400" cy="150" r="40" fill="#fff9e6" opacity="0.5"/>
   <circle cx="400" cy="150" r="25" fill="#fffef5" opacity="0.7"/>
   <circle cx="400" cy="150" r="12" fill="#ffffff" opacity="0.9"/>
-  
+
   <!-- Raios de luz -->
   <g stroke="#d4af37" stroke-width="2" opacity="0.2">
     <line x1="400" y1="150" x2="400" y2="30"/>

@@ -94,5 +94,5 @@ A relacionalidade não é derivativa — ela é constitutiva.
 
 ---
 
-**© 2025 — Paêbirú XXI: Um Homo Sapiens Para Um Novo Século**  
+**© 2025 — Paêbirú XXI: Um Homo Sapiens Para Um Novo Século**
 *Para um mundo onde a sombra não encontra terreno*

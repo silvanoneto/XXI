@@ -2,7 +2,7 @@
 
 ## Estado Atual do Projeto
 
-**Fase**: Desenvolvimento / Refinamento  
+**Fase**: Desenvolvimento / Refinamento
 **Última atualização**: Dezembro 2025
 
 ## Tarefas de Integração

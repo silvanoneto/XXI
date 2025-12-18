@@ -42,8 +42,8 @@ Há coisas que são erradas. Injustiças que não podem ser toleradas. Comportam
 
 Mas há também contexto, história, trauma, circunstância atenuante. Há razões pelas quais pessoas fazem o que fazem. Há dor por trás de violência, medo por trás de raiva, desespero por trás de escolhas destrutivas. **Compreensão** também é necessária. **Misericórdia** também é necessária. O coração também é necessário.
 
-*Justiça ou misericórdia?*  
-*Lei ou exceção?*  
+*Justiça ou misericórdia?*
+*Lei ou exceção?*
 *Manter padrões ou oferecer compaixão?*
 
 Esta é a aporia do Juiz. E o Paêbirú se manifesta aqui como tensão irredutível: **justiça sem compaixão é crueldade; compaixão sem justiça é cumplicidade**.
@@ -84,10 +84,10 @@ Ambos traíram o Paêbirú. O Justiceiro porque cristalizou. O Permissivo porque
 
 Pense em situação onde você precisa julgar — alguém te magoou, alguém errou, uma transgressão ocorreu.
 
-Primeiro, honre a balança:  
+Primeiro, honre a balança:
 *"O que foi violado aqui? Que dano foi causado? Que limite foi cruzado?"*
 
-Depois, honre o coração:  
+Depois, honre o coração:
 *"Que dor, medo ou desespero motivou essa ação? Que contexto eu preciso compreender?"*
 
 Agora, o difícil: mantenha ambos. Você pode reconhecer o dano *e* a humanidade de quem causou o dano? Você pode manter limites *e* oferecer compaixão?

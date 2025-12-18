@@ -54,8 +54,8 @@ Há duas reações possíveis à finitude:
 
 **Niilismo temporal**: você desiste. "Tudo é efêmero, então nada importa. Por que me esforçar? Por que criar? Por que plantar árvore que nunca verei dar frutos?" Você vive apenas para agora, mas um agora vazio, sem sentido de continuidade, sem responsabilidade com futuro.
 
-*Finitude ou legado?*  
-*Viver intensamente o presente ou construir para o futuro?*  
+*Finitude ou legado?*
+*Viver intensamente o presente ou construir para o futuro?*
 *Aceitar efemeridade ou buscar permanência?*
 
 Esta é a aporia do Ancestral. E o Paêbirú revela: **você é elo, não origem nem fim. Você recebe, transforma, transmite. Você é ponte viva entre passado e futuro**.

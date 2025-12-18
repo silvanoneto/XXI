@@ -5,7 +5,7 @@
     --gold-light: #f4e4ba;
     --text: #e8e8e8;
     --text-muted: #888;
-    
+
     /* Tamanhos base responsivos */
     --font-base: clamp(16px, 1.2vw, 24px);
     --spacing-unit: clamp(0.25rem, 0.5vw, 1.0rem);
@@ -550,65 +550,65 @@ footer a:hover {
     header {
         padding: 0.75rem;
     }
-    
+
     .logo h1 {
         font-size: 1rem;
     }
-    
+
     .logo span {
         display: none;
     }
-    
+
     .controls button:not(.menu-toggle) {
         padding: 0.4rem 0.6rem;
         font-size: 0.8rem;
     }
-    
+
     .nav-arrow {
         width: 20px;
         height: 50px;
     }
-    
+
     footer {
         flex-direction: column;
         text-align: center;
         gap: 0.5rem;
     }
-    
+
     /* Home screen ajustes para mobile */
     .home-screen {
         padding: 1rem 0.75rem;
     }
-    
+
     .home-symbol {
         width: min(120px, 80vw);
         height: min(120px, 80vw);
         margin-bottom: 1rem;
     }
-    
+
     .home-title {
         font-size: 1.5rem;
         letter-spacing: 1px;
     }
-    
+
     .home-subtitle {
         font-size: 0.85rem;
         margin-bottom: 1rem;
     }
-    
+
     .home-epigraph {
         font-size: 0.85rem;
         margin-bottom: 1.5rem;
         padding: 0 0.5rem;
     }
-    
+
     .home-start-btn {
         padding: 0.7rem 1.5rem;
         font-size: 0.85rem;
         width: 90%;
         max-width: 280px;
     }
-    
+
     .home-footnote {
         font-size: 0.75rem;
         margin-top: 1.5rem;
@@ -631,7 +631,7 @@ footer a:hover {
     .sidebar.visible {
         transform: translateX(0);
     }
-    
+
     /* Overlay when sidebar is open */
     .sidebar.visible::before {
         content: '';
@@ -643,23 +643,23 @@ footer a:hover {
         background: rgba(0, 0, 0, 0.5);
         z-index: -1;
     }
-    
+
     /* Reader container sem margin em telas menores */
     .reader-container {
         margin-left: 0;
     }
-    
+
     /* Botão de voltar na borda esquerda em mobile */
     .nav-arrow.prev {
         left: 0;
     }
-    
+
     /* Home screen ajustes para tablets */
     .home-symbol {
         width: min(180px, 40vw);
         height: min(180px, 40vw);
     }
-    
+
     .home-start-btn {
         width: auto;
         max-width: 320px;
@@ -687,7 +687,7 @@ footer a:hover {
         --content-max-width: min(1000px, 60vw);
         --sidebar-width: clamp(280px, 18vw, 380px);
     }
-    
+
     .nav-arrow {
         width: 36px;
         height: 90px;
@@ -702,13 +702,13 @@ footer a:hover {
         --sidebar-width: clamp(320px, 15vw, 450px);
         --spacing-unit: clamp(1rem, 0.8vw, 2rem);
     }
-    
+
     .nav-arrow {
         width: 44px;
         height: 100px;
         font-size: 2rem;
     }
-    
+
     .progress-container {
         height: 5px;
     }
@@ -722,22 +722,22 @@ footer a:hover {
         --sidebar-width: clamp(400px, 12vw, 600px);
         --spacing-unit: clamp(1.5rem, 0.6vw, 3rem);
     }
-    
+
     .logo-symbol {
         border-width: 2px;
     }
-    
+
     .nav-arrow {
         width: 56px;
         height: 130px;
         font-size: 2.5rem;
         border-width: 2px;
     }
-    
+
     .progress-container {
         height: 6px;
     }
-    
+
     .controls button,
     .menu-toggle {
         border-width: 2px;
@@ -750,12 +750,12 @@ footer a:hover {
         min-height: 44px;
         min-width: 44px;
     }
-    
+
     .nav-arrow {
         min-width: 44px;
         min-height: 80px;
     }
-    
+
     .toc a {
         min-height: 48px;
         display: flex;
@@ -768,12 +768,12 @@ footer a:hover {
     header {
         padding: 0.5rem 1rem;
     }
-    
+
     .logo-symbol {
         width: 32px;
         height: 32px;
     }
-    
+
     footer {
         padding: 0.4rem 1rem;
     }
@@ -788,17 +788,17 @@ footer a:hover {
     footer a[download] {
         display: none !important;
     }
-    
+
     body {
         background: white;
         color: black;
     }
-    
+
     header {
         background: none;
         border-bottom: 1px solid #ccc;
     }
-    
+
     .logo h1,
     .logo-symbol {
         color: black;
@@ -824,7 +824,7 @@ footer a:hover {
         --text: #ffffff;
         --bg-dark: #000000;
     }
-    
+
     .nav-arrow,
     .controls button {
         border-width: 2px;

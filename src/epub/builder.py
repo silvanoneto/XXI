@@ -2,7 +2,7 @@
 
 import logging
 from datetime import datetime
-from typing import List, Tuple
+from typing import List, Optional, Tuple
 
 from ebooklib import epub
 
@@ -77,34 +77,33 @@ class EpubBuilder:
 
         self._book.set_cover("capa.png", capa_bytes, create_page=True)
         logger.info("  ✓ Capa adicionada ao EPUB")
-        
+
     def _add_chapter_images(self) -> None:
         """Adiciona imagens dos capítulos ao EPUB."""
-        from pathlib import Path
         images_dir = self.config.base_dir / "assets" / "images"
-        
+
         image_files = {
-            'introducao.png': 'introducao',
-            'ato_1.png': 'ato1',
-            'ato_2.png': 'ato2',
-            'ato_3.png': 'ato3',
-            'conclusao.png': 'conclusao',
+            "introducao.png": "introducao",
+            "ato_1.png": "ato1",
+            "ato_2.png": "ato2",
+            "ato_3.png": "ato3",
+            "conclusao.png": "conclusao",
         }
-        
+
         for filename, uid in image_files.items():
             img_path = images_dir / filename
             if img_path.exists():
-                with open(img_path, 'rb') as f:
+                with open(img_path, "rb") as f:
                     img_content = f.read()
-                
+
                 img_item = epub.EpubItem(
                     uid=uid,
                     file_name=f"images/{filename}",
                     media_type="image/png",
-                    content=img_content
+                    content=img_content,
                 )
                 self._book.add_item(img_item)
-        
+
         logger.info("  ✓ Imagens dos capítulos adicionadas ao EPUB")
 
     def _add_contracapa(self) -> None:
@@ -118,21 +117,19 @@ class EpubBuilder:
             uid="contracapa",
             file_name="contracapa.png",
             media_type="image/png",
-            content=contracapa_bytes
+            content=contracapa_bytes,
         )
         self._book.add_item(contracapa_img)
-        
+
         # Cria página HTML para a contracapa usando template
         html_content = self.template_engine.render(
             self.HTML_TEMPLATE,
             TITULO="",
             CONTEUDO='<div style="text-align:center;"><img src="contracapa.png" alt="Contracapa" style="width:100%; max-width:800px; height:auto;"/></div>',
         )
-        
+
         contracapa_page = epub.EpubHtml(
-            title="Contracapa",
-            file_name="contracapa.xhtml",
-            lang=self.config.lingua
+            title="Contracapa", file_name="contracapa.xhtml", lang=self.config.lingua
         )
         contracapa_page.content = html_content
         self._book.add_item(contracapa_page)
@@ -150,7 +147,7 @@ class EpubBuilder:
         self._book.add_metadata("DC", "date", datetime.now().strftime("%Y-%m-%d"))
 
     def _process_structure(
-        self, estrutura: List[Tuple[str, List[str]]], secao_nome: str = None
+        self, estrutura: List[Tuple[str, List[str]]], secao_nome: Optional[str] = None
     ) -> List[epub.EpubHtml]:
         """
         Processa uma estrutura de conteúdo.

@@ -7,7 +7,7 @@ class PaebiruApp {
     constructor() {
         // Inicializar gerenciador de estado
         this.state = new StateManager();
-        
+
         // Inicializar módulos com suas dependências
         this.epubLoader = new EPUBLoader(Config.epub.path);
         this.chapterRenderer = new ChapterRenderer(Config.selectors.reader, Config.colors);
@@ -15,10 +15,10 @@ class PaebiruApp {
         this.tocManager = new TOCManager(Config.selectors.toc);
         this.navigation = new NavigationController(this.state);
         this.ui = new UIController(this.state);
-        
+
         // Inscrever para mudanças de estado
         this.state.subscribe(this.handleStateChange.bind(this));
-        
+
         // Expor métodos globais para onclick do HTML
         this.exposeGlobalMethods();
     }
@@ -28,11 +28,11 @@ class PaebiruApp {
             // Carregar tema e fonte salvos
             this.ui.loadTheme();
             this.ui.loadFont();
-            
+
             const chapters = await this.loadEPUB();
             this.state.setChapters(chapters);
             this.tocManager.build(chapters, this.handleChapterSelect.bind(this));
-            
+
             // Restaurar checkpoint de leitura
             const savedChapter = this.state.loadCheckpoint();
             if (savedChapter !== null && savedChapter >= 0 && savedChapter < chapters.length) {
@@ -51,20 +51,20 @@ class PaebiruApp {
         const opfPath = await this.epubLoader.getOpfPath(zip);
         const opfDir = opfPath.substring(0, opfPath.lastIndexOf("/") + 1);
         const opfDoc = await this.epubLoader.parseOpf(zip, opfPath);
-        
+
         // Extrair imagens primeiro para criar cache de blob URLs
         await this.epubLoader.extractImages(zip, opfDir);
-        
+
         const manifestMap = this.epubLoader.buildManifestMap(opfDoc);
         const spineItems = this.epubLoader.getSpineItems(opfDoc);
-        
+
         const chapters = [];
-        
+
         for (const itemref of spineItems) {
             const id = itemref.getAttribute("idref");
             const href = manifestMap[id];
-            
-            if (href && href.endsWith(".xhtml") && 
+
+            if (href && href.endsWith(".xhtml") &&
                 !this.epubLoader.shouldSkipFile(href, Config.epub.skipFiles)) {
                 const chapter = await this.epubLoader.extractChapter(zip, opfDir + href);
                 if (chapter) {
@@ -72,7 +72,7 @@ class PaebiruApp {
                 }
             }
         }
-        
+
         return chapters;
     }
 

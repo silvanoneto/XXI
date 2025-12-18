@@ -44,8 +44,8 @@ Você construiu identidade forte no Ato I. Forjou soberania, encontrou voz, habi
 
 Mas você também sente profunda fome de **pertencimento**. De fazer parte de algo maior que você. De não estar sozinho. De comunidade, tribo, "nós". De causas coletivas, movimentos compartilhados, identidade grupal. De não ser apenas "eu", mas "nós".
 
-*Individual ou coletivo?*  
-*Manter singularidade ou pertencer a algo maior?*  
+*Individual ou coletivo?*
+*Manter singularidade ou pertencer a algo maior?*
 *Ser "eu" ou ser "nós"?*
 
 Esta é a aporia do Conector. E o Paêbirú se revela: **pertencimento verdadeiro não exige que você desapareça — exige que você apareça plenamente**.
@@ -98,27 +98,27 @@ Com pertencimento diferenciado alcançado, você se levanta do Círculo. Você n
 
 O Ato II se completa. O Paêbirú manifestou-se em sete novas faces:
 
-Como **tessitura** (Tecelão)  
-Como **cuidado equilibrado** (Cuidador)  
-Como **comunicação** (Mensageiro)  
-Como **ética viva** (Juiz)  
-Como **presença testemunha** (Observador)  
-Como **gestão do fluxo** (Guardião)  
-Como **pertencimento diferenciado** (Conector)  
+Como **tessitura** (Tecelão)
+Como **cuidado equilibrado** (Cuidador)
+Como **comunicação** (Mensageiro)
+Como **ética viva** (Juiz)
+Como **presença testemunha** (Observador)
+Como **gestão do fluxo** (Guardião)
+Como **pertencimento diferenciado** (Conector)
 
 Você expandiu do "eu" para o "nós", da soberania interior para a vida em comum. Você se tornou parte do mundo sem se perder nele. Você teceu-se na rede mantendo sua singularidade como nó.
 
 Mas agora, algo mais profundo te chama. Algo que transcende tanto o "eu" soberano quanto o "nós" tecido. Algo que aponta para mistério último:
 
-*Quem é você quando não é nem "eu" nem "nós"?*  
-*O que permanece quando todas as identidades se dissolvem?*  
+*Quem é você quando não é nem "eu" nem "nós"?*
+*O que permanece quando todas as identidades se dissolvem?*
 *O que está além de todas as faces que você habitou?*
 
 O Paêbirú está prestes a se revelar em sua dimensão mais radical.
 
-O Ato III te espera.  
-A dança na fronteira entre ser e nada.  
-Sete faces finais.  
+O Ato III te espera.
+A dança na fronteira entre ser e nada.
+Sete faces finais.
 E depois... o reconhecimento.
 
 #### A Dimensão do 22º

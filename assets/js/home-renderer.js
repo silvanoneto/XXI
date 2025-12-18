@@ -41,12 +41,12 @@ class HomeRenderer {
                         <stop offset="100%" stop-color="${this.colors.gold}"/>
                     </linearGradient>
                 </defs>
-                
+
                 <!-- Três círculos (3 Atos) -->
                 <circle cx="100" cy="100" r="90" fill="none" stroke="url(#homeGold)" stroke-width="0.5" opacity="0.4"/>
                 <circle cx="100" cy="100" r="65" fill="none" stroke="url(#homeGold)" stroke-width="0.5" opacity="0.6"/>
                 <circle cx="100" cy="100" r="40" fill="none" stroke="url(#homeGold)" stroke-width="0.5" opacity="0.8"/>
-                
+
                 <!-- 21 pontos: 7 em cada círculo -->
                 <g fill="${this.colors.gold}" opacity="0.9">
                     <circle cx="100" cy="60" r="3"/><circle cx="134" cy="76" r="3"/>
@@ -66,11 +66,11 @@ class HomeRenderer {
                     <circle cx="45" cy="180" r="3"/><circle cx="10" cy="115" r="3"/>
                     <circle cx="25" cy="40" r="3"/>
                 </g>
-                
+
                 <!-- O 22º - centro luminoso -->
                 <circle cx="100" cy="100" r="15" fill="url(#homeGlow)" opacity="0.5"/>
                 <circle cx="100" cy="100" r="6" fill="#fffef5" opacity="0.8"/>
-                
+
                 <!-- Linhas conectando ao centro -->
                 <g stroke="${this.colors.gold}" stroke-width="0.3" opacity="0.15">
                     <line x1="100" y1="100" x2="100" y2="10"/>

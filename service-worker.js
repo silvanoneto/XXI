@@ -14,8 +14,8 @@ const urlsToCache = [
   './assets/js/ui-controller.js',
   './assets/Paebiru_XXI.epub',
   './manifest.json',
-  './assets/icon-192.png',
-  './assets/icon-512.png'
+  './assets/images/icon-192.png',
+  './assets/images/icon-512.png'
 ];
 
 // Instala o service worker e faz cache dos recursos
@@ -51,24 +51,24 @@ self.addEventListener('fetch', event => {
         if (response) {
           return response;
         }
-        
+
         // Clone o request
         const fetchRequest = event.request.clone();
-        
+
         return fetch(fetchRequest).then(response => {
           // Verifica se é uma resposta válida
           if (!response || response.status !== 200 || response.type !== 'basic') {
             return response;
           }
-          
+
           // Clone a resposta
           const responseToCache = response.clone();
-          
+
           caches.open(CACHE_NAME)
             .then(cache => {
               cache.put(event.request, responseToCache);
             });
-          
+
           return response;
         });
       })

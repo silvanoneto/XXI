@@ -42,8 +42,8 @@ Você forjou força (Guerreiro). Você encontrou voz (Eremita). Mas há preço: 
 
 Mas agora essas mesmas armaduras te sufocam. Você está tão protegido que ninguém pode te tocar — nem para te ferir, nem para te amar. Tão forte que ninguém te vê. Tão blindado que você mesmo esqueceu como é sentir sem filtros.
 
-*Força ou fragilidade?*  
-*Armadura ou exposição?*  
+*Força ou fragilidade?*
+*Armadura ou exposição?*
 *Proteger-se do mundo ou arriscar-se a ser visto em imperfeição?*
 
 Esta é a aporia do Vulnerável. E não há resposta simples — apenas a dança entre mostrar-se e guardar-se, entre abertura e proteção. O Paêbirú, tendo se manifestado como poder, agora se manifesta como *fragilidade consciente*.

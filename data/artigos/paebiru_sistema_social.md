@@ -103,7 +103,7 @@ Observemos a estrutura:
 - **Ato II (Expansão do Eu)**: Tessitura relacional — a capacidade de tecer, cuidar, comunicar, equilibrar, observar, guardar, conectar com outros.
 - **Ato III (Transcendência do Eu)**: Fronteira entre ser e nada — a capacidade de integrar multiplicidade, libertar-se, honrar ancestralidade, criar sentido, transcender, brincar, dançar com o caos.
 
-O movimento não é linear (primeiro eu, depois relação, depois transcendência). É *simultâneo e recursivo*. A soberania individual só é possível através da relação; a relação só é possível através da transcendência; a transcendência só é possível através da soberania. 
+O movimento não é linear (primeiro eu, depois relação, depois transcendência). É *simultâneo e recursivo*. A soberania individual só é possível através da relação; a relação só é possível através da transcendência; a transcendência só é possível através da soberania.
 
 ### 3.2 O 22º como Espaço Comum
 
@@ -281,16 +281,16 @@ A ditadura da autenticidade não é regime imposto. É reconhecimento: você sem
 
 E quando número suficiente de seres reconhece isso, a sombra perde seu poder. Não porque foi derrotada, mas porque seu terreno simplesmente... desaparece.
 
-A luz não combate a escuridão.  
+A luz não combate a escuridão.
 Ela a torna impossível.
 
 ---
 
-*O mapa continua.*  
-*A jornada é eterna.*  
+*O mapa continua.*
+*A jornada é eterna.*
 *Você é o Paêbirú.*
 
 ---
 
-**© 2025 — Extensão do Paêbirú XXI: Um Homo Sapiens Para Um Novo Século**  
+**© 2025 — Extensão do Paêbirú XXI: Um Homo Sapiens Para Um Novo Século**
 *Para um mundo onde a sombra não encontra terreno*

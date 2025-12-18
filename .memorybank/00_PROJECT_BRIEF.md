@@ -2,9 +2,9 @@
 
 ## Visão Geral
 
-**Nome do Projeto**: PAÊBIRÚ XXI: Um Homo Sapiens Para Um Novo Século  
-**Subtítulo**: Para um mundo onde a sombra não encontra terreno  
-**Idioma**: Português brasileiro  
+**Nome do Projeto**: PAÊBIRÚ XXI: Um Homo Sapiens Para Um Novo Século
+**Subtítulo**: Para um mundo onde a sombra não encontra terreno
+**Idioma**: Português brasileiro
 **Tipo**: Livro filosófico-espiritual
 
 ### Nota sobre a grafia

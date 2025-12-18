@@ -40,7 +40,7 @@ O Guerreiro não espera permissão para agir. A paralisia disfarçada de prudên
 
 Você está paralisado. Diante de você, um abismo de incerteza. De um lado, a necessidade urgente de *agir* — de dar um passo, de mudar o inaceitável, de mover-se. Do outro, a voz sedutora da análise infinita — que exige mais dados, mais planejamento, mais certeza antes do primeiro movimento.
 
-*Agir ou analisar?*  
+*Agir ou analisar?*
 *Mergulhar no desconhecido ou esperar por um mapa perfeito que nunca chega?*
 
 Esta é a primeira aporia — a tensão fundacional entre movimento e pausa, entre fazer e compreender. E ela não tem solução lógica. Há momentos em que ação prematura é desastre. Há momentos em que análise infinita é paralisia fatal.

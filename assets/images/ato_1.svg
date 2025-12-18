@@ -14,10 +14,10 @@
   </defs>
 
   <rect width="800" height="300" fill="url(#luzato1)"/>
-  
+
   <!-- Primeiro círculo com 7 pontos -->
   <circle cx="400" cy="150" r="80" fill="none" stroke="url(#ouroato1)" stroke-width="2" opacity="0.6"/>
-  
+
   <!-- 7 pontos distribuídos uniformemente -->
   <g fill="#d4af37" opacity="0.9">
     <circle cx="400.0" cy="70.0" r="5"/>
@@ -28,11 +28,11 @@
     <circle cx="322.0" cy="167.8" r="5"/>
     <circle cx="337.5" cy="100.1" r="5"/>
   </g>
-  
+
   <!-- Centro -->
   <circle cx="400" cy="150" r="20" fill="#fff9e6" opacity="0.3"/>
   <circle cx="400" cy="150" r="8" fill="#fffef5" opacity="0.6"/>
-  
+
   <!-- Linhas radiantes sutis -->
   <g stroke="#d4af37" stroke-width="0.5" opacity="0.2">
     <line x1="400" y1="150" x2="400.0" y2="70.0"/>

@@ -50,8 +50,8 @@ De um lado, há voz que diz: **"Conserve. Proteja. Guarde para momentos de escas
 
 Do outro, há voz que diz: **"Distribua. Dê. Compartilhe generosamente."** Há generosidade nisso. Há beleza em não acumular. Há liberdade em soltar. Há alegria em ver recurso fluir e nutrir mundo.
 
-*Conservar ou distribuir?*  
-*Guardar ou dar?*  
+*Conservar ou distribuir?*
+*Guardar ou dar?*
 *Gestão prudente ou generosidade radical?*
 
 Esta é a aporia do Guardião. E o Paêbirú se manifesta aqui como discernimento sobre **quando segurar e quando soltar** — economia sábia que não é nem avareza nem dissipação.
