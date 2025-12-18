@@ -47,15 +47,9 @@ class ChapterRenderer {
     styleParagraphs(content) {
         content.querySelectorAll("p").forEach((el, index) => {
             el.style.marginBottom = "1.2em";
-            el.style.textIndent = "1.5em";
-            // Primeiro parágrafo após título não tem indentação
-            const prev = el.previousElementSibling;
-            if (!prev || prev.tagName.match(/^H[1-6]$/) || prev.tagName === 'HR') {
-                el.style.textIndent = "0";
-            }
+            el.style.textIndent = "0";
             // Parágrafos que contêm apenas imagem não têm indentação
             if (el.querySelector('img') && el.childNodes.length === 1) {
-                el.style.textIndent = "0";
                 el.style.textAlign = "center";
             }
         });
