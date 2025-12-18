@@ -28,7 +28,7 @@ class EpubBuilder:
             config: Configurações do livro.
         """
         self.config = config
-        self.template_engine = TemplateEngine(config.base_dir / "livro")
+        self.template_engine = TemplateEngine(config.base_dir / "data" / "livro")
         self.cover_generator = CoverGenerator(config, self.template_engine)
         self.content_processor = ContentProcessor(config.base_dir)
 
