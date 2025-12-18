@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <radialGradient id="bg-icon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.95"/>
+      <stop offset="70%" stop-color="#141428" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0d0d1a" stop-opacity="0.2"/>
+    </radialGradient>
+    <linearGradient id="gold-icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f4e4ba"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+    <filter id="glass-blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+  
+  <!-- Fundo de vidro -->
+  <rect width="192" height="192" fill="url(#bg-icon)" rx="32"/>
+  
+  <!-- Três círculos concêntricos (3 Atos) -->
+  <circle cx="96" cy="96" r="70" fill="none" stroke="url(#gold-icon)" stroke-width="1" opacity="0.4"/>
+  <circle cx="96" cy="96" r="50" fill="none" stroke="url(#gold-icon)" stroke-width="1" opacity="0.6"/>
+  <circle cx="96" cy="96" r="30" fill="none" stroke="url(#gold-icon)" stroke-width="1" opacity="0.8"/>
+  
+  <!-- 21 pontos distribuídos uniformemente -->
+  <g fill="#d4af37" opacity="0.9">
+    <circle cx="96.0" cy="66.0" r="2"/>
+    <circle cx="119.5" cy="77.3" r="2"/>
+    <circle cx="125.2" cy="102.7" r="2"/>
+    <circle cx="109.0" cy="123.0" r="2"/>
+    <circle cx="83.0" cy="123.0" r="2"/>
+    <circle cx="66.8" cy="102.7" r="2"/>
+    <circle cx="72.5" cy="77.3" r="2"/>
+  </g>
+  <g fill="#d4af37" opacity="0.7">
+    <circle cx="96.0" cy="46.0" r="2"/>
+    <circle cx="135.1" cy="64.8" r="2"/>
+    <circle cx="144.7" cy="107.1" r="2"/>
+    <circle cx="117.7" cy="141.0" r="2"/>
+    <circle cx="74.3" cy="141.0" r="2"/>
+    <circle cx="47.3" cy="107.1" r="2"/>
+    <circle cx="56.9" cy="64.8" r="2"/>
+  </g>
+  <g fill="#d4af37" opacity="0.5">
+    <circle cx="96.0" cy="26.0" r="2"/>
+    <circle cx="150.7" cy="52.4" r="2"/>
+    <circle cx="164.2" cy="111.6" r="2"/>
+    <circle cx="126.4" cy="159.1" r="2"/>
+    <circle cx="65.6" cy="159.1" r="2"/>
+    <circle cx="27.8" cy="111.6" r="2"/>
+    <circle cx="41.3" cy="52.4" r="2"/>
+  </g>
+  
+  <!-- O 22º - centro luminoso -->
+  <circle cx="96" cy="96" r="12" fill="#fff9e6" opacity="0.3"/>
+  <circle cx="96" cy="96" r="6" fill="#fffef5" opacity="0.8"/>
+</svg>

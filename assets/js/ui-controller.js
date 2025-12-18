@@ -38,4 +38,66 @@ class UIController {
     decreaseFontSize() {
         this.state.setFontSize(this.state.fontSize - Config.ui.fontSize.step);
     }
+
+    cycleTheme() {
+        const themes = ['original', 'sepia', 'white', 'cyber'];
+        const currentTheme = document.body.getAttribute('data-theme') || 'original';
+        const currentIndex = themes.indexOf(currentTheme);
+        const nextIndex = (currentIndex + 1) % themes.length;
+        const nextTheme = themes[nextIndex];
+        
+        if (nextTheme === 'original') {
+            document.body.removeAttribute('data-theme');
+        } else {
+            document.body.setAttribute('data-theme', nextTheme);
+        }
+        
+        // Salva preferência
+        localStorage.setItem('theme', nextTheme);
+        
+        // Atualiza texto do botão
+        const btn = document.getElementById('theme-btn');
+        if (btn) {
+            const labels = {
+                'original': '🎨',
+                'sepia': '📜',
+                'white': '📄',
+                'cyber': '💚'
+            };
+            btn.textContent = labels[nextTheme];
+            const titles = {
+                'original': 'Tema: Original',
+                'sepia': 'Tema: Sépia',
+                'white': 'Tema: Branco',
+                'cyber': 'Tema: Cibernético'
+            };
+            btn.title = titles[nextTheme];
+        }
+    }
+
+    loadTheme() {
+        const savedTheme = localStorage.getItem('theme') || 'original';
+        if (savedTheme !== 'original') {
+            document.body.setAttribute('data-theme', savedTheme);
+        }
+        
+        // Atualiza botão
+        const btn = document.getElementById('theme-btn');
+        if (btn) {
+            const labels = {
+                'original': '🎨',
+                'sepia': '📜',
+                'white': '📄',
+                'cyber': '💚'
+            };
+            btn.textContent = labels[savedTheme];
+            const titles = {
+                'original': 'Tema: Original',
+                'sepia': 'Tema: Sépia',
+                'white': 'Tema: Branco',
+                'cyber': 'Tema: Cibernético'
+            };
+            btn.title = titles[savedTheme];
+        }
+    }
 }

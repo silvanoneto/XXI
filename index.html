@@ -3,7 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paêbirú XXI — Um Homo Sapiens Para Um Novo Século</title>
+    <title>Paêbirú XXI — Um Homo Sapiens Para Um Novo Século | Livro Interativo de Desenvolvimento Humano</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Paêbirú XXI - Você é o 22º. Os 21 arquétipos não são passos a conquistar, mas faces do caminhar que você já é. Do Guerreiro ao Caos Criativo, cada face revela como o Paêbirú se manifesta através de você.">
+    <meta name="keywords" content="paêbirú, desenvolvimento humano, autoconhecimento, transformação pessoal, arquétipos, guerreiro, eremita, vulneravel, jardineiro, artista, alquimista, amante, teceão, cuidador, mensageiro, juiz, observador, guardião, conector, integrado, nômade, ancestral, desperto, místico, brincante, caos criativo, filosofia prática, você é o 22º">
+    <meta name="author" content="Paêbirú XXI">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://paebiru.com.br">
+    
+    <!-- Open Graph Meta Tags (Facebook, LinkedIn) -->
+    <meta property="og:type" content="book">
+    <meta property="og:title" content="Paêbirú XXI — Você É o 22º">
+    <meta property="og:description" content="Os 21 arquétipos não são passos a conquistar, mas faces do caminhar que você já é. Cada face revela como o Paêbirú - o caminhar em si - se manifesta através de você.">
+    <meta property="og:url" content="https://paebiru.com.br">
+    <meta property="og:site_name" content="Paêbirú XXI">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:image" content="https://paebiru.com.br/assets/icon-512.svg">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta property="og:image:alt" content="Símbolo do Paêbirú XXI - 21 faces do caminhar">
+    <meta property="book:author" content="Paêbirú XXI">
+    <meta property="book:isbn" content="">
+    <meta property="book:release_date" content="2025">
+    <meta property="book:tag" content="desenvolvimento humano">
+    <meta property="book:tag" content="autoconhecimento">
+    <meta property="book:tag" content="transformação pessoal">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Paêbirú XXI — Você É o 22º">
+    <meta name="twitter:description" content="Os 21 arquétipos não são passos a conquistar, mas faces do caminhar que você já é. Cada face revela como o Paêbirú se manifesta através de você.">
+    <meta name="twitter:image" content="https://paebiru.com.br/assets/icon-512.svg">
+    <meta name="twitter:image:alt" content="Símbolo do Paêbirú XXI">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#0d0d1a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Paêbirú XXI">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Book",
+      "name": "Paêbirú XXI - Um Homo Sapiens Para Um Novo Século",
+      "alternateName": "Paêbirú XXI",
+      "author": {
+        "@type": "Organization",
+        "name": "Paêbirú XXI"
+      },
+      "description": "Você é o 22º. Os 21 arquétipos não são passos a conquistar, mas faces do caminhar que você já é. Do Guerreiro ao Caos Criativo, cada face revela como o Paêbirú - o caminhar em si - se manifesta através de você. Não há hierarquia. Não há etapas. Cada arquétipo é porta completa, não fragmento parcial.",
+      "genre": ["Desenvolvimento Pessoal", "Filosofia", "Espiritualidade", "Psicologia"],
+      "inLanguage": "pt-BR",
+      "datePublished": "2025",
+      "bookFormat": "https://schema.org/EBook",
+      "numberOfPages": "21",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "1"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock",
+        "url": "https://paebiru.com.br"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Paêbirú XXI"
+      },
+      "url": "https://paebiru.com.br",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Desenvolvimento Humano"
+        },
+        {
+          "@type": "Thing",
+          "name": "Autoconhecimento"
+        },
+        {
+          "@type": "Thing",
+          "name": "Transformação Pessoal"
+        },
+        {
+          "@type": "Thing",
+          "name": "Consciência Social"
+        }
+      ]
+    }
+    </script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -19,6 +114,7 @@
             </div>
         </div>
         <div class="controls">
+            <button onclick="cycleTheme()" title="Alternar tema" id="theme-btn">🎨</button>
             <button onclick="decreaseFontSize()" title="Diminuir fonte">A-</button>
             <button onclick="increaseFontSize()" title="Aumentar fonte">A+</button>
             <button class="menu-toggle" onclick="toggleSidebar()" title="Índice">☰</button>
@@ -61,33 +157,33 @@
                         <!-- 21 pontos: 7 em cada círculo -->
                         <!-- Círculo interno (Ato I) -->
                         <g fill="#d4af37" opacity="0.9">
-                            <circle cx="100" cy="60" r="3"/>
-                            <circle cx="134" cy="76" r="3"/>
-                            <circle cx="140" cy="115" r="3"/>
-                            <circle cx="117" cy="138" r="3"/>
-                            <circle cx="83" cy="138" r="3"/>
-                            <circle cx="60" cy="115" r="3"/>
-                            <circle cx="66" cy="76" r="3"/>
+                            <circle cx="100.0" cy="60.0" r="3"/>
+                            <circle cx="131.3" cy="75.1" r="3"/>
+                            <circle cx="139.0" cy="108.9" r="3"/>
+                            <circle cx="117.4" cy="136.0" r="3"/>
+                            <circle cx="82.6" cy="136.0" r="3"/>
+                            <circle cx="61.0" cy="108.9" r="3"/>
+                            <circle cx="68.7" cy="75.1" r="3"/>
                         </g>
                         <!-- Círculo médio (Ato II) -->
                         <g fill="#d4af37" opacity="0.7">
-                            <circle cx="100" cy="35" r="3"/>
-                            <circle cx="153" cy="58" r="3"/>
-                            <circle cx="165" cy="115" r="3"/>
-                            <circle cx="135" cy="158" r="3"/>
-                            <circle cx="65" cy="158" r="3"/>
-                            <circle cx="35" cy="115" r="3"/>
-                            <circle cx="47" cy="58" r="3"/>
+                            <circle cx="100.0" cy="35.0" r="3"/>
+                            <circle cx="150.8" cy="59.5" r="3"/>
+                            <circle cx="163.4" cy="114.5" r="3"/>
+                            <circle cx="128.2" cy="158.6" r="3"/>
+                            <circle cx="71.8" cy="158.6" r="3"/>
+                            <circle cx="36.6" cy="114.5" r="3"/>
+                            <circle cx="49.2" cy="59.5" r="3"/>
                         </g>
                         <!-- Círculo externo (Ato III) -->
                         <g fill="#d4af37" opacity="0.5">
-                            <circle cx="100" cy="10" r="3"/>
-                            <circle cx="175" cy="40" r="3"/>
-                            <circle cx="190" cy="115" r="3"/>
-                            <circle cx="155" cy="180" r="3"/>
-                            <circle cx="45" cy="180" r="3"/>
-                            <circle cx="10" cy="115" r="3"/>
-                            <circle cx="25" cy="40" r="3"/>
+                            <circle cx="100.0" cy="10.0" r="3"/>
+                            <circle cx="170.4" cy="43.9" r="3"/>
+                            <circle cx="187.7" cy="120.0" r="3"/>
+                            <circle cx="139.0" cy="181.1" r="3"/>
+                            <circle cx="61.0" cy="181.1" r="3"/>
+                            <circle cx="12.3" cy="120.0" r="3"/>
+                            <circle cx="29.6" cy="43.9" r="3"/>
                         </g>
                         
                         <!-- O 22º - centro luminoso -->
@@ -131,5 +227,16 @@
     <script src="assets/js/navigation-controller.js"></script>
     <script src="assets/js/ui-controller.js"></script>
     <script src="assets/js/app.js"></script>
+    
+    <!-- Service Worker para PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+                    .then(reg => console.log('Service Worker registrado:', reg.scope))
+                    .catch(err => console.log('Erro ao registrar Service Worker:', err));
+            });
+        }
+    </script>
 </body>
 </html>

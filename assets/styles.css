@@ -13,6 +13,36 @@
     --sidebar-width: clamp(240px, 20vw, 400px);
 }
 
+/* Tema Sépia */
+body[data-theme="sepia"] {
+    --bg-dark: #f4ecd8;
+    --bg-medium: #e8dcc4;
+    --gold: #5a4a30;
+    --gold-light: #4a3a25;
+    --text: #2d2416;
+    --text-muted: #4a3a25;
+}
+
+/* Tema Branco */
+body[data-theme="white"] {
+    --bg-dark: #ffffff;
+    --bg-medium: #f5f5f5;
+    --gold: #333333;
+    --gold-light: #1a1a1a;
+    --text: #000000;
+    --text-muted: #444444;
+}
+
+/* Tema Cibernético */
+body[data-theme="cyber"] {
+    --bg-dark: #000000;
+    --bg-medium: #0a0a0a;
+    --gold: #00ff41;
+    --gold-light: #39ff6e;
+    --text: #00ff41;
+    --text-muted: #008f23;
+}
+
 * {
     margin: 0;
     padding: 0;

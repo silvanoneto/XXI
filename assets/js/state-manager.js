@@ -36,7 +36,29 @@ class StateManager {
     setCurrentChapter(index) {
         const previous = this.state.currentChapter;
         this.state.currentChapter = index;
+        this.saveCheckpoint();
         this.notify('chapterChanged', { previous, current: index });
+    }
+
+    saveCheckpoint() {
+        const checkpoint = {
+            chapter: this.state.currentChapter,
+            timestamp: Date.now()
+        };
+        localStorage.setItem('readingCheckpoint', JSON.stringify(checkpoint));
+    }
+
+    loadCheckpoint() {
+        try {
+            const saved = localStorage.getItem('readingCheckpoint');
+            if (saved) {
+                const checkpoint = JSON.parse(saved);
+                return checkpoint.chapter;
+            }
+        } catch (e) {
+            console.warn('Erro ao carregar checkpoint:', e);
+        }
+        return null;
     }
 
     setFontSize(size) {

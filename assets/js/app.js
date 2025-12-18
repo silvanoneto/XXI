@@ -25,10 +25,20 @@ class PaebiruApp {
 
     async init() {
         try {
+            // Carregar tema salvo
+            this.ui.loadTheme();
+            
             const chapters = await this.loadEPUB();
             this.state.setChapters(chapters);
             this.tocManager.build(chapters, this.handleChapterSelect.bind(this));
-            this.showHome();
+            
+            // Restaurar checkpoint de leitura
+            const savedChapter = this.state.loadCheckpoint();
+            if (savedChapter !== null && savedChapter >= 0 && savedChapter < chapters.length) {
+                this.navigation.goToChapter(savedChapter);
+            } else {
+                this.showHome();
+            }
         } catch (err) {
             console.error("Erro ao inicializar:", err);
             this.chapterRenderer.showError(err.message);
@@ -113,6 +123,7 @@ class PaebiruApp {
         window.nextPage = () => this.navigation.goToNext();
         window.increaseFontSize = () => this.ui.increaseFontSize();
         window.decreaseFontSize = () => this.ui.decreaseFontSize();
+        window.cycleTheme = () => this.ui.cycleTheme();
         window.toggleSidebar = () => this.ui.toggleSidebar();
     }
 }
