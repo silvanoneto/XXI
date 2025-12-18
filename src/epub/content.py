@@ -62,7 +62,10 @@ class ContentProcessor:
         Returns:
             Conteúdo HTML.
         """
-        return markdown.markdown(content, extensions=self.MARKDOWN_EXTENSIONS)
+        html = markdown.markdown(content, extensions=self.MARKDOWN_EXTENSIONS)
+        # Corrigir caminhos das imagens para o EPUB
+        html = html.replace('src="../../../assets/images/', 'src="images/')
+        return html
 
     def extract_title(self, content: str, filename: str) -> str:
         """

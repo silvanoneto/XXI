@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+
+  <defs>
+    <radialGradient id="luzconcl" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#fff9e6"/>
+      <stop offset="60%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <linearGradient id="ouroconcl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f4e4ba"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" fill="url(#luzconcl)"/>
+  
+  <!-- Círculos irradiando do centro -->
+  <circle cx="400" cy="150" r="120" fill="none" stroke="url(#ouroconcl)" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="400" cy="150" r="90" fill="none" stroke="url(#ouroconcl)" stroke-width="0.8" opacity="0.4"/>
+  <circle cx="400" cy="150" r="60" fill="none" stroke="url(#ouroconcl)" stroke-width="1.2" opacity="0.5"/>
+  
+  <!-- 21 pontos ao redor (3 círculos de 7) -->
+  <g fill="#d4af37" opacity="0.5">
+    <!-- Círculo externo -->
+    <circle cx="400" cy="30" r="3"/>
+    <circle cx="504" cy="69" r="3"/>
+    <circle cx="520" cy="150" r="3"/>
+    <circle cx="482" cy="231" r="3"/>
+    <circle cx="400" cy="270" r="3"/>
+    <circle cx="318" cy="231" r="3"/>
+    <circle cx="280" cy="150" r="3"/>
+  </g>
+  <g fill="#d4af37" opacity="0.6">
+    <!-- Círculo médio -->
+    <circle cx="400" cy="60" r="3"/>
+    <circle cx="478" cy="89" r="3"/>
+    <circle cx="490" cy="150" r="3"/>
+    <circle cx="464" cy="211" r="3"/>
+    <circle cx="400" cy="240" r="3"/>
+    <circle cx="336" cy="211" r="3"/>
+    <circle cx="310" cy="150" r="3"/>
+  </g>
+  <g fill="#d4af37" opacity="0.7">
+    <!-- Círculo interno -->
+    <circle cx="400" cy="90" r="3"/>
+    <circle cx="452" cy="109" r="3"/>
+    <circle cx="460" cy="150" r="3"/>
+    <circle cx="446" cy="191" r="3"/>
+    <circle cx="400" cy="210" r="3"/>
+    <circle cx="354" cy="191" r="3"/>
+    <circle cx="340" cy="150" r="3"/>
+  </g>
+  
+  <!-- O 22º - centro máximo luminoso -->
+  <circle cx="400" cy="150" r="40" fill="#fff9e6" opacity="0.5"/>
+  <circle cx="400" cy="150" r="25" fill="#fffef5" opacity="0.7"/>
+  <circle cx="400" cy="150" r="12" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Raios de luz -->
+  <g stroke="#d4af37" stroke-width="2" opacity="0.2">
+    <line x1="400" y1="150" x2="400" y2="30"/>
+    <line x1="400" y1="150" x2="504" y2="69"/>
+    <line x1="400" y1="150" x2="520" y2="150"/>
+    <line x1="400" y1="150" x2="482" y2="231"/>
+    <line x1="400" y1="150" x2="400" y2="270"/>
+    <line x1="400" y1="150" x2="318" y2="231"/>
+    <line x1="400" y1="150" x2="280" y2="150"/>
+  </g>
+</svg>

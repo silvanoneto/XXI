@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+
+  <defs>
+    <radialGradient id="luzato1" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#fff9e6"/>
+      <stop offset="60%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <linearGradient id="ouroato1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f4e4ba"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" fill="url(#luzato1)"/>
+  
+  <!-- Primeiro círculo com 7 pontos -->
+  <circle cx="400" cy="150" r="80" fill="none" stroke="url(#ouroato1)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- 7 pontos distribuídos uniformemente -->
+  <g fill="#d4af37" opacity="0.9">
+    <circle cx="400.0" cy="70.0" r="5"/>
+    <circle cx="462.5" cy="100.1" r="5"/>
+    <circle cx="478.0" cy="167.8" r="5"/>
+    <circle cx="434.7" cy="222.1" r="5"/>
+    <circle cx="365.3" cy="222.1" r="5"/>
+    <circle cx="322.0" cy="167.8" r="5"/>
+    <circle cx="337.5" cy="100.1" r="5"/>
+  </g>
+  
+  <!-- Centro -->
+  <circle cx="400" cy="150" r="20" fill="#fff9e6" opacity="0.3"/>
+  <circle cx="400" cy="150" r="8" fill="#fffef5" opacity="0.6"/>
+  
+  <!-- Linhas radiantes sutis -->
+  <g stroke="#d4af37" stroke-width="0.5" opacity="0.2">
+    <line x1="400" y1="150" x2="400.0" y2="70.0"/>
+    <line x1="400" y1="150" x2="462.5" y2="100.1"/>
+    <line x1="400" y1="150" x2="478.0" y2="167.8"/>
+    <line x1="400" y1="150" x2="434.7" y2="222.1"/>
+    <line x1="400" y1="150" x2="365.3" y2="222.1"/>
+    <line x1="400" y1="150" x2="322.0" y2="167.8"/>
+    <line x1="400" y1="150" x2="337.5" y2="100.1"/>
+  </g>
+</svg>

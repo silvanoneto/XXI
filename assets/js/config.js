@@ -5,7 +5,7 @@
 const Config = {
     epub: {
         path: 'assets/Paebiru_XXI.epub',
-        skipFiles: ['nav']
+        skipFiles: ['nav', 'contracapa']
     },
     
     ui: {

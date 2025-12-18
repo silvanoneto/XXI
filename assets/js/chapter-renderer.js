@@ -53,12 +53,17 @@ class ChapterRenderer {
             if (!prev || prev.tagName.match(/^H[1-6]$/) || prev.tagName === 'HR') {
                 el.style.textIndent = "0";
             }
+            // Parágrafos que contêm apenas imagem não têm indentação
+            if (el.querySelector('img') && el.childNodes.length === 1) {
+                el.style.textIndent = "0";
+                el.style.textAlign = "center";
+            }
         });
     }
 
     styleHeadings(content) {
         content.querySelectorAll("h1, h2, h3, h4").forEach(el => {
-            el.style.color = this.colors.gold;
+            el.style.color = "var(--gold)";
             el.style.fontWeight = "400";
             el.style.marginTop = "2.5em";
             el.style.marginBottom = "1em";
@@ -69,14 +74,14 @@ class ChapterRenderer {
 
     styleBlockquotes(content) {
         content.querySelectorAll("blockquote").forEach(el => {
-            el.style.borderLeft = `3px solid ${this.colors.gold}`;
+            el.style.borderLeft = "3px solid var(--gold)";
             el.style.paddingLeft = "1.5rem";
             el.style.paddingRight = "1rem";
             el.style.marginLeft = "1em";
             el.style.marginRight = "1em";
             el.style.marginTop = "1.5em";
             el.style.marginBottom = "1.5em";
-            el.style.color = this.colors.blockquote;
+            el.style.color = "var(--text-muted)";
             el.style.fontStyle = "italic";
             el.style.textAlign = "left";
             // Remover indent dos parágrafos dentro do blockquote
@@ -88,17 +93,17 @@ class ChapterRenderer {
 
     styleEmphasis(content) {
         content.querySelectorAll("strong").forEach(el => {
-            el.style.color = this.colors.goldLight;
+            el.style.color = "var(--gold-light)";
         });
         content.querySelectorAll("em").forEach(el => {
-            el.style.color = this.colors.textLight;
+            el.style.color = "var(--text-muted)";
         });
     }
 
     styleHorizontalRules(content) {
         content.querySelectorAll("hr").forEach(el => {
             el.style.border = "none";
-            el.style.borderTop = `1px solid ${this.colors.gold}`;
+            el.style.borderTop = "1px solid var(--gold)";
             el.style.opacity = "0.3";
             el.style.margin = "2.5em auto";
             el.style.width = "40%";

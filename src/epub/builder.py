@@ -77,6 +77,67 @@ class EpubBuilder:
 
         self._book.set_cover("capa.png", capa_bytes, create_page=True)
         logger.info("  ✓ Capa adicionada ao EPUB")
+        
+    def _add_chapter_images(self) -> None:
+        """Adiciona imagens dos capítulos ao EPUB."""
+        from pathlib import Path
+        images_dir = self.config.base_dir / "assets" / "images"
+        
+        image_files = {
+            'introducao.png': 'introducao',
+            'ato_1.png': 'ato1',
+            'ato_2.png': 'ato2',
+            'ato_3.png': 'ato3',
+            'conclusao.png': 'conclusao',
+        }
+        
+        for filename, uid in image_files.items():
+            img_path = images_dir / filename
+            if img_path.exists():
+                with open(img_path, 'rb') as f:
+                    img_content = f.read()
+                
+                img_item = epub.EpubItem(
+                    uid=uid,
+                    file_name=f"images/{filename}",
+                    media_type="image/png",
+                    content=img_content
+                )
+                self._book.add_item(img_item)
+        
+        logger.info("  ✓ Imagens dos capítulos adicionadas ao EPUB")
+
+    def _add_contracapa(self) -> None:
+        """Adiciona a contracapa ao EPUB."""
+        logger.info("  ✓ Contracapa SVG gerada em memória")
+        contracapa_bytes = self.cover_generator.generate_contracapa_png()
+        logger.info("  ✓ Contracapa convertida em memória (SVG → PNG)")
+
+        # Adiciona como imagem no EPUB
+        contracapa_img = epub.EpubItem(
+            uid="contracapa",
+            file_name="contracapa.png",
+            media_type="image/png",
+            content=contracapa_bytes
+        )
+        self._book.add_item(contracapa_img)
+        
+        # Cria página HTML para a contracapa usando template
+        html_content = self.template_engine.render(
+            self.HTML_TEMPLATE,
+            TITULO="",
+            CONTEUDO='<div style="text-align:center;"><img src="contracapa.png" alt="Contracapa" style="width:100%; max-width:800px; height:auto;"/></div>',
+        )
+        
+        contracapa_page = epub.EpubHtml(
+            title="Contracapa",
+            file_name="contracapa.xhtml",
+            lang=self.config.lingua
+        )
+        contracapa_page.content = html_content
+        self._book.add_item(contracapa_page)
+        self._chapters.append(contracapa_page)
+        logger.info("  ✓ Contracapa adicionada ao EPUB")
 
     def _add_metadata(self) -> None:
         """Adiciona metadados ao EPUB."""
@@ -141,6 +202,7 @@ class EpubBuilder:
 
         # Adicionar capa e metadados
         self._add_cover()
+        self._add_chapter_images()
         self._add_metadata()
 
         # Processar livro
@@ -160,6 +222,9 @@ class EpubBuilder:
 
         if artigos:
             self._toc.append((epub.Section("Apêndice: Artigos"), artigos))
+
+        # Adicionar contracapa ao final
+        self._add_contracapa()
 
         # Finalizar navegação
         self._book.toc = self._toc

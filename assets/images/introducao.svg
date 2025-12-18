@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300">
+
+  <defs>
+    <radialGradient id="luzintro" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#fff9e6"/>
+      <stop offset="60%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <linearGradient id="ourointro" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f4e4ba"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="300" fill="url(#luzintro)"/>
+  
+  <!-- Portal se abrindo - arco duplo -->
+  <path d="M 200 150 A 100 100 0 0 1 300 50" fill="none" stroke="url(#ourointro)" stroke-width="3" opacity="0.8"/>
+  <path d="M 200 150 A 100 100 0 0 0 300 250" fill="none" stroke="url(#ourointro)" stroke-width="3" opacity="0.8"/>
+  
+  <path d="M 500 150 A 100 100 0 0 1 600 50" fill="none" stroke="url(#ourointro)" stroke-width="3" opacity="0.8"/>
+  <path d="M 500 150 A 100 100 0 0 0 600 250" fill="none" stroke="url(#ourointro)" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Centro luminoso entre os portais -->
+  <circle cx="400" cy="150" r="30" fill="#fff9e6" opacity="0.3"/>
+  <circle cx="400" cy="150" r="12" fill="#fffef5" opacity="0.6"/>
+  
+  <!-- Linhas conectando -->
+  <line x1="300" y1="150" x2="500" y2="150" stroke="#d4af37" stroke-width="1" opacity="0.4"/>
+</svg>

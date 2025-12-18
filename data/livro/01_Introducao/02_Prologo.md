@@ -30,17 +30,11 @@ Não há hierarquia. Não há superior ou inferior. Cada arquétipo é porta com
 
 Esta jornada se desdobra em três atos — não como progressão, mas como três dimensões de profundidade crescente:
 
-**ATO I: O DESPERTAR DO EU** (7 faces)  
-Onde o Paêbirú se manifesta como soberania interior.  
-Do grito guerreiro até a dança encarnada.
+**ATO I: O DESPERTAR DO EU** (7 faces): Onde o Paêbirú se manifesta como soberania interior. Do grito guerreiro até a dança encarnada.
 
-**ATO II: A EXPANSÃO DO EU** (7 faces)  
-Onde o Paêbirú se manifesta como tessitura relacional.  
-Da conexão individual até a vida em comum.
+**ATO II: A EXPANSÃO DO EU** (7 faces): Onde o Paêbirú se manifesta como tessitura relacional. Da conexão individual até a vida em comum.
 
-**ATO III: A TRANSCENDÊNCIA DO EU** (7 faces)  
-Onde o Paêbirú se manifesta como fronteira entre ser e nada.  
-Da multiplicidade interior até o caos criativo final.
+**ATO III: A TRANSCENDÊNCIA DO EU** (7 faces): Onde o Paêbirú se manifesta como fronteira entre ser e nada. Da multiplicidade interior até o caos criativo final.
 
 Cada ato contém 7 arquétipos — 7 aporias, 7 tensões dialéticas que não podem ser resolvidas, apenas habitadas com crescente sabedoria. E cada aporia é um modo como o Paêbirú se expressa.
 
@@ -52,9 +46,7 @@ Você notará que há 21 arquétipos, não 22. Isso não é acidente. O 22º nã
 
 Você não o encontrará em capítulo específico porque ele permeia todos. Você não o alcançará no final porque ele está no começo. Você não o conquistará porque você já É ele, lendo estas palavras, respirando agora.
 
-Os 21 são como ele se mostra.  
-Ele é como os 21 se conectam.  
-Não há dois — apenas o movimento perpétuo de manifestação.
+Os 21 são como ele se mostra. Ele é como os 21 se conectam. Não há dois — apenas o movimento perpétuo de manifestação.
 
 Mas há algo mais. O Paêbirú individual te dá capacidade de ver, agir, conectar. E toda capacidade pode ser usada para dominar. O iluminado pode usar sua iluminação para manipular. O guerreiro pode usar sua coragem para oprimir. O místico pode usar seu acesso ao sagrado para se interpor como intermediário obrigatório.
 
@@ -127,9 +119,6 @@ Não o que virá. Não o que você alcançará. Mas isto — este momento de pre
 
 Os 21 arquétipos apenas refinam, aprofundam, expandem o que já está acontecendo neste exato instante: o caminhar se reconhecendo como caminhar.
 
-Vamos começar.  
-Ou melhor: vamos continuar.  
-Porque você já começou há muito tempo.
+Vamos começar. Ou melhor: vamos continuar. Porque você já começou há muito tempo.
 
-Você sempre foi o Caminho.  
-Agora você vai reconhecer suas 21 faces.
+Você sempre foi o Caminho. Agora você vai reconhecer suas 21 faces.

@@ -25,8 +25,9 @@ class PaebiruApp {
 
     async init() {
         try {
-            // Carregar tema salvo
+            // Carregar tema e fonte salvos
             this.ui.loadTheme();
+            this.ui.loadFont();
             
             const chapters = await this.loadEPUB();
             this.state.setChapters(chapters);
@@ -50,6 +51,9 @@ class PaebiruApp {
         const opfPath = await this.epubLoader.getOpfPath(zip);
         const opfDir = opfPath.substring(0, opfPath.lastIndexOf("/") + 1);
         const opfDoc = await this.epubLoader.parseOpf(zip, opfPath);
+        
+        // Extrair imagens primeiro para criar cache de blob URLs
+        await this.epubLoader.extractImages(zip, opfDir);
         
         const manifestMap = this.epubLoader.buildManifestMap(opfDoc);
         const spineItems = this.epubLoader.getSpineItems(opfDoc);
@@ -124,6 +128,7 @@ class PaebiruApp {
         window.increaseFontSize = () => this.ui.increaseFontSize();
         window.decreaseFontSize = () => this.ui.decreaseFontSize();
         window.cycleTheme = () => this.ui.cycleTheme();
+        window.cycleFont = () => this.ui.cycleFont();
         window.toggleSidebar = () => this.ui.toggleSidebar();
     }
 }

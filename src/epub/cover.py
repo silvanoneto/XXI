@@ -13,6 +13,7 @@ class CoverGenerator:
     """Gera a capa do livro em SVG e PNG."""
 
     TEMPLATE_NAME = "capa.svg.template"
+    CONTRACAPA_TEMPLATE = "contracapa.svg.template"
 
     def __init__(self, config: Config, template_engine: TemplateEngine):
         """
@@ -61,6 +62,36 @@ class CoverGenerator:
             Bytes do PNG.
         """
         svg_content = self.generate_svg()
+        png_buffer = io.BytesIO()
+        cairosvg.svg2png(
+            bytestring=svg_content.encode("utf-8"),
+            write_to=png_buffer,
+            output_width=width,
+            output_height=height,
+        )
+        return png_buffer.getvalue()
+
+    def generate_contracapa_svg(self) -> str:
+        """
+        Gera o SVG da contracapa.
+
+        Returns:
+            Conteúdo SVG como string.
+        """
+        return self.template_engine.render(self.CONTRACAPA_TEMPLATE)
+
+    def generate_contracapa_png(self, width: int = 800, height: int = 1120) -> bytes:
+        """
+        Gera o PNG da contracapa a partir do SVG.
+
+        Args:
+            width: Largura do PNG em pixels.
+            height: Altura do PNG em pixels.
+
+        Returns:
+            Bytes do PNG.
+        """
+        svg_content = self.generate_contracapa_svg()
         png_buffer = io.BytesIO()
         cairosvg.svg2png(
             bytestring=svg_content.encode("utf-8"),

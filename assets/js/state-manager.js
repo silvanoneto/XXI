@@ -7,7 +7,7 @@ class StateManager {
         this.state = {
             chapters: [],
             currentChapter: -1, // -1 = home
-            fontSize: Config.ui.fontSize.default
+            fontSize: this.loadFontSize()
         };
         this.listeners = [];
     }
@@ -66,7 +66,27 @@ class StateManager {
             Config.ui.fontSize.min,
             Math.min(Config.ui.fontSize.max, size)
         );
+        this.saveFontSize();
         this.notify('fontSizeChanged', this.state.fontSize);
+    }
+
+    saveFontSize() {
+        localStorage.setItem('fontSize', this.state.fontSize.toString());
+    }
+
+    loadFontSize() {
+        try {
+            const saved = localStorage.getItem('fontSize');
+            if (saved) {
+                const size = parseInt(saved, 10);
+                if (!isNaN(size) && size >= Config.ui.fontSize.min && size <= Config.ui.fontSize.max) {
+                    return size;
+                }
+            }
+        } catch (e) {
+            console.warn('Erro ao carregar fontSize:', e);
+        }
+        return Config.ui.fontSize.default;
     }
 
     subscribe(callback) {

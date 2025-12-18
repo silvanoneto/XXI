@@ -40,7 +40,7 @@ class UIController {
     }
 
     cycleTheme() {
-        const themes = ['original', 'sepia', 'white', 'cyber'];
+        const themes = ['original', 'white', 'cyber'];
         const currentTheme = document.body.getAttribute('data-theme') || 'original';
         const currentIndex = themes.indexOf(currentTheme);
         const nextIndex = (currentIndex + 1) % themes.length;
@@ -59,15 +59,13 @@ class UIController {
         const btn = document.getElementById('theme-btn');
         if (btn) {
             const labels = {
-                'original': '🎨',
-                'sepia': '📜',
-                'white': '📄',
-                'cyber': '💚'
+                'original': '◐',
+                'white': '○',
+                'cyber': '◉'
             };
             btn.textContent = labels[nextTheme];
             const titles = {
                 'original': 'Tema: Original',
-                'sepia': 'Tema: Sépia',
                 'white': 'Tema: Branco',
                 'cyber': 'Tema: Cibernético'
             };
@@ -77,27 +75,75 @@ class UIController {
 
     loadTheme() {
         const savedTheme = localStorage.getItem('theme') || 'original';
-        if (savedTheme !== 'original') {
-            document.body.setAttribute('data-theme', savedTheme);
+        // Se o tema salvo era sépia, voltar para original
+        const validTheme = savedTheme === 'sepia' ? 'original' : savedTheme;
+        if (validTheme !== 'original') {
+            document.body.setAttribute('data-theme', validTheme);
         }
         
         // Atualiza botão
         const btn = document.getElementById('theme-btn');
         if (btn) {
             const labels = {
-                'original': '🎨',
-                'sepia': '📜',
-                'white': '📄',
-                'cyber': '💚'
+                'original': '◐',
+                'white': '○',
+                'cyber': '◉'
             };
-            btn.textContent = labels[savedTheme];
+            btn.textContent = labels[validTheme];
             const titles = {
                 'original': 'Tema: Original',
-                'sepia': 'Tema: Sépia',
                 'white': 'Tema: Branco',
                 'cyber': 'Tema: Cibernético'
             };
-            btn.title = titles[savedTheme];
+            btn.title = titles[validTheme];
         }
+    }
+
+    cycleFont() {
+        const fonts = ['serif', 'modern', 'sans', 'classic'];
+        const currentFont = document.body.getAttribute('data-font') || 'serif';
+        const currentIndex = fonts.indexOf(currentFont);
+        const nextIndex = (currentIndex + 1) % fonts.length;
+        const nextFont = fonts[nextIndex];
+        
+        if (nextFont === 'serif') {
+            document.body.removeAttribute('data-font');
+        } else {
+            document.body.setAttribute('data-font', nextFont);
+        }
+        
+        // Salva preferência
+        localStorage.setItem('font', nextFont);
+        
+        // Atualiza botão
+        this.updateFontButton(nextFont);
+    }
+
+    updateFontButton(font) {
+        const btn = document.getElementById('font-btn');
+        if (btn) {
+            const labels = {
+                'serif': 'Aa',
+                'modern': 'Ab',
+                'sans': 'Ac',
+                'classic': 'Ad'
+            };
+            const titles = {
+                'serif': 'Fonte: Cormorant (Serifada)',
+                'modern': 'Fonte: Lora (Moderna)',
+                'sans': 'Fonte: Inter (Sem serifa)',
+                'classic': 'Fonte: Merriweather (Clássica)'
+            };
+            btn.textContent = labels[font];
+            btn.title = titles[font];
+        }
+    }
+
+    loadFont() {
+        const savedFont = localStorage.getItem('font') || 'serif';
+        if (savedFont !== 'serif') {
+            document.body.setAttribute('data-font', savedFont);
+        }
+        this.updateFontButton(savedFont);
     }
 }

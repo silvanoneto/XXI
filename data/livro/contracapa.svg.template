@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" width="560" height="400">
+  <defs>
+    <radialGradient id="luz_contra" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <linearGradient id="ouro_contra" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37"/>
+      <stop offset="50%" stop-color="#f4e4ba"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="560" height="400" fill="url(#luz_contra)"/>
+  
+  <!-- Sequência diagonal em estilo geométrico simples -->
+  <g font-family="'Futura', 'Century Gothic', 'Avenir', 'Helvetica Neue', sans-serif" 
+     font-size="32" 
+     font-weight="300"
+     fill="url(#ouro_contra)" 
+     opacity="0.15"
+     letter-spacing="3"
+     transform="rotate(-15 280 200)">
+    <text x="40" y="210" text-anchor="middle" font-style="italic">.</text>
+    <text x="90" y="210" text-anchor="middle" font-style="italic">I</text>
+    <text x="140" y="210" text-anchor="middle" font-style="italic">C</text>
+    <text x="190" y="210" text-anchor="middle" font-style="italic">Ç</text>
+    <text x="240" y="210" text-anchor="middle" font-style="italic">S</text>
+    <text x="290" y="210" text-anchor="middle" font-style="italic">O</text>
+    <text x="340" y="210" text-anchor="middle" font-style="italic">b</text>
+    <text x="390" y="210" text-anchor="middle" font-style="italic">§</text>
+    <text x="440" y="210" text-anchor="middle" font-style="italic">∞</text>
+    <text x="490" y="210" text-anchor="middle" font-style="italic">ø</text>
+  </g>
+  
+  <!-- Linha decorativa diagonal sutil -->
+  <line x1="20" y1="200" x2="540" y2="200" stroke="#d4af37" stroke-width="0.3" opacity="0.08" transform="rotate(-15 280 200)"/>
+</svg>
