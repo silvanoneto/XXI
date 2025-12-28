@@ -34,6 +34,14 @@ case "$OS" in
         else
             echo "   ✓ Cairo já instalado"
         fi
+
+        # Pandoc é necessário para geração de PDF
+        if ! brew list pandoc &> /dev/null; then
+            echo "   → Instalando Pandoc..."
+            brew install pandoc
+        else
+            echo "   ✓ Pandoc já instalado"
+        fi
         ;;
 
     Linux)
@@ -41,16 +49,16 @@ case "$OS" in
         if command -v apt-get &> /dev/null; then
             echo "   → Instalando dependências via apt..."
             sudo apt-get update
-            sudo apt-get install -y libcairo2-dev libffi-dev
+            sudo apt-get install -y libcairo2-dev libffi-dev pandoc
         elif command -v dnf &> /dev/null; then
             echo "   → Instalando dependências via dnf..."
-            sudo dnf install -y cairo-devel libffi-devel
+            sudo dnf install -y cairo-devel libffi-devel pandoc
         elif command -v pacman &> /dev/null; then
             echo "   → Instalando dependências via pacman..."
-            sudo pacman -S --noconfirm cairo
+            sudo pacman -S --noconfirm cairo pandoc
         else
             echo "❌ Gerenciador de pacotes não suportado"
-            echo "   Instale manualmente: cairo, libffi"
+            echo "   Instale manualmente: cairo, libffi, pandoc"
             exit 1
         fi
         ;;
