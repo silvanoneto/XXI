@@ -1,58 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
   <defs>
-    <radialGradient id="bg-icon" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.95"/>
-      <stop offset="70%" stop-color="#141428" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#0d0d1a" stop-opacity="0.2"/>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="70%" stop-color="#141428"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
     </radialGradient>
-    <linearGradient id="gold-icon" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#d4af37"/>
       <stop offset="50%" stop-color="#f4e4ba"/>
       <stop offset="100%" stop-color="#d4af37"/>
     </linearGradient>
-    <filter id="glass-blur">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
-    </filter>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9e6"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Fundo de vidro -->
-  <rect width="192" height="192" fill="url(#bg-icon)" rx="32"/>
+  <!-- Fundo -->
+  <rect width="192" height="192" fill="url(#bg)" rx="32"/>
 
-  <!-- Três círculos concêntricos (3 Atos) -->
-  <circle cx="96" cy="96" r="70" fill="none" stroke="url(#gold-icon)" stroke-width="1" opacity="0.4"/>
-  <circle cx="96" cy="96" r="50" fill="none" stroke="url(#gold-icon)" stroke-width="1" opacity="0.6"/>
-  <circle cx="96" cy="96" r="30" fill="none" stroke="url(#gold-icon)" stroke-width="1" opacity="0.8"/>
+  <!-- Grafismo indígena brasileiro -->
 
-  <!-- 21 pontos distribuídos uniformemente -->
-  <g fill="#d4af37" opacity="0.9">
-    <circle cx="96.0" cy="66.0" r="2"/>
-    <circle cx="119.5" cy="77.3" r="2"/>
-    <circle cx="125.2" cy="102.7" r="2"/>
-    <circle cx="109.0" cy="123.0" r="2"/>
-    <circle cx="83.0" cy="123.0" r="2"/>
-    <circle cx="66.8" cy="102.7" r="2"/>
-    <circle cx="72.5" cy="77.3" r="2"/>
-  </g>
-  <g fill="#d4af37" opacity="0.7">
-    <circle cx="96.0" cy="46.0" r="2"/>
-    <circle cx="135.1" cy="64.8" r="2"/>
-    <circle cx="144.7" cy="107.1" r="2"/>
-    <circle cx="117.7" cy="141.0" r="2"/>
-    <circle cx="74.3" cy="141.0" r="2"/>
-    <circle cx="47.3" cy="107.1" r="2"/>
-    <circle cx="56.9" cy="64.8" r="2"/>
-  </g>
-  <g fill="#d4af37" opacity="0.5">
-    <circle cx="96.0" cy="26.0" r="2"/>
-    <circle cx="150.7" cy="52.4" r="2"/>
-    <circle cx="164.2" cy="111.6" r="2"/>
-    <circle cx="126.4" cy="159.1" r="2"/>
-    <circle cx="65.6" cy="159.1" r="2"/>
-    <circle cx="27.8" cy="111.6" r="2"/>
-    <circle cx="41.3" cy="52.4" r="2"/>
+  <!-- Anel externo -->
+  <circle cx="96" cy="96" r="68" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Espirais duplas - elemento marajoara (4 pares) -->
+  <g stroke="url(#gold)" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M96,29 Q86,36 86,45 Q86,55 96,55 Q106,55 106,45 Q106,36 96,29"/>
+    <path d="M163,96 Q156,86 147,86 Q137,86 137,96 Q137,106 147,106 Q156,106 163,96"/>
+    <path d="M96,163 Q106,156 106,147 Q106,137 96,137 Q86,137 86,147 Q86,156 96,163"/>
+    <path d="M29,96 Q36,106 45,106 Q55,106 55,96 Q55,86 45,86 Q36,86 29,96"/>
   </g>
 
-  <!-- O 22º - centro luminoso -->
-  <circle cx="96" cy="96" r="12" fill="#fff9e6" opacity="0.3"/>
-  <circle cx="96" cy="96" r="6" fill="#fffef5" opacity="0.8"/>
+  <!-- Anel médio -->
+  <circle cx="96" cy="96" r="45" fill="none" stroke="url(#gold)" stroke-width="0.75" opacity="0.4"/>
+
+  <!-- Losangos conectados - padrão de teia -->
+  <g stroke="url(#gold)" stroke-width="0.75" fill="none" opacity="0.5">
+    <path d="M96,51 L119,74 L96,96 L74,74 Z"/>
+    <path d="M119,74 L141,96 L119,119 L96,96 Z"/>
+    <path d="M96,96 L119,119 L96,141 L74,119 Z"/>
+    <path d="M74,74 L96,96 L74,119 L51,96 Z"/>
+  </g>
+
+  <!-- Círculo interno -->
+  <circle cx="96" cy="96" r="23" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.7"/>
+
+  <!-- 4 pontos cardeais -->
+  <g fill="url(#gold)" opacity="0.8">
+    <circle cx="96" cy="51" r="3"/>
+    <circle cx="141" cy="96" r="3"/>
+    <circle cx="96" cy="141" r="3"/>
+    <circle cx="51" cy="96" r="3"/>
+  </g>
+
+  <!-- 4 pontos intermediários -->
+  <g fill="url(#gold)" opacity="0.6">
+    <circle cx="128" cy="64" r="2.5"/>
+    <circle cx="128" cy="128" r="2.5"/>
+    <circle cx="64" cy="128" r="2.5"/>
+    <circle cx="64" cy="64" r="2.5"/>
+  </g>
+
+  <!-- Centro luminoso -->
+  <circle cx="96" cy="96" r="10" fill="url(#glow)" opacity="0.5"/>
+  <circle cx="96" cy="96" r="4" fill="#fffef5" opacity="0.95"/>
 </svg>
