@@ -6,8 +6,8 @@
     <title>Paêbirú — Biblioteca de Desenvolvimento Humano</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Biblioteca digital com obras de filosofia e desenvolvimento humano. Paêbirú XXI: Ensaio filosófico sobre 21 arquétipos para o autoconhecimento. CRIØ: Uma ontologia relacional para o século XXI.">
-    <meta name="keywords" content="paêbirú, criø, desenvolvimento humano, autoconhecimento, transformação pessoal, arquétipos, filosofia relacional, ontologia, você é o 22º">
+    <meta name="description" content="Biblioteca digital com obras de filosofia e desenvolvimento humano. Paêbirú XXI: Ensaio filosófico sobre 21 arquétipos para o autoconhecimento. CRIØ: Uma ontologia relacional para o século XXI. Tekoha XXI: Manual de transformação relacional.">
+    <meta name="keywords" content="paêbirú, criø, tekoha, desenvolvimento humano, autoconhecimento, transformação pessoal, arquétipos, filosofia relacional, ontologia, você é o 22º, transformação relacional, organização social">
     <meta name="author" content="Silvano Neto">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://paebiru.com.br">
@@ -64,6 +64,12 @@
           "name": "CRIØ - Uma Ontologia Relacional para o Século XXI",
           "description": "Você não existe antes de suas relações. Você é a teia que te tece.",
           "genre": ["Filosofia", "Ontologia", "Pensamento Sistêmico"]
+        },
+        {
+          "@type": "Book",
+          "name": "Tekoha XXI - Manual de Transformação Relacional",
+          "description": "Do indivíduo ao cosmos, da teoria à prática. A finalização da trilogia integrando CRIØ e Paêbirú XXI às práticas de organização social.",
+          "genre": ["Filosofia", "Organização Social", "Transformação Relacional"]
         }
       ]
     }
@@ -77,7 +83,6 @@
 <body>
     <header>
         <div class="logo" onclick="showHome()" style="cursor: pointer;">
-            <div class="logo-symbol">Ø</div>
             <div>
                 <h1>PAÊBIRÚ</h1>
                 <span>paebiru.org</span>
@@ -86,9 +91,9 @@
         <div class="controls">
             <button onclick="cycleTheme()" title="Alternar tema" id="theme-btn">◐</button>
             <button onclick="cycleFont()" title="Alternar fonte" id="font-btn">Aa</button>
-            <button onclick="decreaseFontSize()" title="Diminuir fonte">−</button>
-            <button onclick="increaseFontSize()" title="Aumentar fonte">+</button>
-            <button class="menu-toggle" onclick="toggleSidebar()" title="Índice">≡</button>
+            <button class="reading-control" onclick="decreaseFontSize()" title="Diminuir fonte">−</button>
+            <button class="reading-control" onclick="increaseFontSize()" title="Aumentar fonte">+</button>
+            <button class="menu-toggle reading-control" onclick="toggleSidebar()" title="Índice">≡</button>
         </div>
     </header>
 
@@ -185,6 +190,7 @@
         <div class="footer-downloads">
             <a href="assets/Paebiru_XXI.epub" download>Paêbirú XXI (EPUB)</a>
             <a href="assets/CRIO_livro.epub" download>CRIØ (EPUB)</a>
+            <a href="assets/Tekoha_XXI.epub" download>Tekoha XXI (EPUB)</a>
         </div>
     </footer>
 

@@ -54,6 +54,7 @@ class PaebiruApp {
             null,
             (bookId) => this.loadBook(bookId)
         );
+        this.updateMenuVisibility(false);
     }
 
     async loadBook(bookId) {
@@ -162,6 +163,7 @@ class PaebiruApp {
             (bookId) => this.switchBook(bookId)
         );
         this.tocManager.clearActive();
+        this.updateMenuVisibility(false);
     }
 
     renderChapter(index) {
@@ -173,7 +175,15 @@ class PaebiruApp {
             if (this.currentBookConfig) {
                 this.state.saveCheckpoint(index, this.currentBookConfig.id);
             }
+            this.updateMenuVisibility(true);
         }
+    }
+
+    updateMenuVisibility(show) {
+        const readingControls = document.querySelectorAll('.reading-control');
+        readingControls.forEach(btn => {
+            btn.style.display = show ? '' : 'none';
+        });
     }
 
     handleChapterSelect(index) {

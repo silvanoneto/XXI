@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>{{TITULO}}</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.8;
+            color: #1a1a2e;
+            max-width: 40em;
+            margin: 0 auto;
+            padding: 1em;
+        }
+        h1, h2, h3, h4 {
+            font-weight: normal;
+            color: #0d0d1a;
+            margin-top: 2em;
+        }
+        h1 { font-size: 1.8em; text-align: center; }
+        h2 { font-size: 1.4em; }
+        h3 { font-size: 1.2em; }
+        blockquote {
+            font-style: italic;
+            border-left: 3px solid #d4af37;
+            padding-left: 1em;
+            margin-left: 0;
+            color: #444;
+        }
+        em { color: #333; }
+        strong { color: #0d0d1a; }
+        hr {
+            border: none;
+            border-top: 1px solid #d4af37;
+            margin: 2em 0;
+        }
+        .center { text-align: center; }
+    </style>
+</head>
+<body>
+    {{CONTEUDO}}
+</body>
+</html>

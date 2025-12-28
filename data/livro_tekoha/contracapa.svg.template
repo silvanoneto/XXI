@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14"/>
+      <stop offset="50%" style="stop-color:#0d0d1a"/>
+      <stop offset="100%" style="stop-color:#080812"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37"/>
+      <stop offset="50%" style="stop-color:#f4e4ba"/>
+      <stop offset="100%" style="stop-color:#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Símbolo pequeno -->
+  <g transform="translate(200, 80) scale(0.3)">
+    <circle cx="0" cy="0" r="50" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.5"/>
+    <g fill="#d4af37" opacity="0.7">
+      <circle cx="0" cy="-50" r="4"/>
+      <circle cx="43.3" cy="-25" r="4"/>
+      <circle cx="43.3" cy="25" r="4"/>
+      <circle cx="0" cy="50" r="4"/>
+      <circle cx="-43.3" cy="25" r="4"/>
+      <circle cx="-43.3" cy="-25" r="4"/>
+    </g>
+    <circle cx="0" cy="0" r="6" fill="#fffef5" opacity="0.6"/>
+  </g>
+
+  <!-- Texto da contracapa -->
+  <text x="200" y="160" text-anchor="middle" fill="#d4af37" font-family="Cormorant Garamond, serif" font-size="11" opacity="0.9">
+    <tspan x="200" dy="0">Este manual completa a trilogia que busca</tspan>
+    <tspan x="200" dy="20">oferecer ferramentas para quem intui que</tspan>
+    <tspan x="200" dy="20">as formas atuais de organização estão</tspan>
+    <tspan x="200" dy="20">esgotadas e busca caminhos de</tspan>
+    <tspan x="200" dy="20">transformação que não reproduzam</tspan>
+    <tspan x="200" dy="20">o que pretendem superar.</tspan>
+  </text>
+
+  <!-- Citação -->
+  <text x="200" y="340" text-anchor="middle" fill="#d4af37" font-family="Cormorant Garamond, serif" font-size="12" font-style="italic" opacity="0.7">
+    <tspan x="200" dy="0">"Ninguém liberta ninguém,</tspan>
+    <tspan x="200" dy="18">ninguém se liberta sozinho:</tspan>
+    <tspan x="200" dy="18">os homens se libertam em comunhão."</tspan>
+  </text>
+  <text x="200" y="410" text-anchor="middle" fill="#888" font-family="Cormorant Garamond, serif" font-size="10" opacity="0.6">— Paulo Freire</text>
+
+  <!-- Trilogia -->
+  <text x="200" y="480" text-anchor="middle" fill="#d4af37" font-family="Cormorant Garamond, serif" font-size="10" opacity="0.6">
+    <tspan x="200" dy="0">Trilogia Paêbirú</tspan>
+    <tspan x="200" dy="16">CRIØ · Paêbirú XXI · Tekoha XXI</tspan>
+  </text>
+
+  <!-- Website -->
+  <text x="200" y="560" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="9" opacity="0.5">paebiru.org</text>
+</svg>

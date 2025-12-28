@@ -1,4 +1,4 @@
-const CACHE_NAME = 'paebiru-xxi-v1';
+const CACHE_NAME = 'paebiru-v2';
 const urlsToCache = [
   './',
   './index.html',
@@ -13,6 +13,8 @@ const urlsToCache = [
   './assets/js/toc-manager.js',
   './assets/js/ui-controller.js',
   './assets/Paebiru_XXI.epub',
+  './assets/CRIO_livro.epub',
+  './assets/Tekoha_XXI.epub',
   './manifest.json',
   './assets/images/icon-192.png',
   './assets/images/icon-512.png'

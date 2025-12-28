@@ -1,7 +1,7 @@
 {
-  "name": "Paêbirú XXI - Você É o 22º",
-  "short_name": "Paêbirú XXI",
-  "description": "Paêbirú XXI - Você é o 22º. Os 21 arquétipos não são passos a conquistar, mas faces do caminhar que você já é. Do Guerreiro ao Caos Criativo, cada face revela como o Paêbirú se manifesta através de você.",
+  "name": "Paêbirú — Biblioteca de Transformação Relacional",
+  "short_name": "Paêbirú",
+  "description": "Biblioteca digital com a trilogia completa: Paêbirú XXI (21 arquétipos), CRIØ (ontologia relacional) e Tekoha XXI (manual de transformação relacional). O caminho se faz ao caminhar.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0d0d1a",

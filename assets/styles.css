@@ -79,7 +79,7 @@ body {
 /* Header */
 header {
     background: linear-gradient(180deg, var(--bg-medium) 0%, var(--bg-dark) 100%);
-    padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+    padding: clamp(0.5rem, 0.8vw, 1rem) calc(var(--spacing-unit) * 2);
     border-bottom: 1px solid rgba(212, 175, 55, 0.2);
     display: flex;
     align-items: center;
@@ -94,32 +94,32 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: var(--spacing-unit);
+    gap: calc(var(--spacing-unit) * 0.5);
 }
 
 .logo-symbol {
-    width: clamp(36px, 3vw, 60px);
-    height: clamp(36px, 3vw, 60px);
+    width: clamp(24px, 2vw, 32px);
+    height: clamp(24px, 2vw, 32px);
     border: 1px solid var(--gold);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--gold);
-    font-size: clamp(1rem, 1.5vw, 1.8rem);
+    font-size: clamp(0.8rem, 1vw, 1rem);
     font-weight: 600;
     flex-shrink: 0;
 }
 
 .logo h1 {
-    font-size: clamp(1.1rem, 2vw, 2rem);
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
     font-weight: 400;
     color: var(--gold);
-    letter-spacing: clamp(1px, 0.2vw, 4px);
+    letter-spacing: clamp(1px, 0.15vw, 2px);
 }
 
 .logo span {
-    font-size: clamp(0.75rem, 1vw, 1.1rem);
+    font-size: clamp(0.65rem, 0.8vw, 0.85rem);
     color: var(--text-muted);
     display: block;
 }
@@ -506,26 +506,28 @@ footer a:hover {
 
 .book-cards {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
     margin: 2rem 0;
-    max-width: 900px;
+    max-width: 1100px;
 }
 
 .book-card {
     background: rgba(212, 175, 55, 0.05);
     border: 1px solid rgba(212, 175, 55, 0.3);
     border-radius: 12px;
-    padding: 2rem;
+    padding: 1.5rem;
     cursor: pointer;
     transition: all 0.3s ease;
-    max-width: 350px;
+    max-width: 300px;
+    min-width: 250px;
+    flex: 1;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .book-card:hover {
@@ -535,22 +537,22 @@ footer a:hover {
 }
 
 .book-card .home-symbol {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 0.5rem;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.3rem;
 }
 
 .book-card h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--gold);
     margin: 0;
 }
 
 .book-card p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: var(--text-muted);
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .book-card .book-meta {
@@ -561,6 +563,14 @@ footer a:hover {
 }
 
 /* Botão para trocar de livro */
+.book-switch-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
 .book-switch-btn {
     background: transparent;
     border: 1px solid rgba(212, 175, 55, 0.3);
@@ -571,7 +581,6 @@ footer a:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 4px;
-    margin-top: 1.5rem;
 }
 
 .book-switch-btn:hover {

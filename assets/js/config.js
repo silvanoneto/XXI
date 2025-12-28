@@ -21,6 +21,15 @@ const Config = {
             epigraph: 'Caminhante, não há caminho, faz-se caminho ao andar…',
             footnote: 'Você não existe antes de suas relações. Você é a teia que te tece.',
             symbol: 'crio' // tipo de símbolo SVG
+        },
+        tekoha: {
+            id: 'tekoha',
+            path: 'assets/Tekoha_XXI.epub',
+            title: 'TEKOHA XXI',
+            subtitle: 'Manual de Transformação Relacional',
+            epigraph: 'Sem tekoha não há tekó.',
+            footnote: 'Do indivíduo ao cosmos · Da teoria à prática · A trilogia completa',
+            symbol: 'tekoha' // tipo de símbolo SVG
         }
     },
 
@@ -63,6 +72,7 @@ Object.freeze(Config);
 Object.freeze(Config.books);
 Object.freeze(Config.books.paebiru);
 Object.freeze(Config.books.crio);
+Object.freeze(Config.books.tekoha);
 Object.freeze(Config.epub);
 Object.freeze(Config.ui);
 Object.freeze(Config.ui.fontSize);

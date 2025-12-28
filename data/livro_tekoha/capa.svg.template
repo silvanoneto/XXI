@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14"/>
+      <stop offset="50%" style="stop-color:#0d0d1a"/>
+      <stop offset="100%" style="stop-color:#080812"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37"/>
+      <stop offset="50%" style="stop-color:#f4e4ba"/>
+      <stop offset="100%" style="stop-color:#d4af37"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff9e6;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#d4af37;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Símbolo central - Rede de comunidades/aldeias (quilombos/mocambos) -->
+  <g transform="translate(200, 280)">
+    <!-- Conexões entre aldeias (trilhas secretas) -->
+    <g stroke="#d4af37" stroke-width="1" opacity="0.25">
+      <!-- Conexões externas -->
+      <line x1="0" y1="-90" x2="78" y2="-45"/>
+      <line x1="78" y1="-45" x2="78" y2="45"/>
+      <line x1="78" y1="45" x2="0" y2="90"/>
+      <line x1="0" y1="90" x2="-78" y2="45"/>
+      <line x1="-78" y1="45" x2="-78" y2="-45"/>
+      <line x1="-78" y1="-45" x2="0" y2="-90"/>
+      <!-- Conexões ao centro -->
+      <line x1="0" y1="0" x2="0" y2="-90"/>
+      <line x1="0" y1="0" x2="78" y2="-45"/>
+      <line x1="0" y1="0" x2="78" y2="45"/>
+      <line x1="0" y1="0" x2="0" y2="90"/>
+      <line x1="0" y1="0" x2="-78" y2="45"/>
+      <line x1="0" y1="0" x2="-78" y2="-45"/>
+    </g>
+
+    <!-- Aldeia central (opy - casa de reza) -->
+    <polygon points="0,-25 21.7,-12.5 21.7,12.5 0,25 -21.7,12.5 -21.7,-12.5"
+        fill="url(#centerGlow)" stroke="#d4af37" stroke-width="2" opacity="0.9"/>
+
+    <!-- Aldeias externas (mocambos conectados) -->
+    <g fill="rgba(212, 175, 55, 0.15)" stroke="#d4af37" stroke-width="1.2">
+      <!-- Norte -->
+      <g transform="translate(0, -90)">
+        <polygon points="0,-16 13.9,-8 13.9,8 0,16 -13.9,8 -13.9,-8" opacity="0.7"/>
+      </g>
+      <!-- Nordeste -->
+      <g transform="translate(78, -45)">
+        <polygon points="0,-16 13.9,-8 13.9,8 0,16 -13.9,8 -13.9,-8" opacity="0.7"/>
+      </g>
+      <!-- Sudeste -->
+      <g transform="translate(78, 45)">
+        <polygon points="0,-16 13.9,-8 13.9,8 0,16 -13.9,8 -13.9,-8" opacity="0.7"/>
+      </g>
+      <!-- Sul -->
+      <g transform="translate(0, 90)">
+        <polygon points="0,-16 13.9,-8 13.9,8 0,16 -13.9,8 -13.9,-8" opacity="0.7"/>
+      </g>
+      <!-- Sudoeste -->
+      <g transform="translate(-78, 45)">
+        <polygon points="0,-16 13.9,-8 13.9,8 0,16 -13.9,8 -13.9,-8" opacity="0.7"/>
+      </g>
+      <!-- Noroeste -->
+      <g transform="translate(-78, -45)">
+        <polygon points="0,-16 13.9,-8 13.9,8 0,16 -13.9,8 -13.9,-8" opacity="0.7"/>
+      </g>
+    </g>
+
+    <!-- Círculo externo representando o território -->
+    <circle cx="0" cy="0" r="115" fill="none" stroke="url(#goldGrad)" stroke-width="0.5" opacity="0.2" stroke-dasharray="5 5"/>
+  </g>
+
+  <!-- Título -->
+  <text x="200" y="75" text-anchor="middle" fill="url(#goldGrad)" font-family="Cormorant Garamond, serif" font-size="42" font-weight="600">TEKOHA XXI</text>
+
+  <!-- Subtítulo -->
+  <text x="200" y="110" text-anchor="middle" fill="#d4af37" font-family="Cormorant Garamond, serif" font-size="14" opacity="0.8">Manual de Transformação Relacional</text>
+
+  <!-- Epígrafe -->
+  <text x="200" y="480" text-anchor="middle" fill="#d4af37" font-family="Cormorant Garamond, serif" font-size="12" font-style="italic" opacity="0.7">"Sem tekoha não há tekó."</text>
+  <text x="200" y="500" text-anchor="middle" fill="#888" font-family="Cormorant Garamond, serif" font-size="10" opacity="0.6">— Sabedoria Guarani</text>
+
+  <!-- Autor -->
+  <text x="200" y="555" text-anchor="middle" fill="#d4af37" font-family="Cormorant Garamond, serif" font-size="16" opacity="0.9">Silvano Neto</text>
+
+  <!-- Ano -->
+  <text x="200" y="580" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="10" opacity="0.5">2025</text>
+</svg>

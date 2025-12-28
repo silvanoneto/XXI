@@ -1,0 +1,51 @@
+# Configurações do Tekoha XXI
+# ============================
+
+# Metadados do livro
+titulo: "Tekoha XXI"
+subtitulo: "Manual de Transformação Relacional"
+coautor: "Silvano Neto"
+lingua: "pt-BR"
+identificador: "tekoha-xxi-2025"
+epigrafe: "Sem tekoha não há tekó."
+
+# Arquivos de saída
+output_file: "assets/Tekoha_XXI.epub"
+
+# Estrutura do livro (pasta: lista de arquivos)
+estrutura_livro:
+  - pasta: "data/livro_tekoha"
+    arquivos:
+      - "00_Cabecalho.md"
+
+  - pasta: "data/livro_tekoha/01_Abertura"
+    arquivos:
+      - "00_Epigrafe.md"
+      - "01_Convite.md"
+      - "02_Linha_do_Tempo.md"
+
+  - pasta: "data/livro_tekoha/02_Ato_I_As_Raizes"
+    arquivos:
+      - "00_ato_1.md"
+      - "01_Tekoha.md"
+      - "02_Quilombo.md"
+
+  - pasta: "data/livro_tekoha/03_Ato_II_A_Teia"
+    arquivos:
+      - "00_ato_2.md"
+      - "01_O_Macro.md"
+
+  - pasta: "data/livro_tekoha/04_Ato_III_O_Tecer"
+    arquivos:
+      - "00_ato_3.md"
+      - "01_O_Circulo_Paulo_Freire.md"
+
+  - pasta: "data/livro_tekoha/05_Conclusao"
+    arquivos:
+      - "01_Conclusao.md"
+      - "02_Glossario.md"
+      - "03_Referencias.md"
+
+  - pasta: "data/livro_tekoha"
+    arquivos:
+      - "99_Rodape.md"
