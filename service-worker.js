@@ -1,4 +1,4 @@
-const CACHE_NAME = 'paebiru-v2';
+const CACHE_NAME = 'paebiru-v3';
 const urlsToCache = [
   './',
   './index.html',
