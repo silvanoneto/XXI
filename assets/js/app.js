@@ -8,8 +8,11 @@ class PaebiruApp {
         // Inicializar gerenciador de estado
         this.state = new StateManager();
 
+        // Livro atual (será definido na inicialização)
+        this.currentBookConfig = null;
+        this.epubLoader = null;
+
         // Inicializar módulos com suas dependências
-        this.epubLoader = new EPUBLoader(Config.epub.path);
         this.chapterRenderer = new ChapterRenderer(Config.selectors.reader, Config.colors);
         this.homeRenderer = new HomeRenderer(Config.selectors.reader, Config.colors);
         this.tocManager = new TOCManager(Config.selectors.toc);
@@ -29,21 +32,72 @@ class PaebiruApp {
             this.ui.loadTheme();
             this.ui.loadFont();
 
+            // Verificar se há livro salvo
+            const savedBookId = localStorage.getItem('currentBook');
+            const savedBook = savedBookId ? Config.books[savedBookId] : null;
+
+            if (savedBook) {
+                await this.loadBook(savedBookId);
+            } else {
+                // Mostrar seletor de livros
+                this.showBookSelector();
+            }
+        } catch (err) {
+            console.error("Erro ao inicializar:", err);
+            this.chapterRenderer.showError(err.message);
+        }
+    }
+
+    showBookSelector() {
+        this.homeRenderer.render(
+            null,
+            null,
+            (bookId) => this.loadBook(bookId)
+        );
+    }
+
+    async loadBook(bookId) {
+        const bookConfig = Config.books[bookId];
+        if (!bookConfig) {
+            console.error('Livro não encontrado:', bookId);
+            return;
+        }
+
+        // Salvar livro atual
+        localStorage.setItem('currentBook', bookId);
+        this.currentBookConfig = bookConfig;
+
+        // Atualizar título da página
+        document.title = `${bookConfig.title} — ${bookConfig.subtitle}`;
+
+        // Criar novo loader para o livro
+        this.epubLoader = new EPUBLoader(bookConfig.path);
+
+        try {
             const chapters = await this.loadEPUB();
             this.state.setChapters(chapters);
             this.tocManager.build(chapters, this.handleChapterSelect.bind(this));
 
-            // Restaurar checkpoint de leitura
-            const savedChapter = this.state.loadCheckpoint();
+            // Restaurar checkpoint de leitura (específico por livro)
+            const savedChapter = this.state.loadCheckpoint(bookId);
             if (savedChapter !== null && savedChapter >= 0 && savedChapter < chapters.length) {
                 this.navigation.goToChapter(savedChapter);
             } else {
                 this.showHome();
             }
         } catch (err) {
-            console.error("Erro ao inicializar:", err);
+            console.error("Erro ao carregar livro:", err);
             this.chapterRenderer.showError(err.message);
         }
+    }
+
+    async switchBook(bookId) {
+        // Limpar estado atual
+        this.state.setChapters([]);
+        this.state.setCurrentChapter(-1);
+
+        // Carregar novo livro
+        await this.loadBook(bookId);
     }
 
     async loadEPUB() {
@@ -102,7 +156,11 @@ class PaebiruApp {
     }
 
     renderHome() {
-        this.homeRenderer.render(() => this.navigation.goToChapter(0));
+        this.homeRenderer.render(
+            () => this.navigation.goToChapter(0),
+            this.currentBookConfig,
+            (bookId) => this.switchBook(bookId)
+        );
         this.tocManager.clearActive();
     }
 
@@ -111,6 +169,10 @@ class PaebiruApp {
         if (chapter) {
             this.chapterRenderer.render(chapter, this.state.fontSize);
             this.tocManager.setActive(index);
+            // Salvar checkpoint específico por livro
+            if (this.currentBookConfig) {
+                this.state.saveCheckpoint(index, this.currentBookConfig.id);
+            }
         }
     }
 
@@ -130,6 +192,7 @@ class PaebiruApp {
         window.cycleTheme = () => this.ui.cycleTheme();
         window.cycleFont = () => this.ui.cycleFont();
         window.toggleSidebar = () => this.ui.toggleSidebar();
+        window.switchBook = (bookId) => this.switchBook(bookId);
     }
 }
 

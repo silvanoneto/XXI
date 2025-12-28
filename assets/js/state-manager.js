@@ -36,21 +36,23 @@ class StateManager {
     setCurrentChapter(index) {
         const previous = this.state.currentChapter;
         this.state.currentChapter = index;
-        this.saveCheckpoint();
         this.notify('chapterChanged', { previous, current: index });
     }
 
-    saveCheckpoint() {
+    saveCheckpoint(chapter = null, bookId = null) {
+        const chapterIndex = chapter !== null ? chapter : this.state.currentChapter;
+        const key = bookId ? `readingCheckpoint_${bookId}` : 'readingCheckpoint';
         const checkpoint = {
-            chapter: this.state.currentChapter,
+            chapter: chapterIndex,
             timestamp: Date.now()
         };
-        localStorage.setItem('readingCheckpoint', JSON.stringify(checkpoint));
+        localStorage.setItem(key, JSON.stringify(checkpoint));
     }
 
-    loadCheckpoint() {
+    loadCheckpoint(bookId = null) {
         try {
-            const saved = localStorage.getItem('readingCheckpoint');
+            const key = bookId ? `readingCheckpoint_${bookId}` : 'readingCheckpoint';
+            const saved = localStorage.getItem(key);
             if (saved) {
                 const checkpoint = JSON.parse(saved);
                 return checkpoint.chapter;

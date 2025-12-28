@@ -48,6 +48,7 @@ class CoverGenerator:
             TITULO_LINHA2=linha2,
             SUBTITULO=self.config.subtitulo,
             EPIGRAFE=self.config.epigrafe,
+            COAUTOR=self.config.coautor,
         )
 
     def generate_png(self, width: int = 800, height: int = 1120) -> bytes:

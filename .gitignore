@@ -70,3 +70,4 @@ htmlcov/
 # Build artifacts (keep the final EPUB in assets/)
 *.epub
 !assets/*.epub
+output/

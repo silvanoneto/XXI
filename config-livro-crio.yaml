@@ -1,0 +1,85 @@
+# Configurações do Livro CRIØ
+# ============================
+
+# Metadados do livro
+titulo: "CRIØ: O Caminho Que Se Faz"
+subtitulo: "Uma Ontologia Relacional para o Século XXI"
+coautor: "Silvano Neto"
+lingua: "pt-BR"
+identificador: "crio-livro-2025"
+epigrafe: "Caminhante, não há caminho, faz-se caminho ao andar… - Antonio Machado"
+
+# Arquivos de saída
+output_file: "assets/CRIO_livro.epub"
+
+# Estrutura do livro
+estrutura_livro:
+  # Cabeçalho
+  - pasta: "data/livro_crio"
+    arquivos:
+      - "00_Cabecalho.md"
+
+  # Parte I: Abertura
+  - pasta: "data/livro_crio/01_Abertura"
+    arquivos:
+      - "00_Epigrafe.md"
+      - "01_Convite_Ao_Leitor.md"
+      - "02_O_Que_Este_Livro_Nao_E.md"
+
+  # Parte II: As Três Raízes (começar pela experiência)
+  - pasta: "data/livro_crio/02_Parte_I_Tres_Raizes"
+    arquivos:
+      - "00_Abertura_Tres_Raizes.md"
+      - "01_Nhee_A_Palavra_Que_E_Ser.md"
+      - "02_Sunyata_O_Vazio_Gravido.md"
+      - "03_O_Sujeito_Que_Se_Faz.md"
+
+  # Parte III: Por Que Você Não Existe (Fundamentos Ontológicos)
+  - pasta: "data/livro_crio/03_Parte_II_Por_Que_Voce_Nao_Existe"
+    arquivos:
+      - "00_Abertura_Parte_II.md"
+      - "01_A_Impossibilidade_Do_Eu.md"
+      - "02_A_Teia_Que_Te_Tece.md"
+      - "03_O_Filosofo_Que_Discordou.md"
+
+  # Parte IV: O Jogo do Mundo (Dinâmica Sistêmica)
+  - pasta: "data/livro_crio/04_Parte_III_O_Jogo_Do_Mundo"
+    arquivos:
+      - "00_Abertura_Parte_III.md"
+      - "01_Os_Ciclos_Que_Nos_Repetem.md"
+      - "02_As_Regras_Invisiveis.md"
+      - "03_O_Parasita_E_O_Tecido.md"
+
+  # Parte V: Conhecer de Dentro (Epistemologia)
+  - pasta: "data/livro_crio/05_Parte_IV_Conhecer_De_Dentro"
+    arquivos:
+      - "00_Abertura_Parte_IV.md"
+      - "01_Quem_Voce_Era_Ontem.md"
+      - "02_A_Teia_Que_Conhece.md"
+      - "03_Agir_Antes_De_Ser.md"
+      - "04_A_Ciencia_Do_Povo.md"
+
+  # Parte VI: O Mundo em Chamas (Crises)
+  - pasta: "data/livro_crio/06_Parte_V_O_Mundo_Em_Chamas"
+    arquivos:
+      - "00_Abertura_Parte_V.md"
+      - "01_O_Fogo_Que_Vem.md"
+      - "02_A_Maquina_Que_Sonha.md"
+
+  # Conclusão
+  - pasta: "data/livro_crio/07_Conclusao"
+    arquivos:
+      - "00_O_Caminho_Se_Faz.md"
+      - "01_O_Paebiru_XXI.md"
+      - "02_Glossario_Vivo.md"
+
+  # Rodapé
+  - pasta: "data/livro_crio"
+    arquivos:
+      - "99_Rodape.md"
+
+# Templates
+templates:
+  capa: "data/livro_crio/capa.svg.template"
+  contracapa: "data/livro_crio/contracapa.svg.template"
+  capitulo: "data/livro_crio/capitulo.html.template"

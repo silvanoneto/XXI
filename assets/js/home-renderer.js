@@ -6,28 +6,76 @@ class HomeRenderer {
     constructor(containerSelector, colors) {
         this.container = document.querySelector(containerSelector);
         this.colors = colors;
+        this.currentBook = null;
     }
 
-    render(onStartCallback) {
-        this.container.innerHTML = this.createHomeHTML();
+    render(onStartCallback, bookConfig = null, onSwitchBookCallback = null) {
+        this.currentBook = bookConfig;
+        this.container.innerHTML = this.createHomeHTML(bookConfig);
         this.attachStartButton(onStartCallback);
+        if (onSwitchBookCallback) {
+            this.attachBookSwitcher(onSwitchBookCallback);
+        }
     }
 
-    createHomeHTML() {
+    createHomeHTML(book) {
+        if (!book) {
+            return this.createBookSelectorHTML();
+        }
         return `
             <div class="home-screen">
-                ${this.createSymbolSVG()}
-                ${this.createTitle()}
-                ${this.createSubtitle()}
-                ${this.createEpigraph()}
+                ${this.createSymbolSVG(book.symbol)}
+                ${this.createTitle(book.title)}
+                ${this.createSubtitle(book.subtitle)}
+                ${this.createEpigraph(book.epigraph)}
                 ${this.createStartButton()}
-                ${this.createFootnote()}
+                ${this.createFootnote(book.footnote)}
+                ${this.createBookSwitcher()}
                 ${this.createKeyboardShortcuts()}
             </div>
         `;
     }
 
-    createSymbolSVG() {
+    createBookSelectorHTML() {
+        return `
+            <div class="home-screen book-selector">
+                <h1 class="home-title" style="font-size: 2rem; margin-bottom: 2rem;">Escolha um livro</h1>
+                <div class="book-cards">
+                    <button class="book-card" data-book="paebiru">
+                        ${this.createSymbolSVG('paebiru')}
+                        <h2>PAÊBIRÚ XXI</h2>
+                        <p>Um Ensaio Filosófico</p>
+                        <span class="book-meta">21 arquétipos · 3 atos</span>
+                    </button>
+                    <button class="book-card" data-book="crio">
+                        ${this.createSymbolSVG('crio')}
+                        <h2>CRIØ</h2>
+                        <p>Uma Ontologia Relacional para o Século XXI</p>
+                        <span class="book-meta">Filosofia relacional</span>
+                    </button>
+                </div>
+            </div>
+        `;
+    }
+
+    createBookSwitcher() {
+        const otherBook = this.currentBook?.id === 'paebiru' ? 'crio' : 'paebiru';
+        const otherTitle = otherBook === 'paebiru' ? 'Paêbirú XXI' : 'CRIØ';
+        return `
+            <button class="book-switch-btn" data-switch-book="${otherBook}">
+                ← Ler ${otherTitle}
+            </button>
+        `;
+    }
+
+    createSymbolSVG(type = 'paebiru') {
+        if (type === 'crio') {
+            return this.createCrioSymbolSVG();
+        }
+        return this.createPaebiruSymbolSVG();
+    }
+
+    createPaebiruSymbolSVG() {
         return `
             <svg class="home-symbol" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <defs>
@@ -85,33 +133,85 @@ class HomeRenderer {
         `;
     }
 
-    createTitle() {
+    createCrioSymbolSVG() {
         return `
-            <h1 class="home-title">PAÊBIRÚ XXI</h1>
+            <svg class="home-symbol" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <radialGradient id="crioGlow" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#fff9e6"/>
+                        <stop offset="100%" stop-color="${this.colors.gold}" stop-opacity="0"/>
+                    </radialGradient>
+                    <linearGradient id="crioGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="${this.colors.gold}"/>
+                        <stop offset="50%" stop-color="${this.colors.goldLight}"/>
+                        <stop offset="100%" stop-color="${this.colors.gold}"/>
+                    </linearGradient>
+                </defs>
+
+                <!-- Teia relacional - nós interconectados -->
+                <circle cx="100" cy="100" r="85" fill="none" stroke="url(#crioGold)" stroke-width="0.5" opacity="0.3"/>
+
+                <!-- Nós principais (relações) -->
+                <g fill="${this.colors.gold}">
+                    <circle cx="100" cy="30" r="5" opacity="0.8"/>
+                    <circle cx="160" cy="70" r="5" opacity="0.8"/>
+                    <circle cx="160" cy="130" r="5" opacity="0.8"/>
+                    <circle cx="100" cy="170" r="5" opacity="0.8"/>
+                    <circle cx="40" cy="130" r="5" opacity="0.8"/>
+                    <circle cx="40" cy="70" r="5" opacity="0.8"/>
+                </g>
+
+                <!-- Conexões entre nós -->
+                <g stroke="${this.colors.gold}" stroke-width="0.8" opacity="0.4">
+                    <line x1="100" y1="30" x2="160" y2="70"/>
+                    <line x1="160" y1="70" x2="160" y2="130"/>
+                    <line x1="160" y1="130" x2="100" y2="170"/>
+                    <line x1="100" y1="170" x2="40" y2="130"/>
+                    <line x1="40" y1="130" x2="40" y2="70"/>
+                    <line x1="40" y1="70" x2="100" y2="30"/>
+                    <!-- Diagonais -->
+                    <line x1="100" y1="30" x2="100" y2="170"/>
+                    <line x1="40" y1="70" x2="160" y2="130"/>
+                    <line x1="160" y1="70" x2="40" y2="130"/>
+                </g>
+
+                <!-- Centro - vazio relacional -->
+                <circle cx="100" cy="100" r="20" fill="url(#crioGlow)" opacity="0.4"/>
+                <circle cx="100" cy="100" r="8" fill="none" stroke="${this.colors.gold}" stroke-width="1" opacity="0.6"/>
+
+                <!-- Ø no centro -->
+                <text x="100" y="106" text-anchor="middle" fill="${this.colors.gold}" font-size="16" font-family="serif" opacity="0.8">Ø</text>
+            </svg>
         `;
     }
 
-    createSubtitle() {
+    createTitle(title = 'PAÊBIRÚ XXI') {
         return `
-            <p class="home-subtitle">Um Homo Sapiens Para Um Novo Século</p>
+            <h1 class="home-title">${title}</h1>
         `;
     }
 
-    createEpigraph() {
+    createSubtitle(subtitle = 'Um Homo Sapiens Para Um Novo Século') {
         return `
-            <p class="home-epigraph">"Para um mundo onde a sombra não encontra terreno"</p>
+            <p class="home-subtitle">${subtitle}</p>
+        `;
+    }
+
+    createEpigraph(epigraph = 'Para um mundo onde a sombra não encontra terreno') {
+        return `
+            <p class="home-epigraph">"${epigraph}"</p>
         `;
     }
 
     createStartButton() {
         return `
-            <button id="start-journey-btn" class="home-start-btn">COMEÇAR A JORNADA</button>
+            <button id="start-journey-btn" class="home-start-btn">COMEÇAR A LEITURA</button>
         `;
     }
 
-    createFootnote() {
+    createFootnote(footnote = '21 arquétipos · 3 atos · 1 caminho') {
         return `
-            <p class="home-footnote">21 arquétipos · 3 atos · 1 caminho</p>
+            <p class="home-footnote">${footnote}</p>
         `;
     }
 
@@ -133,6 +233,25 @@ class HomeRenderer {
         if (btn) {
             btn.addEventListener('click', callback);
         }
+    }
+
+    attachBookSwitcher(callback) {
+        const switchBtn = this.container.querySelector('.book-switch-btn');
+        if (switchBtn) {
+            switchBtn.addEventListener('click', (e) => {
+                const bookId = e.target.dataset.switchBook;
+                callback(bookId);
+            });
+        }
+
+        // Também para os cards de seleção
+        const bookCards = this.container.querySelectorAll('.book-card');
+        bookCards.forEach(card => {
+            card.addEventListener('click', (e) => {
+                const bookId = card.dataset.book;
+                callback(bookId);
+            });
+        });
     }
 
     hideLoading() {

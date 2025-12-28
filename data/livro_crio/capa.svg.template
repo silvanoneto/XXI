@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560">
+  <defs>
+    <!-- Gradiente de fundo: tons terrosos representando a terra/tekoha -->
+    <radialGradient id="terra" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#4a3728"/>
+      <stop offset="50%" stop-color="#2d1f15"/>
+      <stop offset="100%" stop-color="#1a110a"/>
+    </radialGradient>
+    <!-- Gradiente para elementos: dourado/âmbar -->
+    <linearGradient id="nhee" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a84b"/>
+      <stop offset="50%" stop-color="#f0d48a"/>
+      <stop offset="100%" stop-color="#d4a84b"/>
+    </linearGradient>
+    <!-- Gradiente para o Ø central -->
+    <radialGradient id="ø-centro" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#f0d48a"/>
+      <stop offset="100%" stop-color="#d4a84b"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="560" fill="url(#terra)"/>
+
+  <!-- Teia relacional: rede de conexões orgânicas -->
+  <g stroke="url(#nhee)" stroke-width="0.4" opacity="0.12">
+    <!-- Linhas curvas formando teia orgânica -->
+    <path d="M50,200 Q125,180 200,200 Q275,220 350,200" fill="none"/>
+    <path d="M50,250 Q125,230 200,250 Q275,270 350,250" fill="none"/>
+    <path d="M50,300 Q125,280 200,300 Q275,320 350,300" fill="none"/>
+    <path d="M100,100 Q120,200 100,300 Q80,400 100,450" fill="none"/>
+    <path d="M200,100 Q220,200 200,300 Q180,400 200,450" fill="none"/>
+    <path d="M300,100 Q280,200 300,300 Q320,400 300,450" fill="none"/>
+  </g>
+
+  <!-- Linhas diagonais representando conexões emergentes -->
+  <g stroke="url(#nhee)" stroke-width="0.5" opacity="0.15">
+    <path d="M80,150 Q200,250 320,350" fill="none"/>
+    <path d="M320,150 Q200,250 80,350" fill="none"/>
+    <path d="M150,120 Q200,250 250,380" fill="none"/>
+    <path d="M250,120 Q200,250 150,380" fill="none"/>
+  </g>
+
+  <!-- Nós da rede (pontos de relação) -->
+  <g fill="#d4a84b" opacity="0.35">
+    <circle cx="100" cy="150" r="2.5"/>
+    <circle cx="150" cy="170" r="2"/>
+    <circle cx="200" cy="160" r="2.5"/>
+    <circle cx="250" cy="175" r="2"/>
+    <circle cx="300" cy="155" r="2.5"/>
+    <circle cx="85" cy="220" r="2"/>
+    <circle cx="140" cy="240" r="2.5"/>
+    <circle cx="260" cy="235" r="2.5"/>
+    <circle cx="315" cy="215" r="2"/>
+    <circle cx="100" cy="290" r="2.5"/>
+    <circle cx="150" cy="305" r="2"/>
+    <circle cx="250" cy="300" r="2"/>
+    <circle cx="300" cy="285" r="2.5"/>
+    <circle cx="90" cy="360" r="2"/>
+    <circle cx="145" cy="375" r="2.5"/>
+    <circle cx="200" cy="365" r="2"/>
+    <circle cx="255" cy="380" r="2.5"/>
+    <circle cx="310" cy="355" r="2"/>
+  </g>
+
+  <!-- O Ø central: símbolo da ontologia relacional -->
+  <circle cx="200" cy="250" r="50" fill="none" stroke="url(#nhee)" stroke-width="2.5" opacity="0.7"/>
+  <line x1="170" y1="210" x2="230" y2="290" stroke="url(#nhee)" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Halo de emergência ao redor do Ø -->
+  <circle cx="200" cy="250" r="65" fill="none" stroke="#f0d48a" stroke-width="0.6" opacity="0.25"/>
+  <circle cx="200" cy="250" r="80" fill="none" stroke="#d4a84b" stroke-width="0.4" opacity="0.15"/>
+
+  <!-- Título principal -->
+  <text x="200" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="56" fill="url(#nhee)" letter-spacing="8">
+    CRIØ
+  </text>
+
+  <!-- Subtítulo -->
+  <text x="200" y="430" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#f0d48a" opacity="0.9" letter-spacing="1">
+    O Caminho Que Se Faz
+  </text>
+
+  <text x="200" y="455" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#d4a84b" opacity="0.7" letter-spacing="0.5">
+    Uma Ontologia Relacional para o Século XXI
+  </text>
+
+  <!-- Epígrafe -->
+  <text x="200" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#d4a84b" opacity="0.6" font-style="italic">
+    "O caminho se faz ao caminhar"
+  </text>
+
+  <!-- Autor -->
+  <text x="200" y="535" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#f0d48a" opacity="0.8">
+    {{COAUTOR}}
+  </text>
+</svg>

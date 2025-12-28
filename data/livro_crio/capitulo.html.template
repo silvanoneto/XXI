@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>{{TITULO}}</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.8;
+            color: #2d2d2d;
+            max-width: 40em;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #faf8f5;
+        }
+        h1, h2, h3, h4 {
+            font-weight: normal;
+            color: #8B4513;
+            margin-top: 2em;
+        }
+        h1 {
+            font-size: 1.8em;
+            text-align: center;
+            border-bottom: 2px solid #8B4513;
+            padding-bottom: 0.5em;
+        }
+        h2 {
+            font-size: 1.4em;
+            color: #A0522D;
+        }
+        h3 {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        blockquote {
+            font-style: italic;
+            border-left: 4px solid #8B4513;
+            padding-left: 1em;
+            margin-left: 0;
+            color: #555;
+            background-color: #f5f0e8;
+            padding: 1em;
+            border-radius: 0 8px 8px 0;
+        }
+        em { color: #333; }
+        strong { color: #8B4513; }
+        hr {
+            border: none;
+            border-top: 1px solid #8B4513;
+            margin: 2em 0;
+        }
+        .center { text-align: center; }
+
+        /* Caixa de aprofundamento */
+        .aprofundamento {
+            background-color: #f0ebe3;
+            border: 1px solid #c4a77d;
+            border-radius: 8px;
+            padding: 1em;
+            margin: 1.5em 0;
+            font-size: 0.95em;
+        }
+        .aprofundamento strong:first-child {
+            display: block;
+            margin-bottom: 0.5em;
+            color: #6B4423;
+        }
+
+        /* Sabedoria em destaque */
+        .sabedoria {
+            text-align: center;
+            font-style: italic;
+            color: #6B4423;
+            padding: 1em;
+            margin: 1.5em 0;
+            border-top: 1px dashed #8B4513;
+            border-bottom: 1px dashed #8B4513;
+        }
+    </style>
+</head>
+<body>
+    {{CONTEUDO}}
+</body>
+</html>
