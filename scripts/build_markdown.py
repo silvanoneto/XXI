@@ -14,12 +14,9 @@ Os arquivos são gerados em assets/ por padrão.
 
 import argparse
 import logging
-import re
 import sys
 from pathlib import Path
 from typing import Optional
-
-import yaml
 
 # Configurar logging
 logging.basicConfig(
@@ -27,25 +24,6 @@ logging.basicConfig(
     format="%(message)s",
 )
 logger = logging.getLogger(__name__)
-
-
-# Regex para remover imagens markdown: ![alt](url) ou ![alt][ref]
-IMAGE_PATTERN = re.compile(r"!\[([^\]]*)\]\([^)]+\)|!\[([^\]]*)\]\[[^\]]*\]")
-
-
-def load_config(config_path: Path) -> dict:
-    """Carrega o arquivo de configuração YAML."""
-    with open(config_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
-
-
-def remove_images(content: str) -> str:
-    """Remove referências de imagens do conteúdo markdown."""
-    # Remove imagens e linhas vazias resultantes
-    content = IMAGE_PATTERN.sub("", content)
-    # Remove linhas que ficaram apenas com espaços em branco
-    content = re.sub(r"\n\s*\n\s*\n", "\n\n", content)
-    return content
 
 
 def build_markdown(config_path: Path, output_path: Optional[Path] = None) -> bool:
@@ -60,74 +38,27 @@ def build_markdown(config_path: Path, output_path: Optional[Path] = None) -> boo
         True se o build foi bem sucedido, False caso contrário.
     """
     try:
-        # Carregar configuração
-        config = load_config(config_path)
+        # Importar módulos do projeto
         base_dir = config_path.parent
+        sys.path.insert(0, str(base_dir / "src"))
 
-        titulo = config.get("titulo", "Livro")
-        subtitulo = config.get("subtitulo", "")
-        estrutura = config.get("estrutura_livro", [])
+        from markdown.config import Config
+        from markdown.builder import MarkdownBuilder
+
+        # Carregar configuração
+        config = Config.from_yaml(config_path)
 
         # Determinar arquivo de saída
         if output_path is None:
             output_name = config_path.stem.replace("config-", "") + ".md"
             output_path = base_dir / "assets" / output_name
 
-        # Criar diretório de saída se não existir
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-
-        logger.info(f"📚 Gerando: {titulo}")
-        if subtitulo:
-            logger.info(f"   {subtitulo}")
-        logger.info("")
-
-        # Concatenar conteúdo
-        conteudo_total = []
-        arquivos_processados = 0
-
-        for item in estrutura:
-            pasta = base_dir / item["pasta"]
-            arquivos = item.get("arquivos", [])
-
-            for arquivo in arquivos:
-                caminho_arquivo = pasta / arquivo
-
-                if not caminho_arquivo.exists():
-                    logger.warning(f"⚠️  Arquivo não encontrado: {caminho_arquivo}")
-                    continue
-
-                with open(caminho_arquivo, "r", encoding="utf-8") as f:
-                    conteudo = f.read().strip()
-
-                # Remover imagens
-                conteudo = remove_images(conteudo)
-
-                if conteudo:
-                    conteudo_total.append(conteudo)
-                    conteudo_total.append("\n\n")  # Separador entre arquivos
-                    arquivos_processados += 1
-
-        # Remover último separador extra
-        if conteudo_total and conteudo_total[-1] == "\n\n":
-            conteudo_total.pop()
-
-        # Escrever arquivo final
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write("".join(conteudo_total))
-
-        # Estatísticas
-        tamanho_kb = output_path.stat().st_size / 1024
-        logger.info(f"✅ Gerado: {output_path}")
-        logger.info(f"   📄 {arquivos_processados} arquivos processados")
-        logger.info(f"   📏 {tamanho_kb:.1f} KB")
-
-        return True
+        # Gerar markdown
+        builder = MarkdownBuilder(config)
+        return builder.build(output_path)
 
     except FileNotFoundError as e:
         logger.error(f"❌ Arquivo não encontrado: {e}")
-        return False
-    except yaml.YAMLError as e:
-        logger.error(f"❌ Erro ao parsear YAML: {e}")
         return False
     except Exception as e:
         logger.error(f"❌ Erro inesperado: {e}")
@@ -141,6 +72,7 @@ def main():
     parser.add_argument(
         "config",
         type=Path,
+        nargs="?",
         help="Arquivo de configuração YAML do livro",
     )
     parser.add_argument(
@@ -174,13 +106,16 @@ def main():
                 sucesso = False
 
         sys.exit(0 if sucesso else 1)
-    else:
+    elif args.config:
         if not args.config.exists():
             logger.error(f"❌ Arquivo não encontrado: {args.config}")
             sys.exit(1)
 
         sucesso = build_markdown(args.config, args.output)
         sys.exit(0 if sucesso else 1)
+    else:
+        parser.print_help()
+        sys.exit(1)
 
 
 if __name__ == "__main__":

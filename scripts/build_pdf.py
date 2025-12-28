@@ -13,11 +13,8 @@ Weasyprint oferece melhor suporte para unicode e caracteres especiais.
 
 import argparse
 import logging
-import subprocess
 import sys
 from pathlib import Path
-
-import yaml
 
 # Configurar logging
 logging.basicConfig(
@@ -25,163 +22,6 @@ logging.basicConfig(
     format="%(message)s",
 )
 logger = logging.getLogger(__name__)
-
-# Tentar encontrar pandoc na PATH
-PANDOC_PATH = None
-try:
-    result = subprocess.run(
-        ["which", "pandoc"], capture_output=True, text=True, check=True
-    )
-    PANDOC_PATH = result.stdout.strip()
-except subprocess.CalledProcessError:
-    # Tentar localizações comuns
-    common_paths = [
-        "/opt/homebrew/bin/pandoc",
-        "/usr/local/bin/pandoc",
-        "/usr/bin/pandoc",
-    ]
-    for path in common_paths:
-        if Path(path).exists():
-            PANDOC_PATH = path
-            break
-
-
-def load_config(config_path: Path) -> dict:
-    """Carrega o arquivo de configuração YAML."""
-    with open(config_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
-
-
-def sanitize_markdown_for_pdf(markdown_path: Path) -> str:
-    """
-    Lê o markdown e faz sanitização mínima para compatibilidade com PDF.
-
-    Args:
-        markdown_path: Caminho do arquivo markdown.
-
-    Returns:
-        Conteúdo markdown sanitizado.
-    """
-    import re
-
-    with open(markdown_path, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    # Manter emojis! Apenas limpar espaços em branco excessivos
-    content = re.sub(r"\n\n\n+", "\n\n", content)
-
-    return content
-
-
-def markdown_to_html(markdown_path: Path) -> str | None:
-    """Converte markdown para HTML usando pandoc."""
-    try:
-        result = subprocess.run(
-            ["pandoc", str(markdown_path), "-t", "html5"],
-            capture_output=True,
-            text=True,
-            check=True,
-        )
-        return result.stdout
-    except FileNotFoundError:
-        logger.error("❌ Pandoc não encontrado. Instale com: brew install pandoc")
-        return None
-    except subprocess.CalledProcessError as e:
-        logger.error(f"❌ Erro ao converter markdown: {e.stderr}")
-        return None
-
-
-def html_to_pdf_pandoc(html_content: str, output_path: Path) -> bool:
-    """Converte HTML para PDF usando pandoc."""
-    try:
-        process = subprocess.Popen(
-            ["pandoc", "-f", "html", "-t", "pdf", "-o", str(output_path)],
-            stdin=subprocess.PIPE,
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-        )
-        stdout, stderr = process.communicate(input=html_content)
-
-        if process.returncode != 0:
-            logger.error(f"❌ Erro ao gerar PDF: {stderr}")
-            return False
-        return True
-    except FileNotFoundError:
-        logger.error("❌ Pandoc não encontrado. Instale com: brew install pandoc")
-        return False
-
-
-def markdown_to_pdf_pandoc(markdown_path: Path, output_path: Path) -> bool:
-    """Converte Markdown para PDF usando pandoc + weasyprint."""
-    try:
-        if not PANDOC_PATH:
-            logger.error("❌ Pandoc não encontrado. Instale com: brew install pandoc")
-            return False
-
-        # Sanitizar conteúdo markdown
-        sanitized_content = sanitize_markdown_for_pdf(markdown_path)
-
-        # Escrever em arquivo temporário markdown
-        import tempfile
-
-        with tempfile.NamedTemporaryFile(
-            mode="w", suffix=".md", delete=False, encoding="utf-8"
-        ) as tmp_md:
-            tmp_md.write(sanitized_content)
-            tmp_md_path = tmp_md.name
-
-        try:
-            # Converter markdown para HTML
-            tmp_html_path = tmp_md_path.replace(".md", ".html")
-            result = subprocess.run(
-                [
-                    PANDOC_PATH,
-                    tmp_md_path,
-                    "-f",
-                    "markdown-yaml_metadata_block",
-                    "-t",
-                    "html5",
-                    "-o",
-                    tmp_html_path,
-                ],
-                capture_output=True,
-                text=True,
-                check=False,
-            )
-
-            if result.returncode != 0:
-                logger.error(f"❌ Erro ao converter para HTML: {result.stderr}")
-                return False
-
-            # Converter HTML para PDF com weasyprint
-            logger.info("   🔄 Convertendo HTML → PDF (weasyprint)...")
-            try:
-                from weasyprint import HTML
-
-                # Ler HTML e converter para PDF
-                html_file = HTML(string=Path(tmp_html_path).read_text(encoding="utf-8"))
-                html_file.write_pdf(str(output_path))
-
-                return True
-            except ImportError:
-                logger.error(
-                    "❌ Weasyprint não instalado. Execute: pip install weasyprint"
-                )
-                return False
-            except Exception as e:
-                logger.error(f"❌ Erro ao gerar PDF com weasyprint: {e}")
-                return False
-
-        finally:
-            # Limpar arquivos temporários
-            Path(tmp_md_path).unlink()
-            if Path(tmp_html_path).exists():
-                Path(tmp_html_path).unlink()
-
-    except Exception as e:
-        logger.error(f"❌ Erro: {e}")
-        return False
 
 
 def build_pdf(config_path: Path) -> bool:
@@ -195,58 +35,22 @@ def build_pdf(config_path: Path) -> bool:
         True se o build foi bem sucedido, False caso contrário.
     """
     try:
-        # Carregar configuração
-        config = load_config(config_path)
+        # Importar módulos do projeto
         base_dir = config_path.parent
+        sys.path.insert(0, str(base_dir / "src"))
 
-        titulo = config.get("titulo", "Livro")
-        subtitulo = config.get("subtitulo", "")
+        from pdf.config import Config
+        from pdf.builder import PdfBuilder
 
-        # Mapear config files para markdown filenames
-        config_name = config_path.stem
-        markdown_map = {
-            "config-livro-ensaio": "Paebiru_XXI.md",
-            "config-livro-crio": "CRIO_livro.md",
-            "config-livro-tekoha": "Tekoha_XXI.md",
-        }
+        # Carregar configuração
+        config = Config.from_yaml(config_path)
 
-        markdown_name = markdown_map.get(
-            config_name, config_name.replace("config-", "") + ".md"
-        )
-        markdown_path = base_dir / "assets" / markdown_name
-
-        # Determinar arquivo PDF de saída
-        pdf_name = markdown_name.replace(".md", ".pdf")
-        output_path = base_dir / "assets" / pdf_name
-
-        if not markdown_path.exists():
-            logger.warning(f"⚠️  Markdown não encontrado: {markdown_path}")
-            logger.info(
-                "   Gere o markdown primeiro com: python3 scripts/build_markdown.py --all"
-            )
-            return False
-
-        logger.info(f"📄 Convertendo: {titulo}")
-        if subtitulo:
-            logger.info(f"   {subtitulo}")
-
-        # Converter markdown diretamente para PDF (evita problemas com YAML parsing)
-        logger.info("   🔄 Convertendo markdown → PDF...")
-        if not markdown_to_pdf_pandoc(markdown_path, output_path):
-            return False
-
-        # Estatísticas
-        tamanho_mb = output_path.stat().st_size / (1024 * 1024)
-        logger.info(f"✅ Gerado: {output_path}")
-        logger.info(f"   📏 {tamanho_mb:.1f} MB")
-
-        return True
+        # Gerar PDF
+        builder = PdfBuilder(config)
+        return builder.build()
 
     except FileNotFoundError as e:
         logger.error(f"❌ Arquivo não encontrado: {e}")
-        return False
-    except yaml.YAMLError as e:
-        logger.error(f"❌ Erro ao parsear YAML: {e}")
         return False
     except Exception as e:
         logger.error(f"❌ Erro inesperado: {e}")
