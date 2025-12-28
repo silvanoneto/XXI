@@ -5,9 +5,11 @@ Concatena todo o livro em um único arquivo Markdown.
 Uso:
     python3 scripts/build_markdown.py config-livro-ensaio.yaml
     python3 scripts/build_markdown.py config-livro-crio.yaml
-    python3 scripts/build_markdown.py config-livro-ensaio.yaml -o output/livro_completo.md
+    python3 scripts/build_markdown.py config-livro-ensaio.yaml -o custom_output.md
 
 Requer: pip install pyyaml
+
+Os arquivos são gerados em assets/ por padrão.
 """
 
 import argparse
@@ -69,7 +71,7 @@ def build_markdown(config_path: Path, output_path: Optional[Path] = None) -> boo
         # Determinar arquivo de saída
         if output_path is None:
             output_name = config_path.stem.replace("config-", "") + ".md"
-            output_path = base_dir / "output" / output_name
+            output_path = base_dir / "assets" / output_name
 
         # Criar diretório de saída se não existir
         output_path.parent.mkdir(parents=True, exist_ok=True)

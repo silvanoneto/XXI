@@ -1,8 +1,11 @@
-# Paêbirú XXI - EPUB Builder
-# Dependências Python para geração do EPUB
+# Paêbirú XXI - EPUB Builder e PDF Generator
+# Dependências Python para geração do EPUB e PDF
 
 # Geração de EPUB
 ebooklib>=0.18
+
+# Geração de PDF
+weasyprint>=60.0
 
 # Conversão SVG → PNG (capa)
 cairosvg>=2.7.0

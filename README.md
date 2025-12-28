@@ -107,31 +107,59 @@ pip install -r requirements.txt
 ./scripts/install_dependencies.sh
 ```
 
-#### Construir o EPUB
+#### Construir os EPUBs
 
 ```bash
-./scripts/epub_build.sh
+# Construir todos os livros
+python3 scripts/build_epub.py --all
+
+# Ou construir um livro específico
+python3 scripts/build_epub.py config-livro-ensaio.yaml  # Paêbirú XXI
+python3 scripts/build_epub.py config-livro-crio.yaml    # CRIØ
+python3 scripts/build_epub.py config-livro-tekoha.yaml  # Tekoha XXI
 ```
 
-O EPUB será gerado em `assets/Paebiru_XXI.epub`
+Os EPUBs serão gerados em `assets/`.
+
+#### 📚 Os Três Livros
+
+1. **Paêbirú XXI** (`config-livro-ensaio.yaml`)
+   - Subtítulo: "Um Homo Sapiens Para Um Novo Século"
+   - Conteúdo: 21 arquétipos organizados em 3 atos + introdução/conclusão
+   - Arquivo: `assets/Paebiru_XXI.epub`
+
+2. **CRIØ** (`config-livro-crio.yaml`)
+   - Subtítulo: "O Caminho Que Se Faz — Uma Ontologia Relacional para o Século XXI"
+   - Conteúdo: Fundamentos filosóficos do CRIO
+   - Arquivo: `assets/CRIO_livro.epub`
+
+3. **Tekoha XXI** (`config-livro-tekoha.yaml`)
+   - Subtítulo: "Manual de Transformação Relacional"
+   - Conteúdo: Prática e aplicação do sistema
+   - Arquivo: `assets/Tekoha_XXI.epub`
 
 #### Estrutura de Arquivos
 
 ```
 .
-├── data/                    # Conteúdo dos 21 arquétipos
-│   ├── livro/              # Capítulos organizados em 3 atos + introdução/conclusão
-│   └── artigos/            # Artigos complementares
-├── src/epub/               # Builder Python para geração do EPUB
-├── assets/                 # Recursos web (CSS, JavaScript, SVG, imagens)
-│   ├── js/                 # Scripts da aplicação web
-│   ├── styles.css          # Estilos
-│   └── images/             # Ícones e imagens
-├── scripts/                # Scripts de automação
-│   ├── epub_build.sh       # Construir EPUB
-│   └── install_dependencies.sh
-├── index.html              # Página principal (PWA)
-└── README.md               # Este arquivo
+├── data/                           # Conteúdo dos livros
+│   ├── livro/                      # Paêbirú XXI (21 arquétipos)
+│   ├── livro_crio/                 # CRIØ (ontologia relacional)
+│   ├── livro_tekoha/               # Tekoha XXI (prática)
+│   └── artigos/                    # Artigos complementares
+├── src/epub/                       # Builder Python para EPUB
+├── assets/                         # Recursos web e EPUBs gerados
+│   ├── *.epub                      # Livros (gerados)
+│   ├── js/                         # Scripts da aplicação web
+│   ├── styles.css                  # Estilos
+│   └── images/                     # Ícones e imagens
+├── scripts/                        # Scripts de automação
+│   ├── build_epub.py              # Construir EPUBs
+│   ├── build_markdown.py           # Processar markdown
+│   └── install_dependencies.sh     # Instalar dependências
+├── config-livro-*.yaml             # Configurações dos livros
+├── index.html                      # Página principal (PWA)
+└── README.md                       # Este arquivo
 ```
 
 ---
@@ -148,18 +176,32 @@ O EPUB será gerado em `assets/Paebiru_XXI.epub`
 ## 📱 Recursos Web
 
 - **Progressive Web App (PWA)** — Funciona offline, instalável como app
-- **Renderizador EPUB** — Leia o livro diretamente no navegador
+- **Renderizador EPUB** — Leia os livros diretamente no navegador
 - **Navegação por capítulo** — Índice interativo e paginação
 - **Responsivo** — Otimizado para desktop, tablet e mobile
+- **Suporte para múltiplos livros** — Carregue diferentes EPUBs
 
 ---
 
 ## 🔧 Tecnologias
 
-- **Backend**: Python 3 (EPUB generation)
+- **Backend**: Python 3 (geração e processamento de EPUB)
 - **Frontend**: Vanilla JavaScript + CSS
 - **PWA**: Service Workers para offline
-- **Formato**: EPUB 3, HTML5
+- **Formatos**: EPUB 3, HTML5, Markdown
+- **Configuração**: YAML
+
+---
+
+## 📝 Contribuindo
+
+Para contribuir com conteúdo ou melhorias:
+
+1. Fork o repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -am 'Add nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
 ---
 
