@@ -42,8 +42,8 @@ def build_markdown(config_path: Path, output_path: Optional[Path] = None) -> boo
         base_dir = config_path.parent
         sys.path.insert(0, str(base_dir / "src"))
 
-        from markdown.config import Config
-        from markdown.builder import MarkdownBuilder
+        from md_builder.config import Config
+        from md_builder.builder import MarkdownBuilder
 
         # Carregar configuração
         config = Config.from_yaml(config_path)
